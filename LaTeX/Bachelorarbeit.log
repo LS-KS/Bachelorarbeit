@@ -1,30 +1,30 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  29 OCT 2023 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.15)  30 OCT 2023 21:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/lennartschink/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex
-(/Users/lennartschink/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex
+**c:/Users/pink_/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex
+(c:/Users/pink_/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrbook.cls
+L3 programming layer <2022-11-02> (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+))) (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/tocbasic.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip48
 \scr@dte@tocline@numbox=\box51
@@ -74,9 +74,9 @@ Class scrbook Warning: deprecated option `enabledeprecatedfontcommands'.
 (scrbook)              is not recommended.
 
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input line 2617.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+(c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
 File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/koma-script/typearea.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
 \ta@bcor=\skip49
 \ta@div=\count185
@@ -163,15 +163,15 @@ Class scrbook Info: Using old \@makefntext due to compatibility level
 (scrbook)           less than 3.22 on input line 7317.
 Class scrbook Info: Redefining `\numberline' on input line 7330.
 \bibindent=\dimen140
-) (./Einstellungen/Einstellungen.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+) (./Einstellungen/Einstellungen.tex (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/11/30 3.83 The Babel package
 \babel@savecnt=\count195
 \U@D=\dimen141
 \l@unhyphenated=\language87
- (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+ (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count196
- (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
+ (c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -179,24 +179,24 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-german/ngerman.ldf
+) (c:/texlive/2022/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+ (c:/texlive/2022/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 122.
-))) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
+))) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -230,11 +230,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count197
@@ -249,41 +249,41 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks19
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count266
@@ -291,54 +291,54 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen150
 \Hy@linkcounter=\count267
 \Hy@pagecounter=\count268
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count269
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdfusetitle' set `true' on input line 4060.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4060.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4060.
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4045.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4045.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count270
- (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen151
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count271
 \Field@Width=\dimen152
 \Fld@charsize=\dimen153
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring ON on input line 6060.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -347,51 +347,51 @@ package with kernel methods
 \c@Hfootnote=\count274
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count275
 \c@bookmark@seq@number=\count276
- (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip65
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -401,22 +401,22 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen156
 \pgfutil@tempdimb=\dimen157
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box53
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen158
@@ -439,33 +439,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count281
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count282
 \pgfsyssoftpath@bigbuffer@items=\count283
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen168
 \pgfmath@count=\count284
 \pgfmath@box=\box54
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count285
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen169
 \pgf@picmaxx=\dimen170
 \pgf@picminy=\dimen171
@@ -480,76 +480,77 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen180
 \pgf@zx=\dimen181
 \pgf@zy=\dimen182
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen183
 \pgf@path@lasty=\dimen184
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen185
 \pgf@shorten@start@additional=\dimen186
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
 \pgf@picture@serial@count=\count286
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen187
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen188
 \pgf@pt@y=\dimen189
 \pgf@pt@temp=\dimen190
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen191
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen192
 \pgf@sys@shading@range@num=\count287
 \pgf@shadingcount=\count288
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box58
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box59
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen193
 \pgf@nodesepend=\dimen194
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count289
 \pgfplotmarksize=\dimen197
 )
@@ -569,37 +570,33 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count291
 \tikznumberofcurrentchild=\count292
 \tikz@fig@count=\count293
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count294
 \pgfmatrixcurrentcolumn=\count295
 \pgf@matrix@numberofcolumns=\count296
 )
 \tikz@expandcount=\count297
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks32
 \t@pgfplots@tokb=\toks33
 \t@pgfplots@tokc=\toks34
 \pgfplots@tmpa=\dimen262
 \c@pgfplots@coordindex=\count298
 \c@pgfplots@scanlineindex=\count299
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count300
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count301
-\t@pgfplotstable@a=\toks38
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\t@pgfplotstable@a=\toks35
+) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count302
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen263
 \pgfdecoratedremainingdistance=\dimen264
 \pgfdecoratedinputsegmentcompleteddistance=\dimen265
@@ -610,7 +607,7 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen269
 )
 \tikz@lib@dec@box=\box64
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2022/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count304
 \pgfplots@xmin@reg=\dimen270
 \pgfplots@xmax@reg=\dimen271
@@ -618,14 +615,14 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen273
 \pgfplots@zmin@reg=\dimen274
 \pgfplots@zmax@reg=\dimen275
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+) (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen276
 \captionmargin=\dimen277
 \caption@leftmargin=\dimen278
@@ -635,63 +632,58 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@parindent=\dimen282
 \caption@hangindent=\dimen283
 Package caption Info: KOMA-Script document class detected.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption-koma.sto
-File: caption-koma.sto 2022/12/27 v2.0c Adaption of the caption package to the KOMA-Script document classes (AR)
+ (c:/texlive/2022/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
 \c@caption@flags=\count305
 \c@continuedfloat=\count306
 Package caption Info: hyperref package is loaded.
-Package caption Info: KOMA-Script scrextend package detected.
-\caption@addmargin@hsize=\dimen284
-\caption@addmargin@linewidth=\dimen285
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 239.
+) (c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count307
-Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count308
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count309
-\ST@wd=\dimen286
+\ST@wd=\dimen284
 \ST@rightskip=\skip66
 \ST@leftskip=\skip67
 \ST@parfillskip=\skip68
-\ST@pageleft=\dimen287
-\ST@headht=\dimen288
-\ST@tailht=\dimen289
-\ST@pagesofar=\dimen290
-\ST@pboxht=\dimen291
-\ST@lineht=\dimen292
-\ST@prevht=\dimen293
-\ST@toadd=\dimen294
-\ST@dimen=\dimen295
+\ST@pageleft=\dimen285
+\ST@headht=\dimen286
+\ST@tailht=\dimen287
+\ST@pagesofar=\dimen288
+\ST@pboxht=\dimen289
+\ST@lineht=\dimen290
+\ST@prevht=\dimen291
+\ST@toadd=\dimen292
+\ST@dimen=\dimen293
 \ST@pbox=\box65
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip69
 \multirow@cntb=\count310
 \multirow@dima=\skip70
-\bigstrutjot=\dimen296
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+\bigstrutjot=\dimen294
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count311
 \mult@box=\box66
-\multicol@leftmargin=\dimen297
+\multicol@leftmargin=\dimen295
 \c@unbalance=\count312
 \c@collectmore=\count313
 \doublecol@number=\count314
 \multicoltolerance=\count315
 \multicolpretolerance=\count316
-\full@width=\dimen298
-\page@free=\dimen299
-\premulticols=\dimen300
-\postmulticols=\dimen301
+\full@width=\dimen296
+\page@free=\dimen297
+\premulticols=\dimen298
+\postmulticols=\dimen299
 \multicolsep=\skip71
 \multicolbaselineskip=\skip72
 \partial@page=\box67
 \last@line=\box68
-\maxbalancingoverflow=\dimen302
+\maxbalancingoverflow=\dimen300
 \mult@rightbox=\box69
 \mult@grightbox=\box70
 \mult@firstbox=\box71
@@ -735,27 +727,27 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@minrows=\count317
 \c@columnbadness=\count318
 \c@finalcolumnbadness=\count319
-\last@try=\dimen303
-\multicolovershoot=\dimen304
-\multicolundershoot=\dimen305
+\last@try=\dimen301
+\multicolovershoot=\dimen302
+\multicolundershoot=\dimen303
 \mult@nat@firstbox=\box109
 \colbreak@box=\box110
 \mc@col@check@num=\count320
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks39
-\ex@=\dimen306
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks36
+\ex@=\dimen304
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen307
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen305
+) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count321
@@ -775,7 +767,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen308
+\big@size=\dimen306
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count326
@@ -788,294 +780,294 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip17
 \c@parentequation=\count328
 \dspbrk@lvl=\count329
-\tag@help=\toks40
+\tag@help=\toks37
 \row@=\count330
 \column@=\count331
 \maxfields@=\count332
-\andhelp@=\toks41
-\eqnshift@=\dimen309
-\alignsep@=\dimen310
-\tagshift@=\dimen311
-\tagwidth@=\dimen312
-\totwidth@=\dimen313
-\lineht@=\dimen314
-\@envbody=\toks42
+\andhelp@=\toks38
+\eqnshift@=\dimen307
+\alignsep@=\dimen308
+\tagshift@=\dimen309
+\tagwidth@=\dimen310
+\totwidth@=\dimen311
+\lineht@=\dimen312
+\@envbody=\toks39
 \multlinegap=\skip74
 \multlinetaggap=\skip75
-\mathdisplay@stack=\toks43
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks44
-\thm@bodyfont=\toks45
-\thm@headfont=\toks46
-\thm@notefont=\toks47
-\thm@headpunct=\toks48
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
 \thm@preskip=\skip76
 \thm@postskip=\skip77
 \thm@headsep=\skip78
-\dth@everypar=\toks49
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\dth@everypar=\toks46
+) (c:/texlive/2022/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-11-02 L3 programming layer (loader) 
+ (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box113
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+) (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count334
 ))
 Class scrbook Info: amsthm's \deferred@thm@head patched.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/was/upgreek.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen315
+) (c:/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-12-05 v3.1.11 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen313
 \l__siunitx_angle_marker_box=\box114
 \l__siunitx_angle_unit_box=\box115
 \l__siunitx_compound_count_int=\count335
- (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_number_exponent_fixed_int=\count336
 \l__siunitx_number_min_decimal_int=\count337
 \l__siunitx_number_min_integer_int=\count338
 \l__siunitx_number_round_precision_int=\count339
-\l__siunitx_number_lower_threshold_int=\count340
-\l__siunitx_number_upper_threshold_int=\count341
-\l__siunitx_number_group_first_int=\count342
-\l__siunitx_number_group_size_int=\count343
-\l__siunitx_number_group_minimum_int=\count344
+\l__siunitx_number_group_first_int=\count340
+\l__siunitx_number_group_size_int=\count341
+\l__siunitx_number_group_minimum_int=\count342
 \l__siunitx_table_tmp_box=\box116
-\l__siunitx_table_tmp_dim=\dimen316
-\l__siunitx_table_column_width_dim=\dimen317
+\l__siunitx_table_tmp_dim=\dimen314
+\l__siunitx_table_column_width_dim=\dimen315
 \l__siunitx_table_integer_box=\box117
 \l__siunitx_table_decimal_box=\box118
-\l__siunitx_table_uncert_box=\box119
-\l__siunitx_table_before_box=\box120
-\l__siunitx_table_after_box=\box121
-\l__siunitx_table_before_dim=\dimen318
-\l__siunitx_table_carry_dim=\dimen319
-\l__siunitx_unit_tmp_int=\count345
-\l__siunitx_unit_position_int=\count346
-\l__siunitx_unit_total_int=\count347
- (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+\l__siunitx_table_before_box=\box119
+\l__siunitx_table_after_box=\box120
+\l__siunitx_table_before_dim=\dimen316
+\l__siunitx_table_carry_dim=\dimen317
+\l__siunitx_unit_tmp_int=\count343
+\l__siunitx_unit_position_int=\count344
+\l__siunitx_unit_total_int=\count345
+ (c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen320
-\ar@mcellbox=\box122
-\extrarowheight=\dimen321
-\NC@list=\toks50
+\col@sep=\dimen318
+\ar@mcellbox=\box121
+\extrarowheight=\dimen319
+\NC@list=\toks47
 \extratabsurround=\skip79
 \backup@length=\skip80
-\ar@cellbox=\box123
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
+\ar@cellbox=\box122
+)) (c:/texlive/2022/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks51
+\@enLab=\toks48
 ) (./Einstellungen/nomencl-table.sty
 
 LaTeX Warning: You have requested package `Einstellungen/nomencl-table',
                but the package provides `nomencl-table'.
 
 Package: nomencl-table 2020/1/20 v1.0 Nomenclature package with table heading
-(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks52
-\XKV@tempa@toks=\toks53
+ (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
 )
-\XKV@depth=\count348
+\XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip81
 \LTright=\skip82
 \LTpre=\skip83
 \LTpost=\skip84
-\LTchunksize=\count349
-\LTcapwidth=\dimen322
-\LT@head=\box124
-\LT@firsthead=\box125
-\LT@foot=\box126
-\LT@lastfoot=\box127
-\LT@gbox=\box128
-\LT@cols=\count350
-\LT@rows=\count351
-\c@LT@tables=\count352
-\c@LT@chunks=\count353
-\LT@p@ftn=\toks54
+\LTchunksize=\count347
+\LTcapwidth=\dimen320
+\LT@head=\box123
+\LT@firsthead=\box124
+\LT@foot=\box125
+\LT@lastfoot=\box126
+\LT@gbox=\box127
+\LT@cols=\count348
+\LT@rows=\count349
+\c@LT@tables=\count350
+\c@LT@chunks=\count351
+\LT@p@ftn=\toks51
 )
 Class scrbook Info: longtable captions redefined on input line 169.
 Package tocbasic Info: setting babel extension for `nlo' on input line 172.
 Package tocbasic Info: setting babel extension for `nls' on input line 173.
-\nomlabelwidth=\dimen323
-\nom@tempdim=\dimen324
+\nomlabelwidth=\dimen321
+\nom@tempdim=\dimen322
 \nomitemsep=\skip85
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks55
-\@glsmrest=\toks56
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
+\@glsmfirst=\toks52
+\@glsmrest=\toks53
+) (c:/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-base.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count354
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
+\c@su@anzahl=\count352
+) (c:/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (c:/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count355
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
+\actioncount=\count353
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count356
-\FP@xia=\count357
-\FP@xib=\count358
-\FP@xfa=\count359
-\FP@xfb=\count360
-\FP@rega=\count361
-\FP@regb=\count362
-\FP@regs=\count363
-\FP@times=\count364
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
+\FP@xs=\count354
+\FP@xia=\count355
+\FP@xib=\count356
+\FP@xfa=\count357
+\FP@xfb=\count358
+\FP@rega=\count359
+\FP@regb=\count360
+\FP@regs=\count361
+\FP@times=\count362
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-snap.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-exp.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-trigo.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-pas.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count365
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
+\FPseed=\count363
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-upn.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks57
-\@dtl@tmpcount=\count366
+\@dtl@toks=\toks54
+\@dtl@tmpcount=\count364
 \dtl@tmplength=\skip86
-\dtl@sortresult=\count367
-\@dtl@numgrpsepcount=\count368
-\@dtl@datatype=\count369
-\dtl@codeA=\count370
-\dtl@codeB=\count371
-\@dtl@foreach@level=\count372
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tracklang/tracklang.sty
+\dtl@sortresult=\count365
+\@dtl@numgrpsepcount=\count366
+\@dtl@datatype=\count367
+\dtl@codeA=\count368
+\dtl@codeB=\count369
+\@dtl@foreach@level=\count370
+) (c:/texlive/2022/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
- (/usr/local/texlive/2023/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/tracklang/tracklang.tex)) (c:/texlive/2022/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf
 File: glossaries-german.ldf 2014/11/23 v1.0
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count373
-\@gls@tmpb=\toks58
+\gls@level=\count371
+\@gls@tmpb=\toks55
 \gls@tmplen=\skip87
-\glskeylisttok=\toks59
-\glslabeltok=\toks60
-\glsshorttok=\toks61
-\glslongtok=\toks62
- (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+\glskeylisttok=\toks56
+\glslabeltok=\toks57
+\glsshorttok=\toks58
+\glslongtok=\toks59
+ (c:/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
 \glslistdottedwidth=\skip88
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2022/11/03 v4.52 (NLCT)
 \glsdescwidth=\skip89
 \glspagelistwidth=\skip90
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2022/11/03 v4.52 (NLCT)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \glstreeindent=\skip91
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/makeidx.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count374
-\lst@gtempboxa=\box129
-\lst@token=\toks63
-\lst@length=\count375
-\lst@currlwidth=\dimen325
-\lst@column=\count376
-\lst@pos=\count377
-\lst@lostspace=\dimen326
-\lst@width=\dimen327
-\lst@newlines=\count378
-\lst@lineno=\count379
-\lst@maxwidth=\dimen328
- (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count380
-\lst@skipnumbers=\count381
-\lst@framebox=\box130
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count372
+\lst@gtempboxa=\box128
+\lst@token=\toks60
+\lst@length=\count373
+\lst@currlwidth=\dimen323
+\lst@column=\count374
+\lst@pos=\count375
+\lst@lostspace=\dimen324
+\lst@width=\dimen325
+\lst@newlines=\count376
+\lst@lineno=\count377
+\lst@maxwidth=\dimen326
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count378
+\lst@skipnumbers=\count379
+\lst@framebox=\box129
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen329
-\TX@old@table=\dimen330
-\TX@old@col=\dimen331
-\TX@target=\dimen332
-\TX@delta=\dimen333
-\TX@cols=\count382
-\TX@ftn=\toks64
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+\TX@col@width=\dimen327
+\TX@old@table=\dimen328
+\TX@old@col=\dimen329
+\TX@target=\dimen330
+\TX@delta=\dimen331
+\TX@cols=\count380
+\TX@ftn=\toks61
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
-Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
-Package: todonotes 2023/01/31
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legacy)
+Package grffile Info: This package is an empty stub for compatibility on input line 40.
+) (c:/texlive/2022/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+ (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count383
-\calc@Bcount=\count384
-\calc@Adimen=\dimen334
-\calc@Bdimen=\dimen335
+\calc@Acount=\count381
+\calc@Bcount=\count382
+\calc@Adimen=\dimen332
+\calc@Bdimen=\dimen333
 \calc@Askip=\skip92
 \calc@Bskip=\skip93
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count385
+\calc@Ccount=\count383
 \calc@Cskip=\skip94
 )
-\c@@todonotes@numberoftodonotes=\count386
+\c@@todonotes@numberoftodonotes=\count384
 )
 
 Class scrbook Warning: Usage of package `fancyhdr' together
@@ -1089,9 +1081,9 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              `\addtokomafont' for the page style elements need
 (scrbook)              explicite user intervention to work.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `fancyhdr' on input line 101.
+(scrbook)              package `fancyhdr' on input line 102.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip95
 \f@nch@O@elh=\skip96
@@ -1102,14 +1094,9 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip101
 \f@nch@O@olf=\skip102
 \f@nch@O@orf=\skip103
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (HMM)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
-) 
-))
+) (c:/texlive/2022/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
 
 Class scrbook Warning: Usage of package `emptypage' together
 (scrbook)              with a KOMA-Script class is not recommended.
@@ -1117,24 +1104,24 @@ Class scrbook Warning: Usage of package `emptypage' together
 (scrbook)              `cleardoublepage' with one of it's
 (scrbook)              several values.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `emptypage' on input line 123.
+(scrbook)              package `emptypage' on input line 124.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/emptypage/emptypage.sty
+(c:/texlive/2022/texmf-dist/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 ) (./Einstellungen/Titelseite.tex)
-\c@SeitenzahlSpeicher=\count387
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/carlito.sty
+\c@SeitenzahlSpeicher=\count385
+) (c:/texlive/2022/texmf-dist/tex/latex/carlito/carlito.sty
 Package: carlito 2022/10/05 (Bob Tennent) Supports Carlito fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -1163,7 +1150,7 @@ Package nomencl Info: Writing nomenclature file Bachelorarbeit.nlo on input line
 
 Writing index file Bachelorarbeit.idx
 LaTeX Font Info:    Trying to load font information for T1+Crlt-LF on input line 99.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/T1Crlt-LF.fd
+(c:/texlive/2022/texmf-dist/tex/latex/carlito/T1Crlt-LF.fd
 File: T1Crlt-LF.fd 2022/10/05 (autoinst) Font definitions for T1/Crlt-LF.
 ) (./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
 \openout1 = `Bachelorarbeit.aux'.
@@ -1234,28 +1221,28 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
 (scrbook)           before \begin{document} on input line 99.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+ (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count388
-)) (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+\BKM@id=\count386
+)) (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen336
-\scratchbox=\box131
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen337
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks66
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count387
+\scratchdimen=\dimen334
+\scratchbox=\box130
+\nofMPsegments=\count388
+\nofMParguments=\count389
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count390
+\MPscratchDim=\dimen335
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
+\everyMPtoPDFconversion=\toks63
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.5).
@@ -1263,24 +1250,27 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
+(c:/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
+ (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 99.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+ (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 99.
-\c@lstlisting=\count395
-\c@mv@tabular=\count396
-\c@mv@boldtabular=\count397
+\c@lstlisting=\count393
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 99.
+\c@mv@tabular=\count394
+\c@mv@boldtabular=\count395
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 <Bilder/UniKS-Logo.pdf, id=7, 193.72375pt x 38.1425pt>
@@ -1294,19 +1284,19 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 112.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 112.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+(c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1316,11 +1306,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 112.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (24.0pt too wide) in alignment at lines 112--112
@@ -1351,7 +1341,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/carlito/crlt_ys3vdn.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} <./Bilder/UniKS-Logo.pdf> <./Bilder/MRT-Logo.pdf> <./Bilder/ISAC-Logo.pdf>] [2
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Bilder/UniKS-Logo.pdf> <./Bilder/MRT-Logo.pdf> <./Bilder/ISAC-Logo.pdf>] [2
 
 ]
 <Bilder/Aufgabenstellung.pdf, id=45, page=1, 597.50829pt x 845.0471pt>
@@ -1694,19 +1684,19 @@ Class scrbook Warning: \float@addtolists detected!
 ]
 \openout2 = `Kapitel/SoftwareArchitektur.aux'.
 
- (./Kapitel/SoftwareArchitektur.tex
+ (./Kapitel/Softwarearchitektur.tex
 chapter 2.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+(c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3
 
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+]
 LaTeX Font Info:    Trying to load font information for TS1+Crlt-LF on input line 54.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/TS1Crlt-LF.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/carlito/TS1Crlt-LF.fd
 File: TS1Crlt-LF.fd 2022/10/05 (autoinst) Font definitions for TS1/Crlt-LF.
-) [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/carlito/crlt_j4hweq.enc}] [5] [6]
+) [4] [5] [6]
 Overfull \hbox (3.82784pt too wide) in paragraph at lines 116--117
 [][][]\T1/lmtt/m/n/10.95 CommissionController.py []\T1/cmss/m/n/10.95 Bei ein-ge-hen-den Kom-mis-sio-nen wer-den die-se zu-n�chst
  []
@@ -1736,13 +1726,13 @@ chapter 3.
 
 
 ]
-<Bilder/verzerrtesBild.png, id=286, 5492.52pt x 3685.77pt>
+<Bilder/verzerrtesBild.png, id=307, 5492.52pt x 3685.77pt>
 File: Bilder/verzerrtesBild.png Graphic file (type png)
 <use Bilder/verzerrtesBild.png>
 Package pdftex.def Info: Bilder/verzerrtesBild.png  used on input line 67.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
  [12] [13 <./Bilder/verzerrtesBild.png (PNG copy)>]
-<Bilder/AblaufErkennungSellCam.png, id=298, 519.9425pt x 150.5625pt>
+<Bilder/AblaufErkennungSellCam.png, id=318, 519.9425pt x 150.5625pt>
 File: Bilder/AblaufErkennungSellCam.png Graphic file (type png)
 <use Bilder/AblaufErkennungSellCam.png>
 Package pdftex.def Info: Bilder/AblaufErkennungSellCam.png  used on input line 85.
@@ -1764,117 +1754,1333 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 Underfull \vbox (badness 6876) has occurred while \output is active []
 
  [14 <./Bilder/AblaufErkennungSellCam.png>]
-<Bilder/LZIP_raw_shot.png, id=307, 5492.52pt x 3685.77pt>
+
+LaTeX Warning: Citation `OpenCVaruco' on page 15 undefined on input line 124.
+
+[15]
+<Bilder/LZIP_raw_shot.png, id=331, 5492.52pt x 3685.77pt>
 File: Bilder/LZIP_raw_shot.png Graphic file (type png)
 <use Bilder/LZIP_raw_shot.png>
-Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 142.
+Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 163.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
- [15]
-<Bilder/LZ_Kontrastanpassung.png, id=315, 5492.52pt x 3685.77pt>
+<Bilder/LZ_Kontrastanpassung.png, id=334, 5492.52pt x 3685.77pt>
 File: Bilder/LZ_Kontrastanpassung.png Graphic file (type png)
 <use Bilder/LZ_Kontrastanpassung.png>
-Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 149.
+Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 170.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_transformed.png, id=318, 1885.0425pt x 1889.0575pt>
+<Bilder/LZ_transformed.png, id=337, 1885.0425pt x 1889.0575pt>
 File: Bilder/LZ_transformed.png Graphic file (type png)
 <use Bilder/LZ_transformed.png>
-Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 156.
+Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 177.
 (pdftex.def)             Requested size: 398.3386pt x 399.16388pt.
-<Bilder/section_16.png, id=321, 316.18124pt x 633.36626pt>
+<Bilder/section_16.png, id=340, 316.18124pt x 633.36626pt>
 File: Bilder/section_16.png Graphic file (type png)
 <use Bilder/section_16.png>
-Package pdftex.def Info: Bilder/section_16.png  used on input line 163.
+Package pdftex.def Info: Bilder/section_16.png  used on input line 184.
 (pdftex.def)             Requested size: 132.77953pt x 265.98302pt.
-<Bilder/section_5.png, id=325, 316.18124pt x 632.3625pt>
+<Bilder/section_5.png, id=344, 316.18124pt x 632.3625pt>
 File: Bilder/section_5.png Graphic file (type png)
 <use Bilder/section_5.png>
-Package pdftex.def Info: Bilder/section_5.png  used on input line 170.
+Package pdftex.def Info: Bilder/section_5.png  used on input line 191.
 (pdftex.def)             Requested size: 132.77953pt x 265.5615pt.
-<Bilder/pallet_5.png, id=328, 314.17375pt x 188.705pt>
+<Bilder/pallet_5.png, id=347, 314.17375pt x 188.705pt>
 File: Bilder/pallet_5.png Graphic file (type png)
 <use Bilder/pallet_5.png>
-Package pdftex.def Info: Bilder/pallet_5.png  used on input line 177.
+Package pdftex.def Info: Bilder/pallet_5.png  used on input line 198.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/pallet_3.png, id=333, 314.17375pt x 188.705pt>
+<Bilder/pallet_3.png, id=352, 314.17375pt x 188.705pt>
 File: Bilder/pallet_3.png Graphic file (type png)
 <use Bilder/pallet_3.png>
-Package pdftex.def Info: Bilder/pallet_3.png  used on input line 184.
+Package pdftex.def Info: Bilder/pallet_3.png  used on input line 205.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup17.png, id=336, 314.17375pt x 189.70876pt>
+<Bilder/cup17.png, id=355, 314.17375pt x 189.70876pt>
 File: Bilder/cup17.png Graphic file (type png)
 <use Bilder/cup17.png>
-Package pdftex.def Info: Bilder/cup17.png  used on input line 191.
+Package pdftex.def Info: Bilder/cup17.png  used on input line 212.
 (pdftex.def)             Requested size: 132.77953pt x 80.17502pt.
-<Bilder/cup2.png, id=339, 314.17375pt x 188.705pt>
+<Bilder/cup2.png, id=358, 314.17375pt x 188.705pt>
 File: Bilder/cup2.png Graphic file (type png)
 <use Bilder/cup2.png>
-Package pdftex.def Info: Bilder/cup2.png  used on input line 198.
+Package pdftex.def Info: Bilder/cup2.png  used on input line 219.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-) [16 <./Bilder/LZIP_raw_shot.png>] [17 <./Bilder/LZ_Kontrastanpassung.png (PNG copy)>] [18 <./Bilder/LZ_transformed.png (PNG copy)>] [19 <./Bilder/section_5.png (PNG copy)> <./Bilder/section_16.png (PNG copy)>] [20 <./Bilder/pallet_5.png (PNG copy)> <./Bilder/pallet_3.png (PNG copy)> <./Bilder/cup17.png (PNG copy)> <./Bilder/cup2.png (PNG copy)>]
-\openout2 = `Kapitel/Zusammenfassung_Ausblick.aux'.
+<Bilder/cup6_analyse.png, id=359, 1165.59465pt x 671.8701pt>
+File: Bilder/cup6_analyse.png Graphic file (type png)
+<use Bilder/cup6_analyse.png>
+Package pdftex.def Info: Bilder/cup6_analyse.png  used on input line 226.
+(pdftex.def)             Requested size: 398.3386pt x 229.61177pt.
+ [16] [17 <./Bilder/LZIP_raw_shot.png> <./Bilder/LZ_Kontrastanpassung.png (PNG copy)>] [18 <./Bilder/LZ_transformed.png (PNG copy)>] [19 <./Bilder/section_16.png (PNG copy)> <./Bilder/section_5.png (PNG copy)>] [20 <./Bilder/pallet_5.png (PNG copy)> <./Bilder/pallet_3.png (PNG copy)> <./Bilder/cup17.png (PNG copy)> <./Bilder/cup2.png (PNG copy)>] [21 <./Bilder/cup6_analyse.png>] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 231.
+ (./Listings/Bildmatrixanalyse_Becher6.py
 
- (./Kapitel/Zusammenfassung_Ausblick.tex
-chapter 4.
-) [21
-
-
-
-
-
-] [22
-
-
-
-]
-\openout2 = `Kapitel/AnhangA.aux'.
-
- (./Kapitel/AnhangA.tex
-chapter A.
-) [19
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
 
 
-] [20
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 2.
 
 
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 2.
 
-] (./Bachelorarbeit.bbl
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 27.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 4.
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 11.
+(c:/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 3343) in paragraph at lines 33--34
-[]\T1/cmss/m/n/10.95 ^^RRestructured Text Syn-tax, [][]$https : / / thomas-[]cokelaer . info / tutorials / sphinx / rest _
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 13.
+
+
+Overfull \hbox (19.45828pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 39--40
-[]\T1/cmss/m/n/10.95 ^^RDetection of aru-co markers, [][]$https : / / docs . opencv . org / 4 . 7 . 0 / d5 / dae / tutorial _
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 20.
+
+
+Overfull \hbox (58.62674pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [21
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] 
-enddocument/afterlastpage: lastpage setting LastPage.
-(./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 21.
 
-LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
-Here is how much of TeX's memory you used:
- 50966 strings out of 476025
- 1187540 string characters out of 5790017
- 1863388 words of memory out of 5000000
- 70354 multiletter control sequences out of 15000+600000
- 606488 words of font info for 95 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 108i,11n,106p,10668b,1006s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Bachelorarbeit.pdf (43 pages, 57400041 bytes).
-PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+Overfull \hbox (39.04251pt too wide) in paragraph at lines 21--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
+
+
+Overfull \hbox (52.09866pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 37.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 37.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 37.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 37.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 41.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 41.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 42.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 42.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 42.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 43.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 43.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 44.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 45.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 48.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 48.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 49.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 49.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22
+
+]
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 50.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 50.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 51.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 52.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 56.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 57.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 60.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 61.
+
+
+Overfull \hbox (25.98636pt too wide) in paragraph at lines 70--71
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.9302pt too wide) in paragraph at lines 71--72
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.15482pt too wide) in paragraph at lines 72--73
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.15482pt too wide) in paragraph at lines 73--76
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.45828pt too wide) in paragraph at lines 86--87
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (25.98636pt too wide) in paragraph at lines 89--90
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.40213pt too wide) in paragraph at lines 91--92
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.51443pt too wide) in paragraph at lines 92--93
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (58.62674pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.57059pt too wide) in paragraph at lines 94--95
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (65.15482pt too wide) in paragraph at lines 104--105
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (25.98636pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.15482pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.45828pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+<Bilder/ErkennungsrateOBB.png, id=501, 805.8105pt x 957.5775pt>
+File: Bilder/ErkennungsrateOBB.png Graphic file (type png)
+<use Bilder/ErkennungsrateOBB.png>
+Package pdftex.def Info: Bilder/ErkennungsrateOBB.png  used on input line 247.
+(pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
+<Bilder/ErkennungsrateGauss.png, id=502, 805.8105pt x 957.5775pt>
+File: Bilder/ErkennungsrateGauss.png Graphic file (type png)
+<use Bilder/ErkennungsrateGauss.png>
+Package pdftex.def Info: Bilder/ErkennungsrateGauss.png  used on input line 253.
+(pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
+<Bilder/ErkennungsrateLaplace.png, id=503, 805.8105pt x 957.5775pt>
+File: Bilder/ErkennungsrateLaplace.png Graphic file (type png)
+<use Bilder/ErkennungsrateLaplace.png>
+Package pdftex.def Info: Bilder/ErkennungsrateLaplace.png  used on input line 259.
+(pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
+<Bilder/ErkennungsrateGausLaplace.png, id=504, 805.8105pt x 957.5775pt>
+File: Bilder/ErkennungsrateGausLaplace.png Graphic file (type png)
+<use Bilder/ErkennungsrateGausLaplace.png>
+Package pdftex.def Info: Bilder/ErkennungsrateGausLaplace.png  used on input line 265.
+(pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
+<Bilder/ErkennungsrateScharfGauss.png, id=505, 805.8105pt x 957.5775pt>
+File: Bilder/ErkennungsrateScharfGauss.png Graphic file (type png)
+<use Bilder/ErkennungsrateScharfGauss.png>
+Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input line 271.
+(pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
+ [24] [25 <./Bilder/ErkennungsrateOBB.png>] [26 <./Bilder/ErkennungsrateGauss.png>] [27 <./Bilder/ErkennungsrateLaplace.png>] [28 <./Bilder/ErkennungsrateGausLaplace.png>] [29 <./Bilder/ErkennungsrateScharfGauss.png>]
+./Kapitel/KameragestützteInventur.tex:296: Missing } inserted.
+<inserted text> 
+                }
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...\col@sep \hfil \hskip 1sp$\the@toks 
+                                                  0\ignorespaces \@sharp \un...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...sp$\the@toks 0\ignorespaces \@sharp 
+                                                  \unskip \the@toks 1\relax ...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...orespaces \@sharp \unskip \the@toks 
+                                                  1\relax $\do@row@strut \hf...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@@array ...reamble {\noexpand \ialign \@halignto 
+                                                  \bgroup \@arstrut \@preamb...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing } inserted.
+<inserted text> 
+                }
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Arithmetic overflow.
+<recently read> \@tempcnta 
+                           
+l.296    \end{align*}
+                     
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing $ inserted.
+<inserted text> 
+                $
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.296    \end{align*}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing } inserted.
+<inserted text> 
+                }
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.296    \end{align*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...\col@sep \hfil \hskip 1sp$\the@toks 
+                                                  0\ignorespaces \@sharp \un...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...sp$\the@toks 0\ignorespaces \@sharp 
+                                                  \unskip \the@toks 1\relax ...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@preamble ...orespaces \@sharp \unskip \the@toks 
+                                                  1\relax $\do@row@strut \hf...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ->\the@toks 
+                           \the \@tempcnta \ignorespaces \@sharp \unskip \th...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...@tempcnta \ignorespaces \@sharp 
+                                                  \unskip \the@toks \the \co...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\insert@column ...paces \@sharp \unskip \the@toks 
+                                                  \the \count@ \relax 
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Undefined control sequence.
+\@@array ...reamble {\noexpand \ialign \@halignto 
+                                                  \bgroup \@arstrut \@preamb...
+l.296    \end{align*}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Kapitel/KameragestützteInventur.tex:296: Extra \endgroup.
+\@@array ...@preamble \tabskip \z@ \cr }\endgroup 
+                                                  \@arrayleft \if #1t\vtop \...
+l.296    \end{align*}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing $ inserted.
+<inserted text> 
+                $
+l.296    \end{align*}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+./Kapitel/KameragestützteInventur.tex:296: Missing # inserted in alignment preamble.
+<to be read again> 
+                   &
+l.296    \end{align*}
+                     
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one in; maybe that will work.
+
+)
+Runaway preamble?
+-1\\ \end {bmatrix}$$ \end {align*} \par definiert ist. Allein das Sc\ETC.
+c:/Users/pink_/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex:209: File ended while scanning preamble of \halign.
+<inserted text> 
+                \cr }
+l.209 \include{Kapitel/KameragestützteInventur}
+                                                
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+c:/Users/pink_/Documents/GitHub/Bachelorarbeit/LaTeX/Bachelorarbeit.tex:209: Missing # inserted in alignment preamble.
+<to be read again> 
+                   \cr 
+l.209 \include{Kapitel/KameragestützteInventur}
+                                                
+There should be exactly one # between &'s, when an
+\halign or \valign is being set up. In this case you had
+none, so I've put one i
