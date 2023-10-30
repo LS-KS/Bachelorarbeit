@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Bachelorarbeit.aux
+A level-1 auxiliary file: Kapitel/Versicherung.aux
+A level-1 auxiliary file: Kapitel/Kurzfassung.aux
+A level-1 auxiliary file: Kapitel/Abkuerzungsverzeichnis.aux
+A level-1 auxiliary file: Kapitel/Einleitung.aux
+A level-1 auxiliary file: Kapitel/SoftwareArchitektur.aux
+A level-1 auxiliary file: Kapitel/KameragestützteInventur.aux
+A level-1 auxiliary file: Kapitel/Zusammenfassung_Ausblick.aux
+A level-1 auxiliary file: Kapitel/AnhangA.aux
+The style file: Literatur/IEEEtranGER.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Literatur/Bachelorarbeit.bib
+Warning--I didn't find a database entry for "u"
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 6 entries,
+            4022 wiz_defined-function locations,
+            854 strings with 8541 characters,
+and the built_in function-call counts, 2022 in all, are:
+= -- 144
+> -- 15
+< -- 0
++ -- 9
+- -- 3
+* -- 72
+:= -- 352
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 184
+empty$ -- 215
+format.name$ -- 3
+if$ -- 427
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 42
+newline$ -- 41
+num.names$ -- 3
+pop$ -- 127
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 159
+stack$ -- 0
+substring$ -- 12
+swap$ -- 92
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 6
+warning$ -- 0
+while$ -- 3
+width$ -- 7
+write$ -- 65
+(There was 1 warning)

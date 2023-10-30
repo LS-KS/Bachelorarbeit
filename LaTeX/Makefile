@@ -1,4 +1,4 @@
-MASTER=Semesterarbeit_Lennart_Schink
+MASTER=Bachelorarbeit
 
 default: pdf
 

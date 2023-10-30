@@ -1,0 +1,196 @@
+% !TeX spellcheck = de_DE
+\chapter{Softwarearchitektur}\label{Softwarearchitektur}
+
+Für die Softwarearchitektur wird ein Mix aus MVC und MVVC Design Pattern verwendet. 
+Auch wenn ein MVC Pattern grundsätzlich ausreichend wäre, so erfordert die Verwendung des PySide6 Frameworks immer 
+dann die Verwendung eines Viewmodels, wenn Daten in Listen oder Tabellen visualisiert werden müssen. 
+Einerseits bedeutet dies einen initialen Mehraufwand in der Implementierung, andererseits können in dem viewmodel 
+Daten sortiert, gefiltert, gelöscht werden ohne dabei auf die Daten im Backend zuzugreifen. 
+Neben den üblichen Controller Klassen habe ich Service-Klassen implementiert. Sie erledigen ihrem Namen nach einen Dienst. 
+z.B. ist es die Klasse "Eventlogservice" dazu da von jeder beliebigen Stelle des Programms Ereignisse anzunehmen, zusammen mit ihrer 
+Quelle zu speichern und im Eventlog des GUI's anzuzeigen. 
+
+Für Daten die durch die Software "wandern" (d.h. deren referenzierender Pointer zu unterschiedlichen Instanzen anderer Klassen referenziert wird), 
+wurde ein selbstreferenzierendes Datenmodell gewählt. D.h. eine an einer Stelle initiierte Aktion bewirkt weitere Änderungen des Modells um
+das Modell zu jedem Zeitpunkt konsistent zu halten.
+
+Daten die über die Laufzeit der Software persistent sein müssen (z.B. Voreinstellungen oder der letzte Lagerbestand) werden im YAML
+Dateistandard gespeichert. Das Format ist in der Softwareentwicklung weit verbreitet und ist leichter lesbar als z.B. JSON. 
+Für die Nutzung muss das Paket \verb|pyYAML| installiert werden.
+
+Die Zusatzfunktionen des RFID Servers und die manuelle Lagerverwaltung der ursprünglichen Software sind als PlugIn ausgeführt. 
+Sie können über die Menübar des Hauptfensters aufgerufen werden. Zusätzlich wurde ein Browser PlugIn eingefügt, welches die
+Anleitung der Software und die Code-Dokumentation in Form einer Website darstellt. 
+
+Die IRC5 Steuerung des IRB140 Robotters besitzt genauso wie die RFID Lesegeräte keine Python API. Für beide Schnittstellen wurde eine
+C++ Klasse geschrieben, die ein einfaches Python Interface mittels des Pakets cpython zur Verfügung stellt. 
+
+Die ursprünglichen Modbus Funktionen sind vollständig in OPC UA implementiert. 
+Auch die Live-Daten des RFID-Servers sind von dem Server der Lagerzelle abrufbar. 
+
+Die verwendete Python Version ist: 3.11
+Das verwendete PySide6 Framework hat die Version 6.5.1
+
+\section*{Dokumentation des Programmcodes}
+
+Während diese Arbeit in deutscher Sprache verfasst ist, ist die Dokumentation des Quellcodes in englischer Sprache verfasst. 
+Die englische Sprache ist in der Softwareentwicklung Branchenstandard
+
+Während der Implementierung hat sich ein Prozess durchgesetzt, den ich als Document Driven Development bezeichnen würde:
+Vor der eigentlichen Implementierung einer Klasse, Methode oder Funktion wird in einem für Maschinen lesbarem Syntax kurz beschrieben 
+welche Aufgaben die Klasse, Methode oder Funktion erfüllen soll. Nachfolgend werden ggf. Parameter, Rückgabewerte und ihre Datentypen festgelegt. 
+Sind Fehler zu erwarten, wird auch beschrieben welche Exceptions auftreten können und wie sie ggf. behandelt werden. 
+
+Anschließend erfolgt die eigentliche Implementierung. Nachdem die Implementierung abgeschlossen ist, wird die Dokumentation überprüft und ggf. angepasst und
+der Programmcode einem Refactoring unterzogen um die Lesbarkeit zu erhöhen, die Wartbarkeit zu verbessern und mutmaßlich die Performance zu erhöhen.
+
+Parallel ist das Python Paket Sphinx verwendet um aus den Code-Dokumentationen in den Funktionen, 
+Methodne und Klassen eine übersichtliche Beschreibung des Projekt zu generieren. 
+Im Programm Unterverzeichnis \glqq sphinx\_build \grqq sind im RST Dateiformat Dateien vorhanden, 
+die die Struktur der Dokumentation festlegen.
+Die Datei \verb|conf.py| enthält die Konfiguration für die Dokumentation. In Ihr sind auch die Erweiterungspakete festgelegt: 
+
+\begin{itemize}
+    \item \glq sphinx.ext.autodoc\grq ist das Modul, welches aus den Python Modulen die Dokumentation generiert.
+    \item \glq sphinx.ext.viewcode\grq Dank diesem Modul kann aus der Dokumentation der Quellcode der Implementierung eingesehen werden.
+    \item \glq sphinx\_copybutton\grq Wird verwendet um es dem Bediener zu ermöglichen Code für die Kommandozeile per Klick in den Zwischenspeicher zu kopiern - um bspw. sphinx neu zu generieren.
+\end{itemize}
+
+Auf die Formatierung der RST Sprache wird in dieser Arbeit nicht genauer eingegangen. Die Dokumentation zu RST ist in \cite{sphinxRST} beschrieben.
+
+Durch die Dokumentation können im Fall der Wartung des Programms schneller Zusammenhänge und Funktionsweisen verstanden werden. 
+
+
+\section*{Datamodels}
+Alle Python Module die zur Datenstruktur der Software gehören sind im Programm-Unterverzeichnis \glqq src/model \grqq zu finden. 
+Dort sind zu finden: 
+\begin{itemize}
+    \item \verb|DataModel.py|: Die beinhaltenden Klassen und Methoden bilden ein selbstreferenzierendes Datenmodell welches den \glq Warenfluss \grq der Becher und Paletten implementieren.
+    \item \verb|CommissionModel.py| Die beinhaltenden Klassen erleichern die Handhabung der Auftragskommissionierung und beinhalten Enums für die Dekodierung von Status und Ortskoordinaten. 
+    \item \verb|EventModel.py| Beinhaltet die Klasse \glqq Eventmessage \grqq , die Zeit, Quelle und Nachricht des EventlogServices strukturiert speichert.
+    \item \verb|Preferences.py| Beinhaltet Klassen, die die Programmeinstellungen strukturiert speichern. 
+    \item \verb|RfidModel.py| Enthält die Klasse RfidModel, die die Daten der Objekte im RFID Server PlugIn speichert.
+\end{itemize}
+\section*{Viewmodels}
+Alle Viewmodels sind im Programm-Unterverzeichnis \glqq src/viewmodel \grqq angelegt. Dort sind zu finden: 
+\begin{itemize}
+    \item \verb|CommissionModel.py| verknüpft das Datenmodell \verb|CommissionModel| mit dem GUI. Das Modul enthält ein viewmodel welches von QAbstractTableModel erbt und ein QSortFilterProxyModel um Funktionen zum Sortieren und Filtern im GUI zu ermöglichen.
+    \item \verb|EventViewModel.py| verknüpft das Datenmodell \verb|EventModel| mit dem GUI. Das Modul enthält ein viewmodel welches von QAbstractTableModel erbt und ein QSortFilterProxyModel um Funktionen zum Sortieren und Filtern im GUI zu ermöglichen.
+    \item \verb|productlistViewModel.py| verknüft teile des Inventars auf \verb|DataModel| mit dem GUI. Das Modul enthält eine "ProductData" Klasse die für jedes Produkt die ID, den Namen und die lagernde Anzahl speichert. Der gesamte Umfang der Produkte wird in einem viewmodel dem GUI bereitgestellt welches von QAbstractListModel erbt. 
+    \item \verb|productSummaryViewModel.py| Implementierung eines QSortFilterProxyModels um die Daten des \verb|productlistViewModel| zu sortieren und zu filtern.
+    \item \verb|RfidViewModel.py| stellt die Daten aus dem Datenmodell \verb|RfidModel| dem GUI zur Verfügung. Das Modul enthält ein Modell das von QAbstractListModel erbt und ein QSortFilterProxyModel.
+    \item \verb|storageViewModel.py| Enthält ein QAbstractTableModel um in dem GUI das Lager zu visualisieren. 
+\end{itemize}
+\section*{view}
+Views sind Teile der GUI Implementierung. In diesem Projekt sind sie in der Qt Sprache QML implementiert.
+\begin{itemize}
+    \item \verb|CommissionView| Beschreibt wie die Kommissionsliste gerendert wird.
+    \item \verb|CupView| Beschreibt wie ein Becher gerendert wird. Dieses QML Type wird mehrfach verwendet.
+    \item \verb|EventDelegate| Beschreibt wie ein einzelnes Event in der Liste des Eventlogs gerendert wird. Dieses QML-Type wird mehrfach verwendet und dynamisch erzeugt/referenziert.
+    \item \verb|EventView| Beschreibt wie die Liste des Eventlogs gerendert wird.
+    \item \verb|GripperDialog| Beschreibt wie der Dialog für die manuelle Überschreibung des Greifers gerendert wird.
+    \item \verb|HeaderLine| Beschreibt wie der Kopfzeilenbanner des Hauptfensters gerendert wird.
+    \item \verb|Help| Beschreibt einen Browser, der durch die Menübar aufgerufen werden kann. Die URL des sphinx-build Index ist als Link eingebettet. 
+    \item \verb|InventoryView| Beschreibt den visuellen Aufbau der Inventarübersicht aus Produkten und ihrer Lagermenge.
+    \item \verb|main| Beschreibt den Aufbau des Hauptfensters.
+    \item \verb|MCCPlugin| Beschreibt den Aufbau des PlugIn Fensters für die manuelle Lagersteuerung.
+    \item \verb|PalletteView| Beschreibt wie eine Palette gerendert wird. Dies wird in vielen anderen views referenziert. 
+    \item \verb|PrefereceDialog| Beschreibt den Eingabedialog der Einstellungswerte für die Programmeinstellungen.
+    \item \verb|ProcessView| Beschreibt den visuellen Teil des GUI's, der den mobilen Roboter, Kommissioniertisch und Robotter mit Greifer rendert. 
+    \item \verb|ProductList| Beschreibt den visuellen Aufbau eines PlugIn's dass alle Produkt ID's und Namen anzeigt. Dieses Fenster kann über die Menübar des Hauptfensters aufgerufen werden.
+    \item \verb|ProductView| Beschreibt wie ein Product gerendert werden soll. Dieses QML Type wird mehrfach verwendet.
+    \item \verb|RfidDelegate| Beschreibt wie ein einzelnes RFID-Node in der Liste des RFIDServerPlugin's gerendert wird. Dieses QML-Type wird mehrfach verwendet und dynamisch erzeugt/referenziert.
+    \item \verb|RFIDServerPlugin| Beschreibt den Aufbau des Fensters des RFIDServerPlugin's.
+    \item \verb|StackLayoutView| Beschreibt wie der EventLog, Inventarübersicht und die Kommissionen gerendert werden.
+    \item \verb|StocktakingPlugin| Beschreibt wie das PlugIn für die kameragestützte Inventur gerendert wird.
+    \item \verb|StorageDialog| Beschreibt wie der Dialog zur manuellen Lagerüberschreibung gerendert wird.
+    \item \verb|StorageView| Beschreibt wie die Visualisierung des Lagerregals gerendert wird.
+    \item \verb|TurtleDialog| Beschreibt wie der Dialog zur manuellen Überschreibung des mobilen Roboters gerendert wird.
+    \item \verb|TurtleView| Beschreibt wie der mobile Roboter gerendert wird.
+    \item \verb|WorkbenchDialog| Beschreibt wie der Dialog zur manuellen Überschreibung des Kommissioniertisches gerendert wird.
+\end{itemize}
+\section{Controller}
+Controller sind wie Services essentielle Funktionsbestandteile der Software. Sie sind in dem Programm Unterverzeichnis \glqq src/controller \grqq zu finden. 
+\begin{itemize}
+    \item \verb|ABBController.py| Steuert die Kommunikation zwischen der Software und der Steuerung des Roboters. Nutzt \verb|invController| um das GUI des Greifers zu aktualiseren.
+    \item \verb|CommissionController.py| Bei eingehenden Kommissionen werden diese zunächst auf Fehler überprüft und dann die entsprechenden Methoden des \verb|ABBController| aufgerufen um die Kommissionenn abzuarbeiten. Außerdem wird das viewmodel \verb|commissionViewModel| gesteuert. 
+    \item \verb|invController.py| Wann Becher oder Paletten virtuell bewegt werden: Die notwendiden Methoden und Funktionen sind dazu in diesem Controller zu finden. Der Controller nutzt die selbstreferenzierenden Eigenschaften des Datenmodells aus und aktualisiert die referenzierenden viewmodels.
+    \item \verb|PreferenceController.py| Einstellungen der Software wie z.B, die Ip der Robotersteuerung werden im Menü \verb|PrefereceDialog| vorgenommen. Dieser Controller implementiert das Backend. Beim Start werden die letzten Einstellungen aus \verb|Preereces.yaml| geladen und bei Änderungen dort gespeichert. Außerdem werden die Einstellungen allen anderen Controllern und Services zur Verfügung gestellt.
+    \item \verb|RfidController.py| Implementiert die Verknüpfung zwischen dem GUI des PlugIn's, dem viewmodel \verb|RfidViewModel| und dem Service \verb|rfid_service.py|. Bei Programmstart werden die letzten Nodes der Lesegeräte aus der Datei \verb|rfidData.yaml| geladen. Änderungen an den Nodes werden auch dort gespeichert. 
+\end{itemize}
+\subsection{ABBController}
+
+Die Software von Rodruguez nutzte in C\# ein SDK, welches eine API für die Sprachen C, C++, C\#, Java und Python 2 bietet. 
+Mit dem Wechsel von Windows 7 zu Windows 10 funktioniert die Verbundung der alten Software nicht mehr. Die Steuerung IRC5 hat die Firmware RobotWare 5.15.10. 
+Versuche die Steuerung über ein http Protokoll anzusprechen wie sie in der Referenzdokumentation des Robot Web Services \cite{RWS} schlugen fehl, da die Steuerung den Zugriff verweigert. 
+Ein mit Wireshark aufgezeichneter Netzwerkverkehr zeigt, dass jeweils das erste Byte ein verschlüsselter Handshake sein könnte, der sich manuell nicht nachahmen lässt und aus der SDK nicht erkenntlich ist. 
+Weiterhin bleiben zwei Entwürfe wie mir dem ABB Robotics Controller kommuniziert werden kann. 
+\begin{itemize}
+    \item Erstellen einer C++ Workerclass Implementierung mit einer für Python3 kompilierten DLL. 
+    \item Erstellen einer Python3 Serviceklasse, die die Python2 API der SDK einbettet.
+\end{itemize}
+\subsubsection*{C++ Implementierung einer Workerclass}
+Ziel ist es eine C++ Klasse zu implementieren, deren Konstruktor die IP der IRC5 Steuerung übernimmt.
+Eine start()-Methode verbindet die Instanz dieser Klasse mit der Steuerung. 
+Eine Weitere Methode übernimmt als Argument alle Parameter die für das Ausführen der richtigen RAPID Routine nötig sind. 
+Der Destruktor der Klasse beendet alle Verbindungen und sorgt für korrektes Speichermanagement. 
+Datentypen. 
+Wo ist der Quellcode zu finden?
+Wurde die Methode umgesetzt?
+
+\subsubsection*{Python3 Wrapper Klasse für Python2 API}
+
+Natürlich ist es möglich, die Python2 API über Python3 anzusprechen. Leider bedarf dies einer speziellen Programmierweise und zusätzlicher Module (Welche?).
+Eine dezidierte Python3 Klasse verbessert die Wartbarkeit des gesamten Quellcodes und lässt sich beliebig erweitern. 
+Außerdem ist die Aufwärtskompatibilität für kommende Python Versionen besser gewährleistet. Zudem ist der Quellcode anschließend besser lesbar. 
+
+
+\subsection*{RfidController}
+
+Für den RFID Server gibt es eine ähnliche Problemstellung: Der Hersteller Fa. Feig liefert keine dezidierte Python 3 API. Auch hier wird die API nur für die Sprachen 
+C++, C\# und Java angeboten. Außerdem bietet der Hersteller einen eigenen Standard namens ISOStart. 
+Für die Ansteuerung des Lesegeräts über TCP/IP oder USB wird das SDK Gen.3 für Windows x64 verwendet. 
+Das gesamte SDK ist im Projektordner in dem Verzeichnis \glqq FEIG\_RFIDReaderInterface \grqq.
+
+Die Wahl der Kommunikation ist mit der Errichtung der Lagerzelle bereits festgelegt. Ethernet Leitungen für TCP/IP sind bereits verlegt und es bietet keinerlei Vorteile das
+USB Protokoll zu verwenden. 
+Es stellt sich aber die Frage wie man den RFID Reader über die Software anspricht. 
+Es gibt das Python3 Paket \glqq obid\_rfid\grqq welches eine ältere Linux Distribution der SDK der Firma Feig verwendet. 
+Mit dem \verb|ctype| Paket wird das C ABI der für Linux kompilierten \glq .so\grq Dateien. Theoretisch wäre es ein Versuch Wert, die entsprechenden Windows \glq .dll \grq Dateien 
+auf die Gleiche Art und Weise einzubinden. Also im Prinzip die Python Bibliothek so zu ändern, dass anstelle der \glq .so \grq Dateipfade die \glq .dll \grq Dateipfade aufgerufen werden. 
+Leider liegt mir die alte SDK nicht für Windows vor. Da die aktuelle (Gen.3) SDK einen fundamental anderen Aufbau an Klassen und Methoden aufweist, sehe ich von diesem Versuch ab. 
+
+Die zweite Möglichkeit ist, die SDK direkt mit ctypes einzubinden. Die schlägt der Hersteller auch vor. Allerdings gilt auch hier, dass die notwendige Programmierung sehr von der der gesamten Softwrae stark abweicht
+und nicht in den Modelling Ansatz passt. Um dies zu verbessern bitet sich ein eigener Service an, der das einbinden der SDK übernimmt. 
+
+Die dritte Möglichkeit ist auch hier eine C++ Implementierung einer Workerclass. Dem Construktor werden IP Adresse und Port des Lesegeräts übergeben, sowie ein Integer der die Wartezeit zwischen dem Auslesen der Leser in Millisekunden darstellt.
+Neben dem Klassenkonstruktor und -Destruktor wird eine Methode exponiert, die als Rückgabewert einen strukturierten String mit den ausgelesenen Daten übergibt.
+
+Eine Solche Klasse lässt sich z.B. mit dem Paket PyBind11 kompilieren und gewohnt als python Paket importieren. Einfacher kann die Klasse über \verb|ctypes| eingebunden
+werden und bedarf dann trotzdem einer - wenn auch sehr kurz gefassten - Serviceklasse. 
+
+\section*{Services}
+Services sind wie schon erwähnt wichtige Funktionsbestandteile der Software. Sie sind in dem Programm Unterverzeichnis "src/service" zu finden.
+\begin{itemize}
+    \item \verb|AgentService.py| Implementiert in Teilen den Agentenservice aus \cite{LarsKistner2017}.
+    \item \verb|CameraService.py| Stellt die Verbindung zu beiden Kameras her und gibt die Bilder zurück.
+    \item \verb|DetectionOptimizationService.py| Implementierung eines genetischen Algorithmus in variabler Codierung. Kann bei Bedarf verwendet werden um die 
+    Parameter der arUco Erkennung zu optimieren. 
+    \item \verb|EventlogService.py| Implementiert einen Service, der Events von allen Teilen der Software akzeptiert, speichert und auf dem GUI als Nachricht ausgibt. 
+    \item \verb|OpcuaService.py| Implementiert einen Server des Python Pakets \verb|asyncua| \cite[asyncua] und bildet die Schnittstelle zu anderen Anlagen der $\mu$Plant. 
+    \item \verb|rfid_service.py| Implementiert die Verbindung zwischen der Software und den RFID Lesegeräten in der $\mu$Plant. 
+    \item \verb|stocktaking.py| Erledigt eine kameragestützte Inventur. 
+\end{itemize}
+
+\section*{Tests}
+Für das selbstreferenzierende Datenmodell und für den zugehörigen \glqq invController \grqq  wurden zwei tests geschrieben. 
+Dafür wird das Modul \glqq pytest \grqq verwendet. Die tests sind im Programm Unterverzeichnis \glqq tests \grqq zu finden. 
+\begin{itemize}
+    \item \verb|test_inventory.py| prüft die kosistenz des Datenmodells
+    \item \verb|test_inventoryController.py| Prüft die funktionalität des invControllers.
+\end{itemize} 
+In \verb|test_inventory.py| werden von jeder Klasse des Moduls \verb|DataModel.py| mindestens ein Objekt erzeugt. 
+Die Objekte werden miteinander verknüpft und Verknüpfungen geändert oder gelöst. Anschließend wird das Datenmodell auf Konsistenz geprüft. 
+
+In \verb|test_inventoryController.py| werden zusätzlich die Funktionen des invControllers getestet und die Konsistenz des
+Datenmodells nach diesen Aktionen geprüft. 
