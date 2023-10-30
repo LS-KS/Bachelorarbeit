@@ -1,0 +1,25 @@
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{Abkürzungsverzeichnis}{XVII}{chapter*.9}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{XVIII}{chapter*.9}%
+\contentsline {chapter}{\numberline {1}Motivation und Zielsetzung}{1}{chapter.1}%
+\contentsline {chapter}{Symbolverzeichnis}{1}{chapter*.9}%
+\contentsline {chapter}{Index}{1}{chapter*.9}%
+\contentsline {chapter}{\numberline {2}Softwarearchitektur}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Controller}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}ABBController}{7}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}Kameragestützten Validierungsprozessen in der Lagerverwaltung}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Konzepte}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Auswahl der optischen Marker}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Auswahl der Kameras, Objektive und Aufstellung}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Perspektivische Korrektur und Marker Erkennung}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Automatische Kontrast und Helligkeitsanpassung}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Markererkennung}{15}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Bildmatrixanalyse an einem gewölbten Marker}{16}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{24}{subsection.3.6.2}%
+\contentsline {subsubsection}{\nonumberline Erkennungsrate der ESP32 Kamera}{30}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Festlegung der Markergröße und Position}{31}{subsubsection*.40}%
+\contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Dies ist der erste Anhang}{XIX}{appendix.A}%
+\contentsline {chapter}{Literaturverzeichnis}{XXI}{appendix.A}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

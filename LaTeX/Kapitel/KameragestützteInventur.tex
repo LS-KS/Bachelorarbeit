@@ -287,13 +287,14 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Die Erkennungsrate ist jedoch nicht besser als das Referenzbild.
     In \ref{fig:figure26} ist die Erkennungsrate nach einer Schärfung und anschließender Gauß 5x5 Filterung dargestellt.
     Für die Schärfung wurde die Filtermatrix $W$ verwendet, die mit 
-   \begin{align*}
-     $$ W = \begin{bmatrix}
-         -1 & -1 & -1 \\
-         -1 & 9 & -1 \\
-         -1 & -1 & -1\\
-     \end{bmatrix}$$
-   \end{align*}
+    \begin{align*}
+        W = \begin{bmatrix}
+            -1 & -1 & -1 \\
+            -1 & 9 & -1 \\
+            -1 & -1 & -1
+        \end{bmatrix}
+    \end{align*}
+       
 
     definiert ist. Allein das Schärfen des Bildes brachte keinen Erfolg. Nach der Gauß-Filterung steigt die Erkennungsrate auf 8 Marker an. 
     Die Marker L9, L10 und L18 werden nicht erkannt, was das Gesamtergebnis immer noch als zu unbefriedigend erscheinen lässt.
