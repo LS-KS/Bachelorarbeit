@@ -17,8 +17,8 @@
 \contentsline {section}{\numberline {3.6}Markererkennung}{15}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Bildmatrixanalyse an einem gewölbten Marker}{16}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{24}{subsection.3.6.2}%
-\contentsline {subsubsection}{\nonumberline Erkennungsrate der ESP32 Kamera}{30}{subsubsection*.37}%
-\contentsline {subsubsection}{\nonumberline Festlegung der Markergröße und Position}{31}{subsubsection*.40}%
+\contentsline {subsection}{\numberline {3.6.3}Erkennungsrate der ESP32 Kamera}{30}{subsection.3.6.3}%
+\contentsline {subsubsection}{\nonumberline Festlegung der Markergröße und Position}{31}{subsubsection*.38}%
 \contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{33}{chapter.4}%
 \contentsline {chapter}{\numberline {A}Dies ist der erste Anhang}{XIX}{appendix.A}%
 \contentsline {chapter}{Literaturverzeichnis}{XXI}{appendix.A}%

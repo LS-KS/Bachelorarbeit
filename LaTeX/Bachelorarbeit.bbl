@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -22,27 +21,24 @@
 \BIBdecl
 
 \bibitem{qmlTypeList}
-\glqq Liste aller QML Types,
-  \url{https://doc.qt.io/qt-6/qtquick-qmlmodule.html}, Aufgerufen
-  am:[15.06.2023].
+\glqq Liste aller QML Types,  \url{https://doc.qt.io/qt-6/qtquick-qmlmodule.html}, Aufgerufen am:[15.06.2023].
 
 \bibitem{Hübler2019}
-S.~Hübler, \glqq BPS Tätigkeits- und Erfahrungsbericht: Objekterkennung und
-  Verfolgung mittels Kamera in Produktionsanlagen am Beispiel der Modellfabrik
-  µPlant,  2019.
+S.~Hübler, \glqq BPS Tätigkeits- und Erfahrungsbericht: Objekterkennung und Verfolgung mittels Kamera in Produktionsanlagen am Beispiel der Modellfabrik µPlant,  2019.
 
 \bibitem{LarsKistner2017}
-L.~Kistner, \glqq Konzeptionierung und Umsetzung einer serviceorientierten
-  verteilten Automatisierungs-Architektur für die heterogene Modellfabrik
-  µPlant,  2017.
+L.~Kistner, \glqq Konzeptionierung und Umsetzung einer serviceorientierten verteilten Automatisierungs-Architektur für die heterogene Modellfabrik µPlant,  2017.
 
 \bibitem{sphinxRST}
-\glqq Restructured Text Syntax,
-  \url{https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html},
-  Aufgerufen am: [19.06.2023].
+\glqq Restructured Text Syntax,  \url{https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html}, Aufgerufen am: [19.06.2023].
 
 \bibitem{RWS}
-ABB, \glqq ABB Application Manual - Robot Web Services, 3HAC050973-001 Revision
-  B,  \url{bitte noch Link einfügen}, ?
+ABB, \glqq ABB Application Manual - Robot Web Services, 3HAC050973-001 Revision B,  \url{bitte noch Link einfügen}, ?
+
+\bibitem{asyncua}
+\glqq OPC UA / IEC 62541 Client and Server for Python,  \url{https://github.com/FreeOpcUa/opcua-asyncio/}, Aufgerufen am: [26.10.2023].
+
+\bibitem{OpenCVaruco}
+\glqq Detection of aruco markers,  \url{https://docs.opencv.org/4.7.0/d5/dae/tutorial_aruco_detection.html}, Aufgerufen am: [26.10.2023].
 
 \end{thebibliography}

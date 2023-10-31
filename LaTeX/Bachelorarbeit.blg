@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bachelorarbeit.aux
 A level-1 auxiliary file: Kapitel/Versicherung.aux
@@ -6,11 +6,7 @@ A level-1 auxiliary file: Kapitel/Kurzfassung.aux
 A level-1 auxiliary file: Kapitel/Abkuerzungsverzeichnis.aux
 A level-1 auxiliary file: Kapitel/Einleitung.aux
 A level-1 auxiliary file: Kapitel/SoftwareArchitektur.aux
-I couldn't open auxiliary file Kapitel/KameragestützteInventur.aux
----line 41 of file Bachelorarbeit.aux
- : \@input{Kapitel/KameragestützteInventur.aux
- :                                             }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: Kapitel/KameragestützteInventur.aux
 A level-1 auxiliary file: Kapitel/Zusammenfassung_Ausblick.aux
 A level-1 auxiliary file: Kapitel/AnhangA.aux
 The style file: Literatur/IEEEtranGER.bst
@@ -20,51 +16,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literatur/Bachelorarbeit.bib
-Warning--I didn't find a database entry for "u"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 5 entries,
+You've used 7 entries,
             4022 wiz_defined-function locations,
-            849 strings with 8394 characters,
-and the built_in function-call counts, 1712 in all, are:
-= -- 120
-> -- 14
+            857 strings with 8644 characters,
+and the built_in function-call counts, 2330 in all, are:
+= -- 167
+> -- 16
 < -- 0
-+ -- 8
++ -- 10
 - -- 3
-* -- 63
-:= -- 303
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 2
+* -- 81
+:= -- 401
+add.period$ -- 14
+call.type$ -- 7
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 153
-empty$ -- 180
+cite$ -- 7
+duplicate$ -- 215
+empty$ -- 250
 format.name$ -- 3
-if$ -- 357
+if$ -- 496
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 35
-newline$ -- 38
+int.to.str$ -- 7
+missing$ -- 49
+newline$ -- 44
 num.names$ -- 3
-pop$ -- 105
+pop$ -- 149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 134
+skip$ -- 184
 stack$ -- 0
-substring$ -- 9
-swap$ -- 77
+substring$ -- 15
+swap$ -- 107
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
+type$ -- 7
 warning$ -- 0
 while$ -- 3
-width$ -- 6
-write$ -- 58
-(There was 1 error message)
+width$ -- 8
+write$ -- 72
