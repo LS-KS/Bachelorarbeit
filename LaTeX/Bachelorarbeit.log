@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  31 OCT 2023 06:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  5 NOV 2023 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1168,7 +1168,7 @@ Writing index file Bachelorarbeit.idx
 LaTeX Font Info:    Trying to load font information for T1+Crlt-LF on input line 99.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/T1Crlt-LF.fd
 File: T1Crlt-LF.fd 2022/10/05 (autoinst) Font definitions for T1/Crlt-LF.
-) (./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
+) (./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/Grundlagen.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Roboterpfadanpassung.aux) (./Kapitel/Inventurimplementierung.aux) (./Kapitel/Fehlerbehandlung.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
 \openout1 = `Bachelorarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -1394,7 +1394,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 129--129
  (./Kapitel/Kurzfassung.tex) [7
 
 
-] [8
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] [8
 
 
 
@@ -1408,19 +1408,18 @@ Overfull \hbox (4.29121pt too wide) detected at line 4
  []\T1/Crlt-LF/b/n/10.95 XVIII
  []
 
-)
+[9
+
+])
 \tf@toc=\write8
 \openout8 = `Bachelorarbeit.toc'.
 
- [9
-
-] [10
-
-] (./Bachelorarbeit.lot)
+ [10] (./Bachelorarbeit.lot)
 \tf@lot=\write9
 \openout9 = `Bachelorarbeit.lot'.
 
  [11
+
 
 ] [12
 
@@ -1456,7 +1455,19 @@ Class scrbook Warning: \float@listhead detected!
  (./Kapitel/Abkuerzungsverzeichnis.tex
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 11.
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1496,39 +1507,23 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 14.
+(Font)              using `T1/cmss/bx/n' instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 14.
+(Font)              using `T1/cmss/bx/n' instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 14.
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 15.
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 15.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 15.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 18.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 18.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 18.
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1548,6 +1543,10 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 20.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 21.
 
 
@@ -1572,7 +1571,7 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 23.
+(Font)              using `T1/cmss/bx/n' instead on input line 22.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1585,22 +1584,6 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 23.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 23.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 24.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 24.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1616,19 +1599,59 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 25.
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 28.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 28.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 28.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 29.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 29.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 29.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 30.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1653,6 +1676,18 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 32.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 33.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 33.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 33.
 
 ) [17
 
@@ -1695,21 +1730,69 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 ]
-\openout2 = `Kapitel/SoftwareArchitektur.aux'.
+\openout2 = `Kapitel/Grundlagen.aux'.
 
- (./Kapitel/SoftwareArchitektur.tex
+ (./Kapitel/Grundlagen.tex
 chapter 2.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3
+)
+<Bilder/singlemarkersaxes.jpg, id=341, 642.4pt x 481.8pt>
+File: Bilder/singlemarkersaxes.jpg Graphic file (type jpg)
+<use Bilder/singlemarkersaxes.jpg>
+Package pdftex.def Info: Bilder/singlemarkersaxes.jpg  used on input line 29.
+(pdftex.def)             Requested size: 199.1693pt x 149.37851pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 34--34
+[][][]|\T1/Crlt-LF/m/n/10 Bild nach Grau-stu-fen-um-wand-lung und Um-wand-lung in Bi-n�r-bild. Quel-le: [[],
+ []
+
+<Bilder/singlemarkersthresh.png, id=344, 642.4pt x 481.8pt>
+File: Bilder/singlemarkersthresh.png Graphic file (type png)
+<use Bilder/singlemarkersthresh.png>
+Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 35.
+(pdftex.def)             Requested size: 199.1693pt x 149.37851pt.
+[3
 
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] [4 <./Bilder/singlemarkersaxes.jpg> <./Bilder/singlemarkersthresh.png (PNG copy)>]
+<Bilder/singlemarkersbrokenthresh.png, id=366, 373.395pt x 373.395pt>
+File: Bilder/singlemarkersbrokenthresh.png Graphic file (type png)
+<use Bilder/singlemarkersbrokenthresh.png>
+Package pdftex.def Info: Bilder/singlemarkersbrokenthresh.png  used on input line 57.
+(pdftex.def)             Requested size: 199.1693pt x 199.16896pt.
+<Bilder/removeperspective.jpg, id=370, 250.9375pt x 401.5pt>
+File: Bilder/removeperspective.jpg Graphic file (type jpg)
+<use Bilder/removeperspective.jpg>
+Package pdftex.def Info: Bilder/removeperspective.jpg  used on input line 65.
+(pdftex.def)             Requested size: 132.77953pt x 212.45703pt.
+<Bilder/bitsextraction1.png, id=373, 250.9375pt x 250.9375pt>
+File: Bilder/bitsextraction1.png Graphic file (type png)
+<use Bilder/bitsextraction1.png>
+Package pdftex.def Info: Bilder/bitsextraction1.png  used on input line 71.
+(pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
+<Bilder/bitsextraction2.png, id=376, 697.60625pt x 329.23pt>
+File: Bilder/bitsextraction2.png Graphic file (type png)
+<use Bilder/bitsextraction2.png>
+Package pdftex.def Info: Bilder/bitsextraction2.png  used on input line 77.
+(pdftex.def)             Requested size: 398.3386pt x 187.9946pt.
+ [5 <./Bilder/singlemarkersbrokenthresh.png (PNG copy)>] [6 <./Bilder/removeperspective.jpg> <./Bilder/bitsextraction1.png (PNG copy)>] [7 <./Bilder/bitsextraction2.png>] [8]) [9] [10]
+\openout2 = `Kapitel/SoftwareArchitektur.aux'.
+
+ (./Kapitel/SoftwareArchitektur.tex
+chapter 3.
+[11
+
+
+
+
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+Crlt-LF on input line 54.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/TS1Crlt-LF.fd
 File: TS1Crlt-LF.fd 2022/10/05 (autoinst) Font definitions for TS1/Crlt-LF.
-) [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/carlito/crlt_j4hweq.enc}] [5] [6]
+) [12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/carlito/crlt_j4hweq.enc}] [13] [14]
 Overfull \hbox (3.82784pt too wide) in paragraph at lines 116--117
 [][][]\T1/lmtt/m/n/10.95 CommissionController.py []\T1/cmss/m/n/10.95 Bei ein-ge-hen-den Kom-mis-sio-nen wer-den die-se zu-n�chst
  []
@@ -1722,7 +1805,7 @@ Overfull \hbox (14.60344pt too wide) in paragraph at lines 119--120
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
- [7] [8]) [9] [10
+ [15] [16]) [17] [18
 
 
 
@@ -1730,94 +1813,207 @@ Underfull \vbox (badness 1137) has occurred while \output is active []
 \openout2 = `Kapitel/KameragestützteInventur.aux'.
 
  (./Kapitel/KameragestützteInventur.tex
-chapter 3.
-[11
+chapter 4.
+[19
 
 
-]
-<Bilder/verzerrtesBild.png, id=311, 5492.52pt x 3685.77pt>
+] [20]
+<Bilder/verzerrtesBild.png, id=486, 5492.52pt x 3685.77pt>
 File: Bilder/verzerrtesBild.png Graphic file (type png)
 <use Bilder/verzerrtesBild.png>
-Package pdftex.def Info: Bilder/verzerrtesBild.png  used on input line 67.
+Package pdftex.def Info: Bilder/verzerrtesBild.png  used on input line 99.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
- [12] [13 <./Bilder/verzerrtesBild.png (PNG copy)>]
-<Bilder/AblaufErkennungSellCam.png, id=322, 519.9425pt x 150.5625pt>
+<Bilder/AblaufErkennungSellCam.png, id=488, 519.9425pt x 150.5625pt>
 File: Bilder/AblaufErkennungSellCam.png Graphic file (type png)
 <use Bilder/AblaufErkennungSellCam.png>
-Package pdftex.def Info: Bilder/AblaufErkennungSellCam.png  used on input line 85.
+Package pdftex.def Info: Bilder/AblaufErkennungSellCam.png  used on input line 117.
 (pdftex.def)             Requested size: 398.3386pt x 115.34763pt.
+ [21] [22 <./Bilder/verzerrtesBild.png (PNG copy)>]
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 121.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 89.
+(Font)              using `T1/cmss/bx/n' instead on input line 121.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 89.
+(Font)              using `T1/cmss/bx/n' instead on input line 121.
 
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 89.
-
-
-Underfull \vbox (badness 6876) has occurred while \output is active []
-
- [14 <./Bilder/AblaufErkennungSellCam.png>] [15]
-<Bilder/LZIP_raw_shot.png, id=337, 5492.52pt x 3685.77pt>
-File: Bilder/LZIP_raw_shot.png Graphic file (type png)
-<use Bilder/LZIP_raw_shot.png>
-Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 163.
-(pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_Kontrastanpassung.png, id=340, 5492.52pt x 3685.77pt>
-File: Bilder/LZ_Kontrastanpassung.png Graphic file (type png)
-<use Bilder/LZ_Kontrastanpassung.png>
-Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 170.
-(pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_transformed.png, id=343, 1885.0425pt x 1889.0575pt>
-File: Bilder/LZ_transformed.png Graphic file (type png)
-<use Bilder/LZ_transformed.png>
-Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 177.
-(pdftex.def)             Requested size: 398.3386pt x 399.16388pt.
-<Bilder/section_16.png, id=346, 316.18124pt x 633.36626pt>
-File: Bilder/section_16.png Graphic file (type png)
-<use Bilder/section_16.png>
-Package pdftex.def Info: Bilder/section_16.png  used on input line 184.
-(pdftex.def)             Requested size: 132.77953pt x 265.98302pt.
-<Bilder/section_5.png, id=350, 316.18124pt x 632.3625pt>
-File: Bilder/section_5.png Graphic file (type png)
-<use Bilder/section_5.png>
-Package pdftex.def Info: Bilder/section_5.png  used on input line 191.
-(pdftex.def)             Requested size: 132.77953pt x 265.5615pt.
-<Bilder/pallet_5.png, id=353, 314.17375pt x 188.705pt>
-File: Bilder/pallet_5.png Graphic file (type png)
-<use Bilder/pallet_5.png>
-Package pdftex.def Info: Bilder/pallet_5.png  used on input line 198.
-(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/pallet_3.png, id=358, 314.17375pt x 188.705pt>
-File: Bilder/pallet_3.png Graphic file (type png)
-<use Bilder/pallet_3.png>
-Package pdftex.def Info: Bilder/pallet_3.png  used on input line 205.
-(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup17.png, id=361, 314.17375pt x 189.70876pt>
-File: Bilder/cup17.png Graphic file (type png)
-<use Bilder/cup17.png>
-Package pdftex.def Info: Bilder/cup17.png  used on input line 212.
-(pdftex.def)             Requested size: 132.77953pt x 80.17502pt.
-<Bilder/cup2.png, id=364, 314.17375pt x 188.705pt>
-File: Bilder/cup2.png Graphic file (type png)
-<use Bilder/cup2.png>
-Package pdftex.def Info: Bilder/cup2.png  used on input line 219.
-(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup6_analyse.png, id=365, 1165.59465pt x 671.8701pt>
-File: Bilder/cup6_analyse.png Graphic file (type png)
-<use Bilder/cup6_analyse.png>
-Package pdftex.def Info: Bilder/cup6_analyse.png  used on input line 226.
-(pdftex.def)             Requested size: 398.3386pt x 229.61177pt.
- [16] [17 <./Bilder/LZIP_raw_shot.png> <./Bilder/LZ_Kontrastanpassung.png (PNG copy)>] [18 <./Bilder/LZ_transformed.png (PNG copy)>] [19 <./Bilder/section_5.png (PNG copy)> <./Bilder/section_16.png (PNG copy)>] [20 <./Bilder/pallet_5.png (PNG copy)> <./Bilder/pallet_3.png (PNG copy)> <./Bilder/cup17.png (PNG copy)> <./Bilder/cup2.png (PNG copy)>] [21 <./Bilder/cup6_analyse.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+[23 <./Bilder/AblaufErkennungSellCam.png>] [24{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 231.
- (./Listings/Bildmatrixanalyse_Becher6.py
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 168.
+ (./Listings/automatic_brightness_and_contrast.py
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
+
+
+Overfull \hbox (91.26712pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.40213pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 31.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 32.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 32.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 32.
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 33.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 33.
+
+
+Overfull \hbox (65.15482pt too wide) in paragraph at lines 33--35
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 42.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 47.
+
+
+Overfull \hbox (78.21097pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 51.
+
+
+Overfull \hbox (52.09866pt too wide) in paragraph at lines 54--55
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.40213pt too wide) in paragraph at lines 55--56
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 56.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 57.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 58.
+
+
+Overfull \hbox (45.57059pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.57059pt too wide) in paragraph at lines 61--62
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 64.
+
+) [26] [27
+
+]
+<Bilder/LZIP_raw_shot.png, id=609, 5492.52pt x 3685.77pt>
+File: Bilder/LZIP_raw_shot.png Graphic file (type png)
+<use Bilder/LZIP_raw_shot.png>
+Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 239.
+(pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
+<Bilder/LZ_Kontrastanpassung.png, id=612, 5492.52pt x 3685.77pt>
+File: Bilder/LZ_Kontrastanpassung.png Graphic file (type png)
+<use Bilder/LZ_Kontrastanpassung.png>
+Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 246.
+(pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
+<Bilder/LZ_transformed.png, id=615, 1885.0425pt x 1889.0575pt>
+File: Bilder/LZ_transformed.png Graphic file (type png)
+<use Bilder/LZ_transformed.png>
+Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 253.
+(pdftex.def)             Requested size: 398.3386pt x 399.16388pt.
+<Bilder/section_16.png, id=618, 316.18124pt x 633.36626pt>
+File: Bilder/section_16.png Graphic file (type png)
+<use Bilder/section_16.png>
+Package pdftex.def Info: Bilder/section_16.png  used on input line 260.
+(pdftex.def)             Requested size: 132.77953pt x 265.98302pt.
+<Bilder/section_5.png, id=622, 316.18124pt x 632.3625pt>
+File: Bilder/section_5.png Graphic file (type png)
+<use Bilder/section_5.png>
+Package pdftex.def Info: Bilder/section_5.png  used on input line 267.
+(pdftex.def)             Requested size: 132.77953pt x 265.5615pt.
+<Bilder/pallet_5.png, id=625, 314.17375pt x 188.705pt>
+File: Bilder/pallet_5.png Graphic file (type png)
+<use Bilder/pallet_5.png>
+Package pdftex.def Info: Bilder/pallet_5.png  used on input line 274.
+(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
+<Bilder/pallet_3.png, id=630, 314.17375pt x 188.705pt>
+File: Bilder/pallet_3.png Graphic file (type png)
+<use Bilder/pallet_3.png>
+Package pdftex.def Info: Bilder/pallet_3.png  used on input line 281.
+(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
+<Bilder/cup17.png, id=633, 314.17375pt x 189.70876pt>
+File: Bilder/cup17.png Graphic file (type png)
+<use Bilder/cup17.png>
+Package pdftex.def Info: Bilder/cup17.png  used on input line 288.
+(pdftex.def)             Requested size: 132.77953pt x 80.17502pt.
+<Bilder/cup2.png, id=636, 314.17375pt x 188.705pt>
+File: Bilder/cup2.png Graphic file (type png)
+<use Bilder/cup2.png>
+Package pdftex.def Info: Bilder/cup2.png  used on input line 295.
+(pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
+<Bilder/cup6_analyse.png, id=637, 1165.59465pt x 671.8701pt>
+File: Bilder/cup6_analyse.png Graphic file (type png)
+<use Bilder/cup6_analyse.png>
+Package pdftex.def Info: Bilder/cup6_analyse.png  used on input line 302.
+(pdftex.def)             Requested size: 398.3386pt x 229.61177pt.
+ [28 <./Bilder/LZIP_raw_shot.png>] [29 <./Bilder/LZ_Kontrastanpassung.png (PNG copy)>] [30 <./Bilder/LZ_transformed.png (PNG copy)>] [31 <./Bilder/section_5.png (PNG copy)> <./Bilder/section_16.png (PNG copy)>] [32 <./Bilder/pallet_5.png (PNG copy)> <./Bilder/pallet_3.png (PNG copy)> <./Bilder/cup17.png (PNG copy)> <./Bilder/cup2.png (PNG copy)>] [33 <./Bilder/cup6_analyse.png>] (./Listings/Bildmatrixanalyse_Becher6.py
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 1.
@@ -1842,10 +2038,6 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 4.
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 11.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 13.
@@ -1993,9 +2185,9 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22
+ [34
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+]
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 50.
@@ -2081,7 +2273,7 @@ Overfull \hbox (45.57059pt too wide) in paragraph at lines 94--95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [35]
 Overfull \hbox (65.15482pt too wide) in paragraph at lines 104--105
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2101,42 +2293,77 @@ Overfull \hbox (19.45828pt too wide) in paragraph at lines 111--112
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-)
-<Bilder/ErkennungsrateOBB.png, id=507, 805.8105pt x 957.5775pt>
+) [36]
+<Bilder/ErkennungsrateOBB.png, id=808, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateOBB.png Graphic file (type png)
 <use Bilder/ErkennungsrateOBB.png>
-Package pdftex.def Info: Bilder/ErkennungsrateOBB.png  used on input line 247.
+Package pdftex.def Info: Bilder/ErkennungsrateOBB.png  used on input line 318.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGauss.png, id=508, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGauss.png, id=809, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateGauss.png>
-Package pdftex.def Info: Bilder/ErkennungsrateGauss.png  used on input line 253.
+Package pdftex.def Info: Bilder/ErkennungsrateGauss.png  used on input line 324.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateLaplace.png, id=509, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateLaplace.png, id=810, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateLaplace.png>
-Package pdftex.def Info: Bilder/ErkennungsrateLaplace.png  used on input line 259.
+Package pdftex.def Info: Bilder/ErkennungsrateLaplace.png  used on input line 330.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGausLaplace.png, id=510, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGausLaplace.png, id=811, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGausLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateGausLaplace.png>
-Package pdftex.def Info: Bilder/ErkennungsrateGausLaplace.png  used on input line 265.
+Package pdftex.def Info: Bilder/ErkennungsrateGausLaplace.png  used on input line 336.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateScharfGauss.png, id=511, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateScharfGauss.png, id=812, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateScharfGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateScharfGauss.png>
-Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input line 271.
+Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input line 342.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
- [24] [25 <./Bilder/ErkennungsrateOBB.png>] [26 <./Bilder/ErkennungsrateGauss.png>] [27 <./Bilder/ErkennungsrateLaplace.png>] [28 <./Bilder/ErkennungsrateGausLaplace.png>] [29 <./Bilder/ErkennungsrateScharfGauss.png>]
-<Bilder/ESP32CamTest.png, id=576, 880.2486pt x 220.4235pt>
+ [37
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [38 <./Bilder/ErkennungsrateOBB.png>] [39 <./Bilder/ErkennungsrateGauss.png>] [40 <./Bilder/ErkennungsrateLaplace.png>] [41 <./Bilder/ErkennungsrateGausLaplace.png>] [42 <./Bilder/ErkennungsrateScharfGauss.png>]
+<Bilder/ESP32CamTest.png, id=850, 880.2486pt x 220.4235pt>
 File: Bilder/ESP32CamTest.png Graphic file (type png)
 <use Bilder/ESP32CamTest.png>
-Package pdftex.def Info: Bilder/ESP32CamTest.png  used on input line 313.
+Package pdftex.def Info: Bilder/ESP32CamTest.png  used on input line 389.
 (pdftex.def)             Requested size: 398.3386pt x 99.74797pt.
+) [43 <./Bilder/ESP32CamTest.png>] [44
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./Bilder/ESP32CamTest.png>]) [31] [32
+
+]
+\openout2 = `Kapitel/Roboterpfadanpassung.aux'.
+
+ (./Kapitel/Roboterpfadanpassung.tex
+chapter 5.
+) [45
+
+
+] [46
+
+
+
+]
+\openout2 = `Kapitel/Inventurimplementierung.aux'.
+
+ (./Kapitel/Inventurimplementierung.tex
+chapter 6.
+) [47
+
+
+] [48
+
+
+
+]
+\openout2 = `Kapitel/Fehlerbehandlung.aux'.
+
+ (./Kapitel/Fehlerbehandlung.tex
+chapter 7.
+) [49
+
+
+] [50
 
 
 
@@ -2144,11 +2371,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `Kapitel/Zusammenfassung_Ausblick.aux'.
 
  (./Kapitel/Zusammenfassung_Ausblick.tex
-chapter 4.
-) [33
+chapter 8.
+) [51
 
 
-] [34
+] [52
 
 
 
@@ -2165,36 +2392,91 @@ chapter A.
 
 
 ] (./Bachelorarbeit.bbl
-Underfull \hbox (badness 3343) in paragraph at lines 33--34
+Underfull \hbox (badness 2521) in paragraph at lines 33--34
+[]\T1/cmss/m/n/10.95 ^^RDetection of aru-co markers, [][]$https : / / docs . opencv . org / 4 . 7 . 0 / d5 / dae / tutorial _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[]\T1/cmss/m/n/10.95 U. A. GmbH, ^^RUa-Ex-pert^^VA Full-Featured OPC UA Cli-ent,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[][]$\T1/cmss/m/n/10.95 https : / / www . uni^^\ed-[]automation . com / products / development-[]tools /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\T1/cmss/m/n/10.95 uaexpert . html ? gclid = Cj0KCQjwtJKqBhCaARIsAN _ yS _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\T1/cmss/m/n/10.95 lWlwY96Anwb0vdy-[]prvkknZMKpZKDaHaJKdgziOh36YW82BkBwT _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]\T1/cmss/m/n/10.95 ^^RRFID Grund-la-gen - Das RFID In-for-ma-ti-ons-por-tal, https://www.rfid-
+ []
+
+
+Overfull \hbox (1.95863pt too wide) in paragraph at lines 60--61
+[]\T1/cmss/m/n/10.95 P. Foun-da-ti-on, ^^RPy-thon 3.11.0, https://www.python.org/downloads/release/python-
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 63--64
+[]\T1/cmss/m/n/10.95 ^^RQt His-to-ry on Qt Wi-ki, [][]$https : / / wiki . qt . io / Qt _ History$[][], Auf-ge-ru-fen am:
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 66--67
 []\T1/cmss/m/n/10.95 ^^RRestructured Text Syn-tax, [][]$https : / / thomas-[]cokelaer . info / tutorials / sphinx / rest _
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 42--43
-[]\T1/cmss/m/n/10.95 ^^RDetection of aru-co markers, [][]$https : / / docs . opencv . org / 4 . 7 . 0 / d5 / dae / tutorial _
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]\T1/cmss/m/n/10.95 ^^RDiscussion: Au-to-ma-tic con-trast and bright-ness ad-
  []
 
-) [21
 
-] 
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+\T1/cmss/m/n/10.95 just-ment, [][]$https : / / stackover^^]ow . com / questions / 56905592 /
+ []
+
+
+Overfull \hbox (4.44153pt too wide) in paragraph at lines 72--73
+\T1/cmss/m/n/10.95 automatic-[]contrast-[]and-[]brightness-[]adjustment-[]of-[]a-[]color-[]photo-[]of-[]a-[]sheet-[]of-[]pape$[][],
+ []
+
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+[]\T1/cmss/m/n/10.95 ^^RPytest Fra-me-work, [][]$https : / / docs . pytest . org / en / 7 . 3 . x/$[][], Auf-ge-ru-fen am:
+ []
+
+) [22] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
+(./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/Grundlagen.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/KameragestützteInventur.aux) (./Kapitel/Roboterpfadanpassung.aux) (./Kapitel/Inventurimplementierung.aux) (./Kapitel/Fehlerbehandlung.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 51725 strings out of 476025
- 1197492 string characters out of 5790017
- 1930379 words of memory out of 5000000
- 70939 multiletter control sequences out of 15000+600000
+ 52091 strings out of 476025
+ 1206377 string characters out of 5790017
+ 1934976 words of memory out of 5000000
+ 71131 multiletter control sequences out of 15000+600000
  607315 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,106p,10668b,2736s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Bachelorarbeit.pdf (55 pages, 62083623 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Bachelorarbeit.pdf (74 pages, 62321482 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
- 670 compressed objects within 7 object streams
- 243 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1262 PDF objects out of 1440 (max. 8388607)
+ 1073 compressed objects within 11 object streams
+ 379 named destinations out of 1000 (max. 500000)
+ 556 words of extra memory for PDF output out of 10000 (max. 10000000)
 

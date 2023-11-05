@@ -5,21 +5,49 @@
 \contentsline {chapter}{\numberline {1}Motivation und Zielsetzung}{1}{chapter.1}%
 \contentsline {chapter}{Symbolverzeichnis}{1}{chapter*.9}%
 \contentsline {chapter}{Index}{1}{chapter*.9}%
-\contentsline {chapter}{\numberline {2}Softwarearchitektur}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Controller}{6}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}ABBController}{7}{subsection.2.1.1}%
-\contentsline {chapter}{\numberline {3}Kameragestützten Validierungsprozessen in der Lagerverwaltung}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Konzepte}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Auswahl der optischen Marker}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Auswahl der Kameras, Objektive und Aufstellung}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Perspektivische Korrektur und Marker Erkennung}{14}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Automatische Kontrast und Helligkeitsanpassung}{15}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Markererkennung}{15}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Bildmatrixanalyse an einem gewölbten Marker}{16}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{24}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Erkennungsrate der ESP32 Kamera}{30}{subsection.3.6.3}%
-\contentsline {subsubsection}{\nonumberline Festlegung der Markergröße und Position}{31}{subsubsection*.38}%
-\contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}arUco Marker}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Erkennungsalgorhitmus}{3}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Grundlagen der Softwarearchitektur}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}OPC UA}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}RFID Technologie}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Die Programmiersprache Python}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Die Programmiersprache C++}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Die Programmiersprache C\#}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Das Qt Framework}{9}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}PySide6 Bindings}{9}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}QtQuick 2.0 und QML}{9}{subsection.2.8.2}%
+\contentsline {chapter}{\numberline {3}Softwarearchitektur}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentation des Programmcodes}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Datenmodelle}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Viewmodels}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Views}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Controller}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}ABBController}{15}{subsection.3.5.1}%
+\contentsline {subsubsection}{\nonumberline Python3 Wrapper Klasse für Python2 API}{16}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {3.5.2}RfidController}{16}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Services}{16}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Tests}{17}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Kameragestützten Validierungsprozessen in der Lagerverwaltung}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Konzepte}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Anwendungsfall 1: Inventur auf Anforderung}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Anwendungsfall 2: Inventur im laufenden Prozess}{19}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Grundsätzliche Überlegungen}{20}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Auswahl der optischen Marker}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Auswahl der Kameras, Objektive und Aufstellung}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Perspektivische Korrektur}{21}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Automatische Kontrast und Helligkeitsanpassung}{23}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Markererkennung}{27}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Bildmatrixanalyse an einem gewölbten Marker}{27}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{37}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Erkennungsrate der ESP32 Kamera}{37}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Festlegung der Markergröße und Position}{43}{subsection.4.6.4}%
+\contentsline {chapter}{\numberline {5}Implementierung der Kameraprozesse in die Roboterprogrammierung}{45}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementierung des Inventurprozesses}{47}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Analyse zur Fehlerbehandlung}{49}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Fehleridentifikation}{49}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.2}Erkennung fehlerhafter Benutzereingaben}{49}{subsection.7.0.2}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{51}{chapter.8}%
 \contentsline {chapter}{\numberline {A}Dies ist der erste Anhang}{XIX}{appendix.A}%
 \contentsline {chapter}{Literaturverzeichnis}{XXI}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

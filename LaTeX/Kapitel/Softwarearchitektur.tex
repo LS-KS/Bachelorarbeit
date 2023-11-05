@@ -31,7 +31,7 @@ Auch die Live-Daten des RFID-Servers sind von dem Server der Lagerzelle abrufbar
 Die verwendete Python Version ist: 3.11
 Das verwendete PySide6 Framework hat die Version 6.5.1
 
-\section*{Dokumentation des Programmcodes}
+\section{Dokumentation des Programmcodes}
 
 Während diese Arbeit in deutscher Sprache verfasst ist, ist die Dokumentation des Quellcodes in englischer Sprache verfasst. 
 Die englische Sprache ist in der Softwareentwicklung Branchenstandard
@@ -61,7 +61,7 @@ Auf die Formatierung der RST Sprache wird in dieser Arbeit nicht genauer eingega
 Durch die Dokumentation können im Fall der Wartung des Programms schneller Zusammenhänge und Funktionsweisen verstanden werden. 
 
 
-\section*{Datamodels}
+\section{Datenmodelle}
 Alle Python Module die zur Datenstruktur der Software gehören sind im Programm-Unterverzeichnis \glqq src/model \grqq zu finden. 
 Dort sind zu finden: 
 \begin{itemize}
@@ -71,7 +71,7 @@ Dort sind zu finden:
     \item \verb|Preferences.py| Beinhaltet Klassen, die die Programmeinstellungen strukturiert speichern. 
     \item \verb|RfidModel.py| Enthält die Klasse RfidModel, die die Daten der Objekte im RFID Server PlugIn speichert.
 \end{itemize}
-\section*{Viewmodels}
+\section{Viewmodels}
 Alle Viewmodels sind im Programm-Unterverzeichnis \glqq src/viewmodel \grqq angelegt. Dort sind zu finden: 
 \begin{itemize}
     \item \verb|CommissionModel.py| verknüpft das Datenmodell \verb|CommissionModel| mit dem GUI. Das Modul enthält ein viewmodel welches von QAbstractTableModel erbt und ein QSortFilterProxyModel um Funktionen zum Sortieren und Filtern im GUI zu ermöglichen.
@@ -81,7 +81,7 @@ Alle Viewmodels sind im Programm-Unterverzeichnis \glqq src/viewmodel \grqq ange
     \item \verb|RfidViewModel.py| stellt die Daten aus dem Datenmodell \verb|RfidModel| dem GUI zur Verfügung. Das Modul enthält ein Modell das von QAbstractListModel erbt und ein QSortFilterProxyModel.
     \item \verb|storageViewModel.py| Enthält ein QAbstractTableModel um in dem GUI das Lager zu visualisieren. 
 \end{itemize}
-\section*{view}
+\section{Views}
 Views sind Teile der GUI Implementierung. In diesem Projekt sind sie in der Qt Sprache QML implementiert.
 \begin{itemize}
     \item \verb|CommissionView| Beschreibt wie die Kommissionsliste gerendert wird.
@@ -138,14 +138,14 @@ Datentypen.
 Wo ist der Quellcode zu finden?
 Wurde die Methode umgesetzt?
 
-\subsubsection*{Python3 Wrapper Klasse für Python2 API}
+\subsubsection{Python3 Wrapper Klasse für Python2 API}
 
 Natürlich ist es möglich, die Python2 API über Python3 anzusprechen. Leider bedarf dies einer speziellen Programmierweise und zusätzlicher Module (Welche?).
 Eine dezidierte Python3 Klasse verbessert die Wartbarkeit des gesamten Quellcodes und lässt sich beliebig erweitern. 
 Außerdem ist die Aufwärtskompatibilität für kommende Python Versionen besser gewährleistet. Zudem ist der Quellcode anschließend besser lesbar. 
 
 
-\subsection*{RfidController}
+\subsection{RfidController}
 
 Für den RFID Server gibt es eine ähnliche Problemstellung: Der Hersteller Fa. Feig liefert keine dezidierte Python 3 API. Auch hier wird die API nur für die Sprachen 
 C++, C\# und Java angeboten. Außerdem bietet der Hersteller einen eigenen Standard namens ISOStart. 
@@ -169,7 +169,7 @@ Neben dem Klassenkonstruktor und -Destruktor wird eine Methode exponiert, die al
 Eine Solche Klasse lässt sich z.B. mit dem Paket PyBind11 kompilieren und gewohnt als python Paket importieren. Einfacher kann die Klasse über \verb|ctypes| eingebunden
 werden und bedarf dann trotzdem einer - wenn auch sehr kurz gefassten - Serviceklasse. 
 
-\section*{Services}
+\section{Services}
 Services sind wie schon erwähnt wichtige Funktionsbestandteile der Software. Sie sind in dem Programm Unterverzeichnis "src/service" zu finden.
 \begin{itemize}
     \item \verb|AgentService.py| Implementiert in Teilen den Agentenservice aus \cite{LarsKistner2017}.
@@ -182,7 +182,7 @@ Services sind wie schon erwähnt wichtige Funktionsbestandteile der Software. Si
     \item \verb|stocktaking.py| Erledigt eine kameragestützte Inventur. 
 \end{itemize}
 
-\section*{Tests}
+\section{Tests}
 Für das selbstreferenzierende Datenmodell und für den zugehörigen \glqq invController \grqq  wurden zwei tests geschrieben. 
 Dafür wird das Modul \glqq pytest \grqq verwendet. Die tests sind im Programm Unterverzeichnis \glqq tests \grqq zu finden. 
 \begin{itemize}
