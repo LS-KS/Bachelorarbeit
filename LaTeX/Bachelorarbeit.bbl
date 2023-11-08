@@ -71,10 +71,4 @@ ABB, \glqq ABB Application Manual - Robot Web Services, 3HAC050973-001 Revision 
 \bibitem{SOcontrast}
 \glqq Discussion: Automatic contrast and brightness adjustment,  \url{https://stackoverflow.com/questions/56905592/automatic-contrast-and-brightness-adjustment-of-a-color-photo-of-a-sheet-of-pape}, 2019 - 2023.
 
-\bibitem{pytestHP}
-\glqq Pytest Framework,  \url{https://docs.pytest.org/en/7.3.x/}, Aufgerufen am: [19.06.2023].
-
-\bibitem{unittestHP}
-\glqq Python 3 Unittest - Unit testing framework,  \url{https://docs.python.org/3/library/unittest.html}, Aufgerufen am: [19.06.2023].
-
 \end{thebibliography}

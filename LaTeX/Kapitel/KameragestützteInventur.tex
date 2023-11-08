@@ -1,14 +1,14 @@
-\chapter{Kameragestützten Validierungsprozessen in der Lagerverwaltung}\label{KameragestützteInventur}
+﻿\chapter{Kameragestützten Validierungsprozessen in der Lagerverwaltung}\label{KameragestützteInventur}
 
 Aufgabe der Lagerzelle ist die automatische Ein- und Auslagerung von Bechern mit oder ohne Produkt.
-Die Informationen die dafür übergeben werden oder entstehen müssen gespeichert werden um bei einer Produktbestellung wieder das korrekte Produkt auszugeben.
+Die Informationen, die dafür übergeben werden oder entstehen, müssen gespeichert werden um bei einer Produktbestellung wieder das korrekte Produkt auszugeben.
 Das in \ref{Software} beschriebene Datenmodell erledigt genau das. Wird ein Becher von Ort A nach Ort B bewegt, 
 passieren notwendige Änderungen am Datenmodell selbst. Fehler im Datenmodell können durch systematische Tests des relevanten Quellcodes entdeckt und behoben werden. 
 Zu diesem Zweck sind die Tests \verb|test\_inventory| und \verb|test_inventoryController| implementiert. 
 Die Tests sind jedoch auf das Datenmodell und seinen Controller beschränkt und ein \glq unbefugter\grq Zugriff kann in Python nicht unebdingt verhindert werden. 
-Eine Weitere Fehlerquelle kann die Möglichkeit der manuellen Überschreibung des Lagerbestands sein oder gar ein manueller Eingriff in der Lagerzelle selbst. 
+Eine weitere Fehlerquelle kann die Möglichkeit der manuellen Überschreibung des Lagerbestands sein oder gar ein manueller Eingriff in der Lagerzelle selbst. 
 
-Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen werden. 
+Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen werden. 
     \section {Konzepte}
 
     Es werden zwei Konzepte verfolgt.
@@ -18,16 +18,16 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     \subsection{Anwendungsfall 1: Inventur auf Anforderung}\label{InventurAufAnforderung}
 
     Eine Kamera ist mittig auf dem Greifer des Roboters montiert. Auf Anforderung des Bedieners fährt der Roboter festgelegte Wegpunkte ab. 
-    Bei erreichen eines Wegpunkts wird ein Signal emittiert und eine definierte Zeit für die Bildaufnahme abgewartet.
+    Bei Erreichen eines Wegpunkts wird ein Signal emittiert und eine definierte Zeit für die Bildaufnahme abgewartet.
     Da die Bilder den Wegpunkten und die Wegpunkte den Lagerstellen zugeordnet sind, kann durch die Erkannten arUco Marker auf die 
     im Lager vorhandenen Paletten und Becher zurückgeschlossen werden. 
-    Die Gefahr, dass der Roboter mit einem Hindernis kollidiert wird dadurch minimiert. 
+    Die Gefahr, dass der Roboter mit einem Hindernis kollidiert, wird dadurch minimiert. 
 
     \subsection{Anwendungsfall 2: Inventur im laufenden Prozess}\label{InventurImProzess}
 
     Im laufenden Prozessbetrieb wird der Roboter Becher und Paletten zwischen festgelegte Lagerstellen bewegen.
-    Bevor der Roboter aus dem Regal eine Palette entnimmt, wird ein Bild aufgenommen und geprüft ob die Palette tatsächlich vorhanden ist.
-    Genauso wird überprüft ob der Abstellort tatsächlich frei ist bevor der Roboter eine Palette ablegt.
+    Bevor der Roboter aus dem Regal eine Palette entnimmt, wird ein Bild aufgenommen und geprüft, ob die Palette tatsächlich vorhanden ist.
+    Genauso wird überprüft, ob der Abstellort tatsächlich frei ist bevor der Roboter eine Palette ablegt.
     Analoge Prüfungen werden für die Becher durchgeführt.
 
     \subsection{Grundsätzliche Überlegungen}
@@ -51,7 +51,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
 
     Aus der persönlichen Beobachtung der Lagerzelle reifte die Idee, dass alle Paletten und die vorderen Becher durch eine Übersichtskamera erkannt werden können. 
     Dazu wird eine Kamera mit einer höheren Auflösung in die obere Ecke der Lagerzelle gehängt. 
-    Das Regal ist dann in einem relativ kleinen Bildausschnitt im oberen Bildbereich zu sehen. 
+    Das Regal ist dann in einem kleinen Bildausschnitt im oberen Bildbereich zu sehen. 
 
     Der Roboter verdeckt dabei in seiner Grundstellung den unteren linken Breich des Regals, sodass die Lagerpositionen L13, L14, L15 nicht erkannt werden können. 
     Die Vermutung liegt nahe, dass die Positionen L14 und L15 auch erkannt werden, wenn der Roboterarm in eine geeignete Position fährt. 
@@ -83,7 +83,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
 
     ----
 
-    Die ursprüngliche $\mu$Eye Kamera erweist sich mit Objektiv zu lang um sie an dem Greifer zu montieren ohne die Kollisionsgefahr zu erhöhen. 
+    Die ursprüngliche $\mu$Eye Kamera erweist sich mit Objektiv zu lang, um sie an dem Greifer zu montieren ohne die Kollisionsgefahr zu erhöhen. 
     Sie müsste exzentrisch auf dem Griefer montiert werden und würde somit nicht mehr orthogonal zu den Markern stehen.
     Aus diesem Grund wird eine ESP32 Kamera mit verbauter Optik verwendet.
     Sie ist wesentlich kleiner und kann direkt auf den Greifer montiert werden.
@@ -126,7 +126,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Versuche haben gezeigt, dass die Erkennungsrate der Regalmarker deutlich verbessert werden kann, wenn vor der Markererkennung die Helligkeit und der Kontrast angepasst werden. 
     Noch dazu tritt eine deutliche Verbesserung der Erkennungsrate ein, wenn das Bild etwas überbelichtet ist. 
     Leider sind die Erkennungsraten der Paletten/Becher deutlich schlechter, wenn das angepasste Bild verwendet wird, welches für die Erkennung der Regalmarker optimiert ist. 
-    Die Lichtverhältnisse der einzelnen Lagerplätzen sind unterschiedlich, weshalb es naheliegt den Kontrast und die Helligkeit der einzelnen Bildbereiche anzupassen. 
+    Die Lichtverhältnisse der einzelnen Lagerplätze sind unterschiedlich, weshalb es naheliegt den Kontrast und die Helligkeit der einzelnen Bildbereiche anzupassen. 
     Dafür wird nach der Bildaufnahme das Bild mit der \verb|copy| Funktion des \verb|numpy| Pakets dupliziert.
 
     Nach der Transformation des Bildes, wird das originale Bild auf die relevanten Bereiche zugeschnitten und in die jeweiligen Lagerbereiche segmentiert.
@@ -175,7 +175,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Der vereinfachte Algorhythmus ist in \ref{arucoMarker} beschrieben. Die dabei verwendeten Parameter sind in \cite{OpenCVaruco} beschrieben.
     
     Der Erfolg der Erkennung der Marker hängt demnach unter Anderem davon ab, dass die einzelnen Bits in der Binärmatrix ähnlich breit sind. 
-    Der Algorhytmus der Markerekennung benutzt für die einzelnen Schritte insgesamt 31 Parameter, die viele Aspekte der Erkennung beeinflussen.
+    Der Algorithmus zum Erkennen der Marker benutzt für die einzelnen Schritte insgesamt 31 Parameter, die viele Aspekte der Erkennung beeinflussen.
     Die Standardeinstellungen sind für Bilder / Bildsegmente moderater Größe eine sinnvolle Wahl. 
     
     Laut \cite[OpenCV]{OpenCVaruco} ist die Erkennung robust gegenüber Rotation und Perspektivischer Verzerrung. 
@@ -188,14 +188,14 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     In \ref{fig:figure21} ist die Binärmatrix eines durch die Wölbung verzerrten Markers dargestellt. 
     In \ref{Bildmatrixanalyse} ist das Script abgedruckt mit dem die Abbildung erzeugt wurde.
 
-    Das Bildsegment das den Bechermarker abbildet wird grob auf die Außenmaße des Markers zugeschnitten.
+    Das Bildsegment, das den Bechermarker abbildet wird grob auf die Außenmaße des Markers zugeschnitten.
 
-    Mit der Schwellenwert-Funktion wird das Graubildsegment zu einem binärwertigem Bild umgewandelt.
+    Mit der Schwellenwert-Funktion wird das Graubildsegment zu einem binärwertigen Bild umgewandelt.
 
     Durch die vorangegangene Helligkeits- und Kontrastanpassung \ref{calcBrightContrast}, können die Grenzen dafür sehr eng gefasst werden.
     
     In den zwei Listen \verb|horizontals| und \verb|verticals| sind die x- bzw. y- Koordinaten der Bitmatrix angegeben. 
-    Die Koordinaten der beiden Listen sind manuell ermittelt und zwar so, dass die Linien der Bitgrenzen immer links bzw. unterhalb der Bitgrenze liegen.
+    Die Koordinaten der beiden Listen sind manuell ermittelt, und zwar so, dass die Linien der Bitgrenzen immer links bzw. unterhalb der Bitgrenze liegen.
 
     Die Linien der Bitgrenzen werden mittels einer for-Schleife gezeichnet. 
     Ist der Wert des aktuellen Pixels schwarz (also alle Farbkanäle sind 0), wird der Pixel übersprungen, ansonsten wird der Pixel auf die angegebene Farbe gesetzt. 
@@ -205,7 +205,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Ein Bit ist dabei das eingeschlossene Rechteck zwischen der jeweilgen x- bzw. y- Linie. 
     Außerdem wurde für jeden Plot ein ausgleichspolynom geschätzt, um die unterschiedlichen Verläufe zu zeigen. 
     
-    Im rechten Subplot, ist die Änderung der Pixelbreite eines Bits in x- bzw. y- Richtung über die Bitnummer aufgetragen.
+    Im rechten Subplot ist die Änderung der Pixelbreite eines Bits in x- bzw. y- Richtung über die Bitnummer aufgetragen.
     Hier zeigt sich, dass in der y-Richtung - bis auf einen Ausreißer - keine Änderung der Bitbreite auftritt. 
     
     In x-Richtung ändert sich die Breite der Bits jedoch deutlich.
@@ -216,8 +216,8 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Vergleicht man den Marker mit dem aus dem resultierenden Gitter, ist es nicht verwunderlich, dass die Erkennung fehlschlägt.
 
     Die y-Indizes der horizontalen Markerlinien ist nicht über die volle Breite des Markers konstant. 
-    Die Verzerrung in Folge der Zylinderwölbung des Bechers  und der vorangegangenen 4-Punkt Entzerrung stellt somit einen der wenigen Fälle dar, 
-    die der sonst so robuste Erkennungsalgorhitmus nicht bewältigen kann.
+    Die Verzerrung in Folge der Zylinderwölbung des Bechers und der vorangegangenen 4-Punkt Entzerrung stellt somit einen der wenigen Fälle dar, 
+    die der sonst so robuste Erkennungsalgorithmus nicht bewältigen kann.
 
     Auch wenn die Verzerrung einen systematischen Charakter hat, ist sie Abhängig von
     \begin{itemize}
@@ -228,21 +228,21 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
         \item dem Verdrehwinkel des Markers entlang der Becherachse zur Kamera.
     \end{itemize}
 
-    Eine Korrekturfunktion zur Reperatur des Markers müsste somit an die jeweiligen Unwägbarkeiten individuell angepasst sein.
+    Eine Korrekturfunktion zur Reparatur des Markers müsste somit an die jeweiligen Unwägbarkeiten individuell angepasst sein.
     Daher wird davon in dieser Arbeit abgesehen. 
     Selbst wenn eine derartige Funktion implementiert würde, könnten maximal die Becher in der vorderen Reihe der Paletten erkannt werden.
     Die hinteren Plätze sind zu sehr durch die vorderen Becher verdeckt.
 
     \begin{figure}
         \caption[Bildaufnahme aus der Lagerzelle von der Übersichtskamera.]
-        {\small Die Abbildung zeigt die Aufnahme der Kamera und Appertur ohne weitere Bildverarbeitung außerhalb der Kamera. Die leichte Überbelichtung begünstigt das Erkennen der Regalmarker.}\label{fig:figure12}
+        {\small Die Abbildung zeigt die Aufnahme der Kamera und Apertur ohne weitere Bildverarbeitung außerhalb der Kamera. Die leichte Überbelichtung begünstigt das Erkennen der Regalmarker.}\label{fig:figure12}
         \includegraphics[width = \textwidth]{Bilder/LZIP_raw_shot.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bildaufnahme aus der Lagerzelle nach der Kontrastanpassung.]
-        {\small Die Aufnahme aus Bild \ref{fig:figure12} nach der automatischen Helligkeits und Kontrastanpassung.}\label{fig:figure13}
+        {\small Die Aufnahme aus Bild \ref{fig:figure12} nach der automatischen Helligkeits- und Kontrastanpassung.}\label{fig:figure13}
         \includegraphics[width = \textwidth]{Bilder/LZ_Kontrastanpassung.png}
         \centering
     \end{figure}
@@ -381,7 +381,7 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
 
     Hier zeigt sich der Vergleich zu den vorangegangenen Abschnitten, dass die Erkennung der Marker selbst mit Wölbung kein Problem ist, wenn der Bildbereich und die Auflösung in einem günstigen Verhältnis stehen.
     Ohne weitere Bildverarbeitung werden die Marker im linken und rechten Bereich erkannt. 
-    Das rechte Bild zeigt, dass bei der Anbringung und Größe der Marker grenzen gesetzt sind: 
+    Das rechte Bild zeigt, dass bei der Anbringung und Größe der Marker Grenzen gesetzt sind: 
     Wenn der Rand der Binärmatrix außerhalb des Bildbereichs ist, wird der Marker nicht erkannt.
 
     \begin{figure}
@@ -398,13 +398,13 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
         \item Palettenmarker
         \item Bechermarker
     \end{itemize}
-    Die größe der Regalmarker hat sich mit 30x30mm bewährt ebenso die 6x6 Bit Binärmatrix, die Erkennungsrate ist ausreichend. die Wenigen Fehlschläge können in der Software abgefangen werden und eine neue Aufnahme anfordern.
-    Die Palettenmarker sind mit einer größe von 30x30 mm ebenfalls ausreichend. 
-    Die Erkennnung wird teilweise durch den Greifer verhindert, wenn dieser in Grundstellung ist. 
+    Die Größe der Regalmarker hat sich mit 30x30mm bewährt ebenso die 6x6 Bit Binärmatrix, die Erkennungsrate ist ausreichend. die Wenigen Fehlschläge können in der Software abgefangen werden und eine neue Aufnahme anfordern.
+    Die Palettenmarker sind mit einer Größe von 30x30 mm ebenfalls ausreichend. 
+    Die Erkennung wird teilweise durch den Greifer verhindert, wenn dieser in Grundstellung ist. 
     Für die Palettenerkennung muss der Roboterarm daher die Grundstellung verlassen. 
     Eine Vergrößerung der Marker birgt das Risiko, dass Markerelemente den Bildbereich oder den Segmentbereich verlassen. 
     Eine Kleinere Markergröße verschlechtert die Erkennungsrate mit der Übersichtskamera enorm. 
-    In den obigen Bildern wurde bspw. L18 nicht ein Mal erkannt.
+    In den obigen Bildern wurde bspw. L18 nicht einmal erkannt.
     
     Die Erkennung der Becher mittels Übersichtkamera wird durch zwei Aspekte verhindert:
     \begin{itemize}
@@ -419,4 +419,5 @@ Um diese Fehler zu erkennen soll ein kameragestütztes Inventursystem entworfen 
     Um die Erkennnung der Marker zu gewährleisten, muss um den Rand des Markers ein \glqq Ruhebereich \grqq von wenigen Millimetern eingehalten werden.
     Dies trifft insbesondere auf die Palettenmarker zu, da die Paletten ein dunkles Grau haben und die Unterscheidung zum Marker bei ungünstigen Lichtverhältnissen unmöglich macht.
     Das Drucken der Marker mit schwarzem Toner auf weißem Druckerpapier ist ausreichend.
+
 

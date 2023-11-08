@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  5 NOV 2023 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  8 NOV 2023 12:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -891,6 +891,14 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks51
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip81
+\enit@outerparindent=\dimen322
+\enit@toks=\toks52
+\enit@inbox=\box124
+\enit@count@id=\count348
+\enitdp@description=\count349
 ) (./Einstellungen/nomencl-table.sty
 
 LaTeX Warning: You have requested package `Einstellungen/nomencl-table',
@@ -900,69 +908,69 @@ Package: nomencl-table 2020/1/20 v1.0 Nomenclature package with table heading
 (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks52
-\XKV@tempa@toks=\toks53
+\XKV@toks=\toks53
+\XKV@tempa@toks=\toks54
 )
-\XKV@depth=\count348
+\XKV@depth=\count350
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip81
-\LTright=\skip82
-\LTpre=\skip83
-\LTpost=\skip84
-\LTchunksize=\count349
-\LTcapwidth=\dimen322
-\LT@head=\box124
-\LT@firsthead=\box125
-\LT@foot=\box126
-\LT@lastfoot=\box127
-\LT@gbox=\box128
-\LT@cols=\count350
-\LT@rows=\count351
-\c@LT@tables=\count352
-\c@LT@chunks=\count353
-\LT@p@ftn=\toks54
+\LTleft=\skip82
+\LTright=\skip83
+\LTpre=\skip84
+\LTpost=\skip85
+\LTchunksize=\count351
+\LTcapwidth=\dimen323
+\LT@head=\box125
+\LT@firsthead=\box126
+\LT@foot=\box127
+\LT@lastfoot=\box128
+\LT@gbox=\box129
+\LT@cols=\count352
+\LT@rows=\count353
+\c@LT@tables=\count354
+\c@LT@chunks=\count355
+\LT@p@ftn=\toks55
 )
 Class scrbook Info: longtable captions redefined on input line 169.
 Package tocbasic Info: setting babel extension for `nlo' on input line 172.
 Package tocbasic Info: setting babel extension for `nls' on input line 173.
-\nomlabelwidth=\dimen323
-\nom@tempdim=\dimen324
-\nomitemsep=\skip85
+\nomlabelwidth=\dimen324
+\nom@tempdim=\dimen325
+\nomitemsep=\skip86
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks55
-\@glsmrest=\toks56
+\@glsmfirst=\toks56
+\@glsmrest=\toks57
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count354
+\c@su@anzahl=\count356
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count355
+\actioncount=\count357
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count356
-\FP@xia=\count357
-\FP@xib=\count358
-\FP@xfa=\count359
-\FP@xfb=\count360
-\FP@rega=\count361
-\FP@regb=\count362
-\FP@regs=\count363
-\FP@times=\count364
+\FP@xs=\count358
+\FP@xia=\count359
+\FP@xib=\count360
+\FP@xfa=\count361
+\FP@xfb=\count362
+\FP@rega=\count363
+\FP@regb=\count364
+\FP@regs=\count365
+\FP@times=\count366
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -975,7 +983,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count365
+\FPseed=\count367
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -983,15 +991,15 @@ Package: fp-upn 1996/10/21
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks57
-\@dtl@tmpcount=\count366
-\dtl@tmplength=\skip86
-\dtl@sortresult=\count367
-\@dtl@numgrpsepcount=\count368
-\@dtl@datatype=\count369
-\dtl@codeA=\count370
-\dtl@codeB=\count371
-\@dtl@foreach@level=\count372
+\@dtl@toks=\toks58
+\@dtl@tmpcount=\count368
+\dtl@tmplength=\skip87
+\dtl@sortresult=\count369
+\@dtl@numgrpsepcount=\count370
+\@dtl@datatype=\count371
+\dtl@codeA=\count372
+\dtl@codeB=\count373
+\@dtl@foreach@level=\count374
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
  (/usr/local/texlive/2023/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator.sty
@@ -1001,60 +1009,60 @@ File: glossaries-german.ldf 2014/11/23 v1.0
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count373
-\@gls@tmpb=\toks58
-\gls@tmplen=\skip87
-\glskeylisttok=\toks59
-\glslabeltok=\toks60
-\glsshorttok=\toks61
-\glslongtok=\toks62
+\gls@level=\count375
+\@gls@tmpb=\toks59
+\gls@tmplen=\skip88
+\glskeylisttok=\toks60
+\glslabeltok=\toks61
+\glsshorttok=\toks62
+\glslongtok=\toks63
  (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
-\glslistdottedwidth=\skip88
+\glslistdottedwidth=\skip89
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2022/11/03 v4.52 (NLCT)
-\glsdescwidth=\skip89
-\glspagelistwidth=\skip90
+\glsdescwidth=\skip90
+\glspagelistwidth=\skip91
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2022/11/03 v4.52 (NLCT)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
-\glstreeindent=\skip91
+\glstreeindent=\skip92
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count374
-\lst@gtempboxa=\box129
-\lst@token=\toks63
-\lst@length=\count375
-\lst@currlwidth=\dimen325
-\lst@column=\count376
-\lst@pos=\count377
-\lst@lostspace=\dimen326
-\lst@width=\dimen327
-\lst@newlines=\count378
-\lst@lineno=\count379
-\lst@maxwidth=\dimen328
+\lst@mode=\count376
+\lst@gtempboxa=\box130
+\lst@token=\toks64
+\lst@length=\count377
+\lst@currlwidth=\dimen326
+\lst@column=\count378
+\lst@pos=\count379
+\lst@lostspace=\dimen327
+\lst@width=\dimen328
+\lst@newlines=\count380
+\lst@lineno=\count381
+\lst@maxwidth=\dimen329
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count380
-\lst@skipnumbers=\count381
-\lst@framebox=\box130
+\c@lstnumber=\count382
+\lst@skipnumbers=\count383
+\lst@framebox=\box131
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen329
-\TX@old@table=\dimen330
-\TX@old@col=\dimen331
-\TX@target=\dimen332
-\TX@delta=\dimen333
-\TX@cols=\count382
-\TX@ftn=\toks64
+\TX@col@width=\dimen330
+\TX@old@table=\dimen331
+\TX@old@col=\dimen332
+\TX@target=\dimen333
+\TX@delta=\dimen334
+\TX@cols=\count384
+\TX@ftn=\toks65
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/grffile/grffile.sty
@@ -1067,18 +1075,18 @@ Package: todonotes 2023/01/31
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count383
-\calc@Bcount=\count384
-\calc@Adimen=\dimen334
-\calc@Bdimen=\dimen335
-\calc@Askip=\skip92
-\calc@Bskip=\skip93
+\calc@Acount=\count385
+\calc@Bcount=\count386
+\calc@Adimen=\dimen335
+\calc@Bdimen=\dimen336
+\calc@Askip=\skip93
+\calc@Bskip=\skip94
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count385
-\calc@Cskip=\skip94
+\calc@Ccount=\count387
+\calc@Cskip=\skip95
 )
-\c@@todonotes@numberoftodonotes=\count386
+\c@@todonotes@numberoftodonotes=\count388
 )
 
 Class scrbook Warning: Usage of package `fancyhdr' together
@@ -1092,19 +1100,19 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              `\addtokomafont' for the page style elements need
 (scrbook)              explicite user intervention to work.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `fancyhdr' on input line 102.
+(scrbook)              package `fancyhdr' on input line 103.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip95
-\f@nch@O@elh=\skip96
-\f@nch@O@erh=\skip97
-\f@nch@O@olh=\skip98
-\f@nch@O@orh=\skip99
-\f@nch@O@elf=\skip100
-\f@nch@O@erf=\skip101
-\f@nch@O@olf=\skip102
-\f@nch@O@orf=\skip103
+\f@nch@headwidth=\skip96
+\f@nch@O@elh=\skip97
+\f@nch@O@erh=\skip98
+\f@nch@O@olh=\skip99
+\f@nch@O@orh=\skip100
+\f@nch@O@elf=\skip101
+\f@nch@O@erf=\skip102
+\f@nch@O@olf=\skip103
+\f@nch@O@orf=\skip104
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
@@ -1120,12 +1128,12 @@ Class scrbook Warning: Usage of package `emptypage' together
 (scrbook)              `cleardoublepage' with one of it's
 (scrbook)              several values.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `emptypage' on input line 124.
+(scrbook)              package `emptypage' on input line 125.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/emptypage/emptypage.sty
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 ) (./Einstellungen/Titelseite.tex)
-\c@SeitenzahlSpeicher=\count387
+\c@SeitenzahlSpeicher=\count389
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/carlito.sty
 Package: carlito 2022/10/05 (Bob Tennent) Supports Carlito fonts for LaTeX, pdfLaTeX, luaLaTeX and xeLaTeX.
  (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -1241,20 +1249,20 @@ Class scrbook Info: loading recommended package `bookmark'.
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count388
+\BKM@id=\count390
 )) (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen336
-\scratchbox=\box131
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen337
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks66
+\scratchcounter=\count391
+\scratchdimen=\dimen337
+\scratchbox=\box132
+\nofMPsegments=\count392
+\nofMParguments=\count393
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count394
+\MPscratchDim=\dimen338
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
+\everyMPtoPDFconversion=\toks67
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1279,9 +1287,9 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 99.
-\c@lstlisting=\count395
-\c@mv@tabular=\count396
-\c@mv@boldtabular=\count397
+\c@lstlisting=\count397
+\c@mv@tabular=\count398
+\c@mv@boldtabular=\count399
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 112.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
@@ -1527,15 +1535,15 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 19.
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 19.
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 20.
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1571,10 +1579,6 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 22.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 23.
 
 
@@ -1587,27 +1591,31 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 25.
+(Font)              using `T1/cmss/bx/n' instead on input line 23.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 25.
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 25.
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 27.
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 27.
+(Font)              using `T1/cmss/bx/n' instead on input line 26.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 27.
+(Font)              using `T1/cmss/bx/n' instead on input line 26.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 26.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1647,11 +1655,11 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 30.
+(Font)              using `T1/cmss/bx/n' instead on input line 31.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 30.
+(Font)              using `T1/cmss/bx/n' instead on input line 31.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1688,6 +1696,18 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 33.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 34.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 34.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 34.
 
 ) [17
 
@@ -1738,7 +1758,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Bilder/singlemarkersaxes.jpg, id=341, 642.4pt x 481.8pt>
+<Bilder/singlemarkersaxes.jpg, id=365, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersaxes.jpg Graphic file (type jpg)
 <use Bilder/singlemarkersaxes.jpg>
 Package pdftex.def Info: Bilder/singlemarkersaxes.jpg  used on input line 29.
@@ -1748,7 +1768,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 34--34
 [][][]|\T1/Crlt-LF/m/n/10 Bild nach Grau-stu-fen-um-wand-lung und Um-wand-lung in Bi-n‰r-bild. Quel-le: [[],
  []
 
-<Bilder/singlemarkersthresh.png, id=344, 642.4pt x 481.8pt>
+<Bilder/singlemarkersthresh.png, id=368, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersthresh.png Graphic file (type png)
 <use Bilder/singlemarkersthresh.png>
 Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 35.
@@ -1757,22 +1777,22 @@ Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 35.
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] [4 <./Bilder/singlemarkersaxes.jpg> <./Bilder/singlemarkersthresh.png (PNG copy)>]
-<Bilder/singlemarkersbrokenthresh.png, id=366, 373.395pt x 373.395pt>
+<Bilder/singlemarkersbrokenthresh.png, id=390, 373.395pt x 373.395pt>
 File: Bilder/singlemarkersbrokenthresh.png Graphic file (type png)
 <use Bilder/singlemarkersbrokenthresh.png>
 Package pdftex.def Info: Bilder/singlemarkersbrokenthresh.png  used on input line 57.
 (pdftex.def)             Requested size: 199.1693pt x 199.16896pt.
-<Bilder/removeperspective.jpg, id=370, 250.9375pt x 401.5pt>
+<Bilder/removeperspective.jpg, id=394, 250.9375pt x 401.5pt>
 File: Bilder/removeperspective.jpg Graphic file (type jpg)
 <use Bilder/removeperspective.jpg>
 Package pdftex.def Info: Bilder/removeperspective.jpg  used on input line 65.
 (pdftex.def)             Requested size: 132.77953pt x 212.45703pt.
-<Bilder/bitsextraction1.png, id=373, 250.9375pt x 250.9375pt>
+<Bilder/bitsextraction1.png, id=397, 250.9375pt x 250.9375pt>
 File: Bilder/bitsextraction1.png Graphic file (type png)
 <use Bilder/bitsextraction1.png>
 Package pdftex.def Info: Bilder/bitsextraction1.png  used on input line 71.
 (pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
-<Bilder/bitsextraction2.png, id=376, 697.60625pt x 329.23pt>
+<Bilder/bitsextraction2.png, id=400, 697.60625pt x 329.23pt>
 File: Bilder/bitsextraction2.png Graphic file (type png)
 <use Bilder/bitsextraction2.png>
 Package pdftex.def Info: Bilder/bitsextraction2.png  used on input line 77.
@@ -1818,12 +1838,12 @@ chapter 4.
 
 
 ] [20]
-<Bilder/verzerrtesBild.png, id=486, 5492.52pt x 3685.77pt>
+<Bilder/verzerrtesBild.png, id=510, 5492.52pt x 3685.77pt>
 File: Bilder/verzerrtesBild.png Graphic file (type png)
 <use Bilder/verzerrtesBild.png>
 Package pdftex.def Info: Bilder/verzerrtesBild.png  used on input line 99.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/AblaufErkennungSellCam.png, id=488, 519.9425pt x 150.5625pt>
+<Bilder/AblaufErkennungSellCam.png, id=512, 519.9425pt x 150.5625pt>
 File: Bilder/AblaufErkennungSellCam.png Graphic file (type png)
 <use Bilder/AblaufErkennungSellCam.png>
 Package pdftex.def Info: Bilder/AblaufErkennungSellCam.png  used on input line 117.
@@ -1963,52 +1983,52 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 ) [26] [27
 
 ]
-<Bilder/LZIP_raw_shot.png, id=609, 5492.52pt x 3685.77pt>
+<Bilder/LZIP_raw_shot.png, id=633, 5492.52pt x 3685.77pt>
 File: Bilder/LZIP_raw_shot.png Graphic file (type png)
 <use Bilder/LZIP_raw_shot.png>
 Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 239.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_Kontrastanpassung.png, id=612, 5492.52pt x 3685.77pt>
+<Bilder/LZ_Kontrastanpassung.png, id=636, 5492.52pt x 3685.77pt>
 File: Bilder/LZ_Kontrastanpassung.png Graphic file (type png)
 <use Bilder/LZ_Kontrastanpassung.png>
 Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 246.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_transformed.png, id=615, 1885.0425pt x 1889.0575pt>
+<Bilder/LZ_transformed.png, id=639, 1885.0425pt x 1889.0575pt>
 File: Bilder/LZ_transformed.png Graphic file (type png)
 <use Bilder/LZ_transformed.png>
 Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 253.
 (pdftex.def)             Requested size: 398.3386pt x 399.16388pt.
-<Bilder/section_16.png, id=618, 316.18124pt x 633.36626pt>
+<Bilder/section_16.png, id=642, 316.18124pt x 633.36626pt>
 File: Bilder/section_16.png Graphic file (type png)
 <use Bilder/section_16.png>
 Package pdftex.def Info: Bilder/section_16.png  used on input line 260.
 (pdftex.def)             Requested size: 132.77953pt x 265.98302pt.
-<Bilder/section_5.png, id=622, 316.18124pt x 632.3625pt>
+<Bilder/section_5.png, id=646, 316.18124pt x 632.3625pt>
 File: Bilder/section_5.png Graphic file (type png)
 <use Bilder/section_5.png>
 Package pdftex.def Info: Bilder/section_5.png  used on input line 267.
 (pdftex.def)             Requested size: 132.77953pt x 265.5615pt.
-<Bilder/pallet_5.png, id=625, 314.17375pt x 188.705pt>
+<Bilder/pallet_5.png, id=649, 314.17375pt x 188.705pt>
 File: Bilder/pallet_5.png Graphic file (type png)
 <use Bilder/pallet_5.png>
 Package pdftex.def Info: Bilder/pallet_5.png  used on input line 274.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/pallet_3.png, id=630, 314.17375pt x 188.705pt>
+<Bilder/pallet_3.png, id=654, 314.17375pt x 188.705pt>
 File: Bilder/pallet_3.png Graphic file (type png)
 <use Bilder/pallet_3.png>
 Package pdftex.def Info: Bilder/pallet_3.png  used on input line 281.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup17.png, id=633, 314.17375pt x 189.70876pt>
+<Bilder/cup17.png, id=657, 314.17375pt x 189.70876pt>
 File: Bilder/cup17.png Graphic file (type png)
 <use Bilder/cup17.png>
 Package pdftex.def Info: Bilder/cup17.png  used on input line 288.
 (pdftex.def)             Requested size: 132.77953pt x 80.17502pt.
-<Bilder/cup2.png, id=636, 314.17375pt x 188.705pt>
+<Bilder/cup2.png, id=660, 314.17375pt x 188.705pt>
 File: Bilder/cup2.png Graphic file (type png)
 <use Bilder/cup2.png>
 Package pdftex.def Info: Bilder/cup2.png  used on input line 295.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup6_analyse.png, id=637, 1165.59465pt x 671.8701pt>
+<Bilder/cup6_analyse.png, id=661, 1165.59465pt x 671.8701pt>
 File: Bilder/cup6_analyse.png Graphic file (type png)
 <use Bilder/cup6_analyse.png>
 Package pdftex.def Info: Bilder/cup6_analyse.png  used on input line 302.
@@ -2294,27 +2314,27 @@ Overfull \hbox (19.45828pt too wide) in paragraph at lines 111--112
  []
 
 ) [36]
-<Bilder/ErkennungsrateOBB.png, id=808, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateOBB.png, id=832, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateOBB.png Graphic file (type png)
 <use Bilder/ErkennungsrateOBB.png>
 Package pdftex.def Info: Bilder/ErkennungsrateOBB.png  used on input line 318.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGauss.png, id=809, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGauss.png, id=833, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateGauss.png>
 Package pdftex.def Info: Bilder/ErkennungsrateGauss.png  used on input line 324.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateLaplace.png, id=810, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateLaplace.png, id=834, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateLaplace.png>
 Package pdftex.def Info: Bilder/ErkennungsrateLaplace.png  used on input line 330.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGausLaplace.png, id=811, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGausLaplace.png, id=835, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGausLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateGausLaplace.png>
 Package pdftex.def Info: Bilder/ErkennungsrateGausLaplace.png  used on input line 336.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateScharfGauss.png, id=812, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateScharfGauss.png, id=836, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateScharfGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateScharfGauss.png>
 Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input line 342.
@@ -2322,7 +2342,7 @@ Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input lin
  [37
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [38 <./Bilder/ErkennungsrateOBB.png>] [39 <./Bilder/ErkennungsrateGauss.png>] [40 <./Bilder/ErkennungsrateLaplace.png>] [41 <./Bilder/ErkennungsrateGausLaplace.png>] [42 <./Bilder/ErkennungsrateScharfGauss.png>]
-<Bilder/ESP32CamTest.png, id=850, 880.2486pt x 220.4235pt>
+<Bilder/ESP32CamTest.png, id=874, 880.2486pt x 220.4235pt>
 File: Bilder/ESP32CamTest.png Graphic file (type png)
 <use Bilder/ESP32CamTest.png>
 Package pdftex.def Info: Bilder/ESP32CamTest.png  used on input line 389.
@@ -2360,10 +2380,176 @@ chapter 6.
 
  (./Kapitel/Fehlerbehandlung.tex
 chapter 7.
-) [49
+[49
 
 
-] [50
+]
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [50] [51] (./Listings/rootContextExample.py
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 2.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 2.
+
+) (./Listings/useRootContextQML.qml
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 8.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 13.
+
+) [52
+
+] (./Listings/regExpIp.py
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 10.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 13.
+
+[53]
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 15.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 15.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 16.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 17.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 18.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 19.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 20.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 22.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 23.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 26.
+
+) (./Listings/regExpIp.qml
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 2.
+
+) [54]) [55] [56
 
 
 
@@ -2372,10 +2558,10 @@ chapter 7.
 
  (./Kapitel/Zusammenfassung_Ausblick.tex
 chapter 8.
-) [51
+) [57
 
 
-] [52
+] [58
 
 
 
@@ -2453,30 +2639,25 @@ Overfull \hbox (4.44153pt too wide) in paragraph at lines 72--73
 
 [21
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-[]\T1/cmss/m/n/10.95 ^^RPytest Fra-me-work, [][]$https : / / docs . pytest . org / en / 7 . 3 . x/$[][], Auf-ge-ru-fen am:
- []
-
-) [22] 
+]) [22] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Bachelorarbeit.aux (./Kapitel/Versicherung.aux) (./Kapitel/Kurzfassung.aux) (./Kapitel/Abkuerzungsverzeichnis.aux) (./Kapitel/Einleitung.aux) (./Kapitel/Grundlagen.aux) (./Kapitel/SoftwareArchitektur.aux) (./Kapitel/Kameragest√ºtzteInventur.aux) (./Kapitel/Roboterpfadanpassung.aux) (./Kapitel/Inventurimplementierung.aux) (./Kapitel/Fehlerbehandlung.aux) (./Kapitel/Zusammenfassung_Ausblick.aux) (./Kapitel/AnhangA.aux))
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52091 strings out of 476025
- 1206377 string characters out of 5790017
- 1934976 words of memory out of 5000000
- 71131 multiletter control sequences out of 15000+600000
+ 52628 strings out of 476025
+ 1215174 string characters out of 5790017
+ 1942777 words of memory out of 5000000
+ 71545 multiletter control sequences out of 15000+600000
  607315 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,106p,10668b,2736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Bachelorarbeit.pdf (74 pages, 62321482 bytes).
+Output written on Bachelorarbeit.pdf (80 pages, 62341827 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 1073 compressed objects within 11 object streams
- 379 named destinations out of 1000 (max. 500000)
- 556 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1446 PDF objects out of 1728 (max. 8388607)
+ 1249 compressed objects within 13 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

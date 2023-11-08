@@ -25,44 +25,44 @@ Database file #1: Literatur/Bachelorarbeit.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 19 entries,
+You've used 17 entries,
             4022 wiz_defined-function locations,
-            916 strings with 10266 characters,
-and the built_in function-call counts, 6106 in all, are:
-= -- 452
-> -- 43
+            908 strings with 10080 characters,
+and the built_in function-call counts, 5490 in all, are:
+= -- 406
+> -- 41
 < -- 0
-+ -- 27
++ -- 25
 - -- 8
-* -- 185
-:= -- 1041
-add.period$ -- 38
-call.type$ -- 19
-change.case$ -- 8
+* -- 167
+:= -- 943
+add.period$ -- 34
+call.type$ -- 17
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 578
-empty$ -- 677
+cite$ -- 17
+duplicate$ -- 516
+empty$ -- 607
 format.name$ -- 8
-if$ -- 1334
+if$ -- 1196
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 130
-newline$ -- 80
+int.to.str$ -- 17
+missing$ -- 116
+newline$ -- 74
 num.names$ -- 8
-pop$ -- 391
+pop$ -- 347
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 504
+skip$ -- 454
 stack$ -- 0
-substring$ -- 35
-swap$ -- 288
+substring$ -- 29
+swap$ -- 258
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 19
+type$ -- 17
 warning$ -- 0
 while$ -- 8
-width$ -- 21
-write$ -- 158
+width$ -- 19
+write$ -- 144
