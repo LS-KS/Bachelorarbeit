@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  8 NOV 2023 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  8 NOV 2023 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1531,10 +1531,6 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 17.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 18.
 
 
@@ -1547,15 +1543,15 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 20.
+(Font)              using `T1/cmss/bx/n' instead on input line 19.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 20.
+(Font)              using `T1/cmss/bx/n' instead on input line 19.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 21.
+(Font)              using `T1/cmss/bx/n' instead on input line 19.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1591,10 +1587,6 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 23.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
@@ -1607,27 +1599,31 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 26.
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 28.
+(Font)              using `T1/cmss/bx/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 28.
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 28.
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 27.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1667,11 +1663,11 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 31.
+(Font)              using `T1/cmss/bx/n' instead on input line 32.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 31.
+(Font)              using `T1/cmss/bx/n' instead on input line 32.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
@@ -1708,6 +1704,18 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 34.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
+(Font)              using `T1/cmss/bx/n' instead on input line 35.
 
 ) [17
 
@@ -1754,24 +1762,24 @@ Class scrbook Warning: \float@addtolists detected!
 
  (./Kapitel/Grundlagen.tex
 chapter 2.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 18.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <Bilder/singlemarkersaxes.jpg, id=365, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersaxes.jpg Graphic file (type jpg)
 <use Bilder/singlemarkersaxes.jpg>
-Package pdftex.def Info: Bilder/singlemarkersaxes.jpg  used on input line 29.
+Package pdftex.def Info: Bilder/singlemarkersaxes.jpg  used on input line 28.
 (pdftex.def)             Requested size: 199.1693pt x 149.37851pt.
 
-Underfull \hbox (badness 1019) in paragraph at lines 34--34
+Underfull \hbox (badness 1019) in paragraph at lines 33--33
 [][][]|\T1/Crlt-LF/m/n/10 Bild nach Grau-stu-fen-um-wand-lung und Um-wand-lung in Bi-när-bild. Quel-le: [[],
  []
 
 <Bilder/singlemarkersthresh.png, id=368, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersthresh.png Graphic file (type png)
 <use Bilder/singlemarkersthresh.png>
-Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 35.
+Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 34.
 (pdftex.def)             Requested size: 199.1693pt x 149.37851pt.
 [3
 
@@ -1780,22 +1788,22 @@ Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 35.
 <Bilder/singlemarkersbrokenthresh.png, id=390, 373.395pt x 373.395pt>
 File: Bilder/singlemarkersbrokenthresh.png Graphic file (type png)
 <use Bilder/singlemarkersbrokenthresh.png>
-Package pdftex.def Info: Bilder/singlemarkersbrokenthresh.png  used on input line 57.
+Package pdftex.def Info: Bilder/singlemarkersbrokenthresh.png  used on input line 56.
 (pdftex.def)             Requested size: 199.1693pt x 199.16896pt.
 <Bilder/removeperspective.jpg, id=394, 250.9375pt x 401.5pt>
 File: Bilder/removeperspective.jpg Graphic file (type jpg)
 <use Bilder/removeperspective.jpg>
-Package pdftex.def Info: Bilder/removeperspective.jpg  used on input line 65.
+Package pdftex.def Info: Bilder/removeperspective.jpg  used on input line 64.
 (pdftex.def)             Requested size: 132.77953pt x 212.45703pt.
 <Bilder/bitsextraction1.png, id=397, 250.9375pt x 250.9375pt>
 File: Bilder/bitsextraction1.png Graphic file (type png)
 <use Bilder/bitsextraction1.png>
-Package pdftex.def Info: Bilder/bitsextraction1.png  used on input line 71.
+Package pdftex.def Info: Bilder/bitsextraction1.png  used on input line 70.
 (pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
 <Bilder/bitsextraction2.png, id=400, 697.60625pt x 329.23pt>
 File: Bilder/bitsextraction2.png Graphic file (type png)
 <use Bilder/bitsextraction2.png>
-Package pdftex.def Info: Bilder/bitsextraction2.png  used on input line 77.
+Package pdftex.def Info: Bilder/bitsextraction2.png  used on input line 76.
 (pdftex.def)             Requested size: 398.3386pt x 187.9946pt.
  [5 <./Bilder/singlemarkersbrokenthresh.png (PNG copy)>] [6 <./Bilder/removeperspective.jpg> <./Bilder/bitsextraction1.png (PNG copy)>] [7 <./Bilder/bitsextraction2.png>] [8]) [9] [10]
 \openout2 = `Kapitel/SoftwareArchitektur.aux'.
@@ -1809,21 +1817,21 @@ chapter 3.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+Crlt-LF on input line 54.
+LaTeX Font Info:    Trying to load font information for TS1+Crlt-LF on input line 53.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/carlito/TS1Crlt-LF.fd
 File: TS1Crlt-LF.fd 2022/10/05 (autoinst) Font definitions for TS1/Crlt-LF.
 ) [12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/carlito/crlt_j4hweq.enc}] [13] [14]
-Overfull \hbox (3.82784pt too wide) in paragraph at lines 116--117
+Overfull \hbox (3.82784pt too wide) in paragraph at lines 115--116
 [][][]\T1/lmtt/m/n/10.95 CommissionController.py []\T1/cmss/m/n/10.95 Bei ein-ge-hen-den Kom-mis-sio-nen wer-den die-se zu-nächst
  []
 
 
-Overfull \hbox (14.60344pt too wide) in paragraph at lines 119--120
+Overfull \hbox (14.60344pt too wide) in paragraph at lines 118--119
 \T1/cmss/m/n/10.95 Pro-gramm-start wer-den die letz-ten No-des der Le-se-ge-rä-te aus der Da-tei [][]\T1/lmtt/m/n/10.95 rfidData.yaml
  []
 
 
-Underfull \vbox (badness 1137) has occurred while \output is active []
+Underfull \vbox (badness 3977) has occurred while \output is active []
 
  [15] [16]) [17] [18
 
@@ -2646,15 +2654,15 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52628 strings out of 476025
- 1215174 string characters out of 5790017
+ 52626 strings out of 476025
+ 1215144 string characters out of 5790017
  1942777 words of memory out of 5000000
- 71545 multiletter control sequences out of 15000+600000
+ 71543 multiletter control sequences out of 15000+600000
  607315 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,106p,10668b,2736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Bachelorarbeit.pdf (80 pages, 62341827 bytes).
+Output written on Bachelorarbeit.pdf (80 pages, 62341649 bytes).
 PDF statistics:
  1446 PDF objects out of 1728 (max. 8388607)
  1249 compressed objects within 13 object streams

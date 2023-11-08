@@ -1,25 +1,24 @@
-% !TeX spellcheck = de_DE
+﻿% !TeX spellcheck = de_DE
+
 \chapter*{Kurzfassung}
 
 Diese Bachelorarbeit widmet sich der Untersuchung des Einsatzes optischer Marker zur Verbesserung von Inventurprozessen in automatischen Lagerzellen. 
-Die Arbeit stützt sich auf Erkenntnisse aus den Arbeiten von \cite[Hübler (2019)]{Hübler2019} und \cite[Kistner (2017)]{LarsKistner2017}  auf
-und nutzt zwei Kameras zur Markererkennung: Eine Übersichtskamera in der oberen Ecke der Lagerzelle und eine Kamera, die am Greifer angebracht ist.
+Die Arbeit stützt sich auf Erkenntnisse aus den Arbeiten von \cite[Hübler (2019)]{Hübler2019} und \cite[Kistner (2017)]{LarsKistner2017}
+und nutzt zwei Kameras zur Marker-Erkennung: Eine Übersichtskamera in der oberen Ecke der Lagerzelle und eine Kamera, die am Greifer angebracht ist.
 
-Die Implementierung der Inventurprozesse erfolgt in der Warehouse Management Software, wobei Python 3.11 im Backend und das Qt Framework mit PySide6 Bindings 
-im Frontend verwendet werden. 
-Die Bildverarbeitung und Markererkennung erfolgt mithilfe der Open-Source-Bibliothek OpenCV, und die perspektivische 
-Entzerrung wird mit scikit-image durchgeführt.
+Die Implementierung der Inventurprozesse erfolgt in der Warehouse Management Software, wobei Python 3.11 im Backend und das Qt Framework mit PySide6 Bindings im Frontend verwendet werden. 
+Die Bildverarbeitung und Marker-Erkennung erfolgt mithilfe der Open-Source-Bibliothek OpenCV, und die perspektivische 
+Entzerrung wird mit dem Paket scikit-image durchgeführt.
 
 Im Vorfeld dieser Arbeit wurden umfangreiche Vorarbeiten im Rahmen meiner \cite[Semesterarbeit]{Semesterarbeit} geleistet, 
 darunter die Erarbeitung einer Softwarearchitektur für die bestehende Lagerverwaltungssoftware Lagerverwaltung 3.0 (Rodriguez, 2019) 
 sowie Überlegungen zur Auswahl der Kameras. Anlass zur Neuimplementierung der Lagerverwaltungssoftware ist der Wunsch einer 
-eiheitlichen Programmiersprache in der Modellfabrik $\mu$Plant und der Wechsel des Betriebssystems von Windows 7 auf Windows 10.
+einheitlichen Programmiersprache in der Modellfabrik $\mu$Plant und der Wechsel des Betriebssystems von Windows 7 auf Windows 10.
 Die ursprüngliche Implementierung in C$\#$ funktioniert nicht mehr fehlerfrei unter Windows 10.
 Außerdem baut die alte Implementierung auf dem Protokoll Modbus auf, das in der $\mu$Plant durch den Industriestandard OPC UA ersetzt wird.
 
-Die Arbeit beinhaltet viele Aspekte der modernen Softwareentwicklung, einschließlich der Implementierung von Plug-Ins, 
-Integration von Legacy-Schnittstellen, portierung der M2M-Kommunikation von Modbus nach OPC UA und eine Forschungskomponente z
-ur arUco Marker-Erkennung. 
+Die Arbeit beinhaltet viele Aspekte der modernen Softwareentwicklung, einschließlich der Implementierung von Plugins, 
+Integration von Legacy-Schnittstellen, Portierung der M2M-Kommunikation von Modbus nach OPC UA und eine Forschungskomponente zur arUco Marker-Erkennung. 
 
 Abschließend werden eigene Überlegungen zur grundsätzlichen Erkennung der Behälter präsentiert, 
 die als Anregung für zukünftige Forschungsarbeiten dienen sollen.
@@ -40,3 +39,4 @@ Why should he read this - exactly this - work?
 %%% mode: latex
 %%% TeX-master: "../MRT-Bericht-2020"
 %%% End:
+

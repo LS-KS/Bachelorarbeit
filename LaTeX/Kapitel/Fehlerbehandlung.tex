@@ -1,4 +1,4 @@
-\chapter{Fehlerbehandlung}\label{Fehlerbehandlung}
+﻿\chapter{Fehlerbehandlung}\label{Fehlerbehandlung}
 
 In diesem Kapitel sollen mögliche, erwartbare Fehler behandelt werden. 
 Fehler können systematischer Natur, z.B. als Fehler im Quellcode, oder sporadischer Natur, z.B. als Eingabefehler, sein.
@@ -8,8 +8,8 @@ Fehler haben unterschiedliche Auswirkungen auf das System, daher kann nicht jede
 
 \subsection{Fehlerquellen im Datenmodell}
 
-Das Datenmodell bestimmt den den Ablauf des inhärenten Datenfluss über die Beziehungen zwischen den Datenklassen untereinander.
-Der \verb|invController| stößt den Datenfluss an einner Stelle an, das Datenmodell reagiert daraushin mit ggf. weiteren Änderungen um 
+Das Datenmodell bestimmt den den Ablauf des inhärenten Datenflusses über die Beziehungen zwischen den Datenklassen untereinander.
+Der \verb|invController| stößt den Datenfluss an einer Stelle an, das Datenmodell reagiert daraufhin mit ggf. weiteren Änderungen um 
 konsistent zu bleiben. 
 Da selbstreferenzierende Datenmodell auf Paletten, Becher und Produkte zusammen mit ihren Lagerorten beschränkt ist,
 lassen sich die Fehlerquellen auf die folgenden Punkte reduzieren:
@@ -19,7 +19,7 @@ lassen sich die Fehlerquellen auf die folgenden Punkte reduzieren:
     \item Änderungen am Datenmodell im Rahmen von Wartungs- oder Erweiterungsarbeiten
 \end{enumerate} 
 
-Die Datei \verb|StorageData.yaml| wird jedes mal überschrieben, wenn eine Änderung am Datenmodell erfolgt.
+Die Datei \verb|StorageData.yaml| wird jedes Mal überschrieben, wenn eine Änderung am Datenmodell erfolgt.
 Der Syntax des verwendeten YAML-Formats ist sehr einfach und lässt sich leicht überprüfen. 
 Dennoch ist es wahrscheinlich, dass bei manuellen Änderungen Fehler auftreten, die ein Einlesen ganz oder teilweise verhindern.
 
@@ -38,11 +38,11 @@ Beispiele:\\
     \item Ein Benutzer löscht den Becher in einer Palette. 
     Der \verb|invController| arbeitet folgende Schritte ab: 
     \begin{enumerate}
-        \item Ermittle die Palette in dem der Becher stand
-        \item Ermittle das Produkt, welches der Becher enthält
-        \item Entferne die Beziehung des Bechers zum Produkt
-        \item Entferne die Beziehung des Bechers zur Palette
-        \item Lösche das Becherobjekt
+        \item Ermittle die Palette in dem der Becher stand.
+        \item Ermittle das Produkt, welches der Becher enthält.
+        \item Entferne die Beziehung des Bechers zum Produkt.
+        \item Entferne die Beziehung des Bechers zur Palette.
+        \item Lösche das Becherobjekt.
     \end{enumerate}
 \end{enumerate}
 
@@ -52,8 +52,8 @@ die dazu führen, dass das Datenmodell inkonsistent wird.
 
 \subsection{Fehlerquellen im Viewmodel}
 
-Viemodel liefern Teile des Datenmodells an die GUIs. Werden als eigene Klasse implementiert, die von einer Qt-Klasse erben.
-Die vererbenden Klassen liefern einen Datz Methoden, von denen einige verbindlich überschrieben werden müssen, andere sind optional. 
+Viewmodel liefern Teile des Datenmodells an die GUIs. Werden als eigene Klasse implementiert, die von einer Qt-Klasse erben.
+Die vererbenden Klassen liefern einen Satz Methoden, von denen einige verbindlich überschrieben werden müssen, andere sind optional. 
 Bei den Methoden sind Ein- und Ausgabeparameter festgelegt, die Implementierung ist jedoch frei und ergibt sich aus dem Datenmodell,
 welches das Viewmodel zur Verfügung gestellt bekommt.
 Geschehen hier Fehler, führt dies dazu, dass das GUI keine Daten erhält, falsche Daten anzeigt oder die Anwendung abstürzt.
@@ -66,34 +66,34 @@ Fehler dieser Art sind als Entwickler im Allgemeinen frustrierend, weil es kein 
 Controller erhalten Signale vom GUI und führen daraufhin Aktionen aus. 
 Diese können Änderungen am Datenmodell auslösen oder Funktionen eines Services aufrufen. 
 In den allermeisten Fällen geschieht Beides.
-Fehler in der Implentierung eines Controllers führen zu falscher Funktionalität oder Abstürzen der Anwendung.
+Fehler in der Implementierung eines Controllers führen zu falscher Funktionalität oder Abstürzen der Anwendung.
 
 \subsection{Fehlerquellen in Service-Klassen}
 
-Serviceklassen werden mit Programmstart instanziert und Controller Klassen als Property gesetzt. 
+Serviceklassen werden mit Programmstart instanziiert und Controller Klassen als Property gesetzt. 
 Ihre Methoden werden von Controllern aufgerufen und führen unterschiedliche Funktionen aus. 
 Fehler in der Implementierung führen also zu einer großen Bandbreite an möglichen Fehlern. 
-Eine Weitere Fehlerquelle in Serviceklassen sind Ausnahmefehler, die durch den Aufruf einer Servicemethode geworfen werden können, 
+Eine weitere Fehlerquelle in Serviceklassen sind Ausnahmefehler, die durch den Aufruf einer Servicemethode geworfen werden können, 
 wenn ein Fehler auftritt. 
-Dadurch, dass Service Klassen in der Regel die Nutzung einer importierte Bibliothek mimplementieren, deren Nutzung oft Netzwerkfunktionen beinhaltet,
-wird es zunehmend schwerer alle möglichen Fehlerquellen zu indetifizieren und abzufangen. 
+Dadurch, dass Service Klassen in der Regel die Nutzung einer importierten Bibliothek implementieren, deren Nutzung oft Netzwerkfunktionen beinhaltet,
+wird es zunehmend schwerer alle möglichen Fehlerquellen zu identifizieren und abzufangen. 
 
 
 \subsection{Fehlerquellen in QML Dateien}
 
-Der Syntax von QML Dateien ist einfach gestaltet und Syntaxfehler werden entweder von der IDE QT Creator oder zur Laufzeit vom QML-Interpreter
-erkannt und in deer Konsole ausgegeben. Syntaxcontrolle ist in nennenswertem Umfang nur im Qt Creator möglich. Fehler die auf einem 
-fehlerhaften Syntax beruhen sind also vermehrt bei der Nutzung anderer IDE's zu erwarten. 
+Der Syntax von QML-Dateien ist einfach gestaltet und Syntaxfehler werden entweder von der IDE QT Creator oder zur Laufzeit vom QML-Interpreter
+erkannt und in der Konsole ausgegeben. Syntaxkontrolle ist in nennenswertem Umfang nur im Qt Creator möglich. Fehler die auf einem 
+fehlerhaften Syntax beruhen sind also vermehrt bei der Nutzung anderer IDEs zu erwarten. 
 
-Eine häufigere Fehlerquelle sind die Eigenschaften der verschiedenen QML Types selbst. \\
+Eine häufigere Fehlerquelle sind die Eigenschaften der verschiedenen QML-Datentypen selbst. \\
 Erfahrungen dieser Arbeit sind, dass Layout-Funktionen sich nicht immer intuitiv verhalten und oft mehrmals getestet werden müssen. 
 
-Das in Qt verbreitete Signal / Slot - Prinzip führt ist ebenfalls eine häufige Fehlerquelle. 
-Es muss immer sichergestellt werden, dass die übergebenen Datentypen korrekt sind, wenn die Kommunikationsrichtung 
-Python zu QML ist. Der Datentyp \verb|None| existiert im javascript Syntax nicht, kann von der \verb|QMLApplicationEngine|
+Das in Qt verbreitete Signal / Slot – Prinzip ist ebenfalls eine häufige Fehlerquelle. 
+Es muss immer sichergestellt sein, dass die übergebenen Datentypen korrekt sind, wenn die Kommunikationsrichtung 
+Python zu QML ist. Der Datentyp \verb|None| existiert im JavaScript Syntax nicht, kann von der \verb|QMLApplicationEngine|
 nicht interpretiert werden und führt zu einer Fehlermeldung in der Konsole. 
 Zudem wird die gewünschte Funktion in der Regel nicht ausgeführt.
-Damit Slots in einem Python Objekt ausgeführt werden können, wie in \ref{qmlUseContextProp} gezeigt, muss es nach der instanzierung als \verb|ContextProperty| der 
+Damit Slots in einem Python Objekt ausgeführt werden können, wie in \ref{qmlUseContextProp} gezeigt, muss es nach der Instanziierung als \verb|ContextProperty| der 
 \verb|QMLApplicationEngine| gesetzt werden.
 \ref{qmlContextProp} zeigt die Zuweisung eines Python Objekts als \verb|ContextProperty| in der Datei \verb|main.py|.
 
@@ -102,22 +102,22 @@ Damit Slots in einem Python Objekt ausgeführt werden können, wie in \ref{qmlUs
 
 \lstinputlisting[language=Python, caption=QMLApplicationEngine Contextproperty Benutzung, label=qmlUseContextProp]{Listings/useRootContextQML.qml}
 
-Wird das Gui über den Qt Designer des Qt Creators erstellt, werden die QML Dateien automatisch generiert.
+Wird das GUI über den Qt Designer des Qt Creators erstellt, werden die QML-Dateien automatisch generiert.
 Dies führt bei einfachen GUI's zu schnellen und guten Ergebnissen. 
-Einige QML Types , z.B. \verb|StackLayout|, sind im Designer jedoch nicht verfügbar. Bei der Benutzung wird im Designer eine Fehlermeldung angezeigt. 
-Diese Fälle müssen \glq von Hand\grq anhand der Referenzdokumentation implementiert werden.
-Passieren in dem Fall Fehler, wird oft die Anwendung oder das PlugIn nicht gestartet.
+Einige QML-Datentypen, z.B. \verb|StackLayout|, sind im Designer jedoch nicht verfügbar. Bei der Benutzung wird im Designer eine Fehlermeldung angezeigt. 
+Diese Fälle müssen anhand der Referenzdokumentation implementiert werden.
+Passieren in dem Fall Fehler, wird oft die Anwendung oder das Plugin nicht gestartet.
 
 \section{Fehlerbehandlung und Fehlerprävention}
 
-Für Syntaxfehler in Python sind die meisten IDE's mit Syntaxhighlighting und Syntaxcheck ausgestattet. 
+Für Syntaxfehler in Python sind die meisten IDEs mit Syntaxhighlighting und Syntaxcheck ausgestattet. 
 Die Fehlermeldungen des Python-Interpreters sind in der Regel sehr aussagekräftig und helfen bei der entsprechenden Fehlerbehebung.
 
-Syntaxfehler in QML Dateien werden vom QML-Interpreter erkannt und (meistens) in der Konsole ausgegeben.
-Die Fehlermeldung des QML-Interpreters ist nicht so ganz aussagekräftig wie die des Python-Interpreters.
-Verbreitet wird die Fehlermeldung an Anderer Stelle ausgegeben als der Fehler auftritt. 
-Wenn javascript Syntax verwendet wird, müssen Fehler in der Regel über die Funktionsprobe ermittelt werden. 
-Im Zeitverlauf der Arbeit habe ich es nicht in einem zufriedenstellendem Maß erreicht QML Dateien debuggen zu können. 
+Syntaxfehler in QML-Dateien werden vom QML-Interpreter erkannt und (meistens) in der Konsole ausgegeben.
+Die Fehlermeldung des QML-Interpreters ist nicht ganz so aussagekräftig wie die des Python-Interpreters.
+Verbreitet wird die Fehlermeldung an anderer Stelle ausgegeben als der Fehler auftritt. 
+Wenn JavaScript Syntax verwendet wird, müssen Fehler in der Regel über die Funktionsprobe ermittelt werden. 
+Im Zeitverlauf der Arbeit habe ich es nicht in einem zufriedenstellenden Maß erreicht, QML-Dateien debuggen zu können. 
 Die Entwicklung erfolgte an vielen Stellen nach dem Prinzip \grqq Trial and Error\grqq.
 
 Teile der Anwendung, von denen erwartet werden kann, dass Fehler auftreten, solche wie
@@ -127,21 +127,21 @@ Teile der Anwendung, von denen erwartet werden kann, dass Fehler auftreten, solc
     \item Das Aufrufen einer Netzwerkfunktion
 \end{itemize}
 
-Sollte mit \verb|try|/\verb|except| behandelt werden. Es gehört zu gutem Ton in der Softwareentwicklung Exceptions einzeln abzufangen und zu behandeln. 
-Jede Exception wird über die Klasse \verb|EventlogService| protokkolliert und im GUI ausgegeben.
+Sollte mit \verb|try|/\verb|except| behandelt werden. Es gehört zu gutem Ton in der Softwareentwicklung Ausnahmefehler einzeln abzufangen und zu behandeln. 
+Jeder Ausnahmefehler wird über die Klasse \verb|EventlogService| protokolliert und im GUI ausgegeben.
 Auf diese Weise können Fehler schnell erkannt, bewertet und behoben werden.
 
 \subsection{Benutzereingaben und Einstellungen}
 
-In diesem KOntext sind Benutzereinagben als von Benutzern und Administratoren eingegebene Programmeinstellungen zu verstehen. 
+In diesem Kontext sind Benutzereingaben als von Benutzern und Administratoren eingegebene Programmeinstellungen zu verstehen. 
 
-IP's sind dabei ein Sonderfall. Sie sind eine Verkettung von 4 Zahlen, die jeweils zwischen 0 und 255 liegen und durch einen Punkt getrennt sind.
-Im Einstellungsdialog \verb|PreferenceDialog.qml| und im \verb|RfidDelegate.qml| werden eingegebene IP's mit einem 
+IPs sind dabei ein Sonderfall. Sie sind eine Verkettung von 4 Zahlen, die jeweils zwischen 0 und 255 liegen und durch einen Punkt getrennt sind.
+Im Einstellungsdialog \verb|PreferenceDialog.qml| und im \verb|RfidDelegate.qml| werden eingegebene IPs mit einem 
 Regular Expression Pattern überprüft. \\
-Dazu wird der QML Typ \verb|RegularExpressionValidator| benutzt. 
+Dazu wird der QML-Datentyp \verb|RegularExpressionValidator| benutzt. 
 In \ref{qmlIpVal} wird die Verwendung anhand des Textfelds aus dem \verb|RfidDelegate.qml| gezeigt.
 
-Analog erfolgt eine Prüfung in Python, wenn IP Adressen aus der YAML Datei in die Einstellungen geladen werden.
+Analog erfolgt eine Prüfung in Python, wenn IP-Adressen aus der YAML-Datei in die Einstellungen geladen werden.
 Hier lässt sich der eingelesene String mit einfachem Python Syntax validieren. 
 Der Die Methode \ref{pyIpVal} stammt aus der \verb|Preference| Klasse des Datenmodells und zeigt die Validierung in Python.
 
@@ -149,12 +149,12 @@ Der Die Methode \ref{pyIpVal} stammt aus der \verb|Preference| Klasse des Datenm
 
 \lstinputlisting[language=Python, caption=QML RegularExpressionValidator für die Eingabe von IP's, label=qmlIpVal]{Listings/regExpIp.qml}
 
-Der Port wird in diesen Fällen mit dem QML Type \verb|IntValidator| überprüft bzw. in Python mit dem zulässigen Wertebereich
+Der Port wird in diesen Fällen mit dem QML-Datentyp \verb|IntValidator| überprüft bzw. in Python mit dem zulässigen Wertebereich
 $1024< Port < 65536$ verglichen.
 
-URL's werden in der Anwendung nicht überprüft. 
+URLs werden in der Anwendung nicht überprüft. 
 Die erlaubten Formate sind zu unterschiedlich und die erlaubten Wertebereiche der Segmente zu groß.
-Die verwendeten URL's werden z.B. im \verb|OpcuaService| verwendet. Dieser Dienst wirft eine Exception, wenn die URL nicht gültig ist. 
+Die verwendeten URLs werden z.B. im \verb|OpcuaService| verwendet. Dieser Dienst wirft ein Ausnahmefehler, wenn die URL nicht gültig ist. 
 Die Exception wird abgefangen und im GUI protokolliert. 
 
 \subsection{Fehler im Datenmodell}
