@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  8 NOV 2023 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.25)  30 DEC 2023 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1766,7 +1766,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 18
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Bilder/singlemarkersaxes.jpg, id=365, 642.4pt x 481.8pt>
+<Bilder/singlemarkersaxes.jpg, id=367, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersaxes.jpg Graphic file (type jpg)
 <use Bilder/singlemarkersaxes.jpg>
 Package pdftex.def Info: Bilder/singlemarkersaxes.jpg  used on input line 28.
@@ -1776,7 +1776,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 33--33
 [][][]|\T1/Crlt-LF/m/n/10 Bild nach Grau-stu-fen-um-wand-lung und Um-wand-lung in Bi-när-bild. Quel-le: [[],
  []
 
-<Bilder/singlemarkersthresh.png, id=368, 642.4pt x 481.8pt>
+<Bilder/singlemarkersthresh.png, id=370, 642.4pt x 481.8pt>
 File: Bilder/singlemarkersthresh.png Graphic file (type png)
 <use Bilder/singlemarkersthresh.png>
 Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 34.
@@ -1785,22 +1785,22 @@ Package pdftex.def Info: Bilder/singlemarkersthresh.png  used on input line 34.
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] [4 <./Bilder/singlemarkersaxes.jpg> <./Bilder/singlemarkersthresh.png (PNG copy)>]
-<Bilder/singlemarkersbrokenthresh.png, id=390, 373.395pt x 373.395pt>
+<Bilder/singlemarkersbrokenthresh.png, id=392, 373.395pt x 373.395pt>
 File: Bilder/singlemarkersbrokenthresh.png Graphic file (type png)
 <use Bilder/singlemarkersbrokenthresh.png>
 Package pdftex.def Info: Bilder/singlemarkersbrokenthresh.png  used on input line 56.
 (pdftex.def)             Requested size: 199.1693pt x 199.16896pt.
-<Bilder/removeperspective.jpg, id=394, 250.9375pt x 401.5pt>
+<Bilder/removeperspective.jpg, id=396, 250.9375pt x 401.5pt>
 File: Bilder/removeperspective.jpg Graphic file (type jpg)
 <use Bilder/removeperspective.jpg>
 Package pdftex.def Info: Bilder/removeperspective.jpg  used on input line 64.
 (pdftex.def)             Requested size: 132.77953pt x 212.45703pt.
-<Bilder/bitsextraction1.png, id=397, 250.9375pt x 250.9375pt>
+<Bilder/bitsextraction1.png, id=399, 250.9375pt x 250.9375pt>
 File: Bilder/bitsextraction1.png Graphic file (type png)
 <use Bilder/bitsextraction1.png>
 Package pdftex.def Info: Bilder/bitsextraction1.png  used on input line 70.
 (pdftex.def)             Requested size: 250.93687pt x 250.93687pt.
-<Bilder/bitsextraction2.png, id=400, 697.60625pt x 329.23pt>
+<Bilder/bitsextraction2.png, id=402, 697.60625pt x 329.23pt>
 File: Bilder/bitsextraction2.png Graphic file (type png)
 <use Bilder/bitsextraction2.png>
 Package pdftex.def Info: Bilder/bitsextraction2.png  used on input line 76.
@@ -1846,12 +1846,12 @@ chapter 4.
 
 
 ] [20]
-<Bilder/verzerrtesBild.png, id=510, 5492.52pt x 3685.77pt>
+<Bilder/verzerrtesBild.png, id=512, 5492.52pt x 3685.77pt>
 File: Bilder/verzerrtesBild.png Graphic file (type png)
 <use Bilder/verzerrtesBild.png>
 Package pdftex.def Info: Bilder/verzerrtesBild.png  used on input line 99.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/AblaufErkennungSellCam.png, id=512, 519.9425pt x 150.5625pt>
+<Bilder/AblaufErkennungSellCam.png, id=514, 519.9425pt x 150.5625pt>
 File: Bilder/AblaufErkennungSellCam.png Graphic file (type png)
 <use Bilder/AblaufErkennungSellCam.png>
 Package pdftex.def Info: Bilder/AblaufErkennungSellCam.png  used on input line 117.
@@ -1991,52 +1991,52 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 ) [26] [27
 
 ]
-<Bilder/LZIP_raw_shot.png, id=633, 5492.52pt x 3685.77pt>
+<Bilder/LZIP_raw_shot.png, id=635, 5492.52pt x 3685.77pt>
 File: Bilder/LZIP_raw_shot.png Graphic file (type png)
 <use Bilder/LZIP_raw_shot.png>
 Package pdftex.def Info: Bilder/LZIP_raw_shot.png  used on input line 239.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_Kontrastanpassung.png, id=636, 5492.52pt x 3685.77pt>
+<Bilder/LZ_Kontrastanpassung.png, id=638, 5492.52pt x 3685.77pt>
 File: Bilder/LZ_Kontrastanpassung.png Graphic file (type png)
 <use Bilder/LZ_Kontrastanpassung.png>
 Package pdftex.def Info: Bilder/LZ_Kontrastanpassung.png  used on input line 246.
 (pdftex.def)             Requested size: 398.3386pt x 267.25366pt.
-<Bilder/LZ_transformed.png, id=639, 1885.0425pt x 1889.0575pt>
+<Bilder/LZ_transformed.png, id=641, 1885.0425pt x 1889.0575pt>
 File: Bilder/LZ_transformed.png Graphic file (type png)
 <use Bilder/LZ_transformed.png>
 Package pdftex.def Info: Bilder/LZ_transformed.png  used on input line 253.
 (pdftex.def)             Requested size: 398.3386pt x 399.16388pt.
-<Bilder/section_16.png, id=642, 316.18124pt x 633.36626pt>
+<Bilder/section_16.png, id=644, 316.18124pt x 633.36626pt>
 File: Bilder/section_16.png Graphic file (type png)
 <use Bilder/section_16.png>
 Package pdftex.def Info: Bilder/section_16.png  used on input line 260.
 (pdftex.def)             Requested size: 132.77953pt x 265.98302pt.
-<Bilder/section_5.png, id=646, 316.18124pt x 632.3625pt>
+<Bilder/section_5.png, id=648, 316.18124pt x 632.3625pt>
 File: Bilder/section_5.png Graphic file (type png)
 <use Bilder/section_5.png>
 Package pdftex.def Info: Bilder/section_5.png  used on input line 267.
 (pdftex.def)             Requested size: 132.77953pt x 265.5615pt.
-<Bilder/pallet_5.png, id=649, 314.17375pt x 188.705pt>
+<Bilder/pallet_5.png, id=651, 314.17375pt x 188.705pt>
 File: Bilder/pallet_5.png Graphic file (type png)
 <use Bilder/pallet_5.png>
 Package pdftex.def Info: Bilder/pallet_5.png  used on input line 274.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/pallet_3.png, id=654, 314.17375pt x 188.705pt>
+<Bilder/pallet_3.png, id=656, 314.17375pt x 188.705pt>
 File: Bilder/pallet_3.png Graphic file (type png)
 <use Bilder/pallet_3.png>
 Package pdftex.def Info: Bilder/pallet_3.png  used on input line 281.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup17.png, id=657, 314.17375pt x 189.70876pt>
+<Bilder/cup17.png, id=659, 314.17375pt x 189.70876pt>
 File: Bilder/cup17.png Graphic file (type png)
 <use Bilder/cup17.png>
 Package pdftex.def Info: Bilder/cup17.png  used on input line 288.
 (pdftex.def)             Requested size: 132.77953pt x 80.17502pt.
-<Bilder/cup2.png, id=660, 314.17375pt x 188.705pt>
+<Bilder/cup2.png, id=662, 314.17375pt x 188.705pt>
 File: Bilder/cup2.png Graphic file (type png)
 <use Bilder/cup2.png>
 Package pdftex.def Info: Bilder/cup2.png  used on input line 295.
 (pdftex.def)             Requested size: 132.77953pt x 79.75081pt.
-<Bilder/cup6_analyse.png, id=661, 1165.59465pt x 671.8701pt>
+<Bilder/cup6_analyse.png, id=663, 1165.59465pt x 671.8701pt>
 File: Bilder/cup6_analyse.png Graphic file (type png)
 <use Bilder/cup6_analyse.png>
 Package pdftex.def Info: Bilder/cup6_analyse.png  used on input line 302.
@@ -2322,27 +2322,27 @@ Overfull \hbox (19.45828pt too wide) in paragraph at lines 111--112
  []
 
 ) [36]
-<Bilder/ErkennungsrateOBB.png, id=832, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateOBB.png, id=834, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateOBB.png Graphic file (type png)
 <use Bilder/ErkennungsrateOBB.png>
 Package pdftex.def Info: Bilder/ErkennungsrateOBB.png  used on input line 318.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGauss.png, id=833, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGauss.png, id=835, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateGauss.png>
 Package pdftex.def Info: Bilder/ErkennungsrateGauss.png  used on input line 324.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateLaplace.png, id=834, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateLaplace.png, id=836, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateLaplace.png>
 Package pdftex.def Info: Bilder/ErkennungsrateLaplace.png  used on input line 330.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateGausLaplace.png, id=835, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateGausLaplace.png, id=837, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateGausLaplace.png Graphic file (type png)
 <use Bilder/ErkennungsrateGausLaplace.png>
 Package pdftex.def Info: Bilder/ErkennungsrateGausLaplace.png  used on input line 336.
 (pdftex.def)             Requested size: 398.3386pt x 473.36673pt.
-<Bilder/ErkennungsrateScharfGauss.png, id=836, 805.8105pt x 957.5775pt>
+<Bilder/ErkennungsrateScharfGauss.png, id=838, 805.8105pt x 957.5775pt>
 File: Bilder/ErkennungsrateScharfGauss.png Graphic file (type png)
 <use Bilder/ErkennungsrateScharfGauss.png>
 Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input line 342.
@@ -2350,21 +2350,23 @@ Package pdftex.def Info: Bilder/ErkennungsrateScharfGauss.png  used on input lin
  [37
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [38 <./Bilder/ErkennungsrateOBB.png>] [39 <./Bilder/ErkennungsrateGauss.png>] [40 <./Bilder/ErkennungsrateLaplace.png>] [41 <./Bilder/ErkennungsrateGausLaplace.png>] [42 <./Bilder/ErkennungsrateScharfGauss.png>]
-<Bilder/ESP32CamTest.png, id=874, 880.2486pt x 220.4235pt>
+<Bilder/ESP32CamTest.png, id=876, 880.2486pt x 220.4235pt>
 File: Bilder/ESP32CamTest.png Graphic file (type png)
 <use Bilder/ESP32CamTest.png>
-Package pdftex.def Info: Bilder/ESP32CamTest.png  used on input line 389.
+Package pdftex.def Info: Bilder/ESP32CamTest.png  used on input line 420.
 (pdftex.def)             Requested size: 398.3386pt x 99.74797pt.
-) [43 <./Bilder/ESP32CamTest.png>] [44
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-]
+ [43]) [44 <./Bilder/ESP32CamTest.png>]
 \openout2 = `Kapitel/Roboterpfadanpassung.aux'.
 
  (./Kapitel/Roboterpfadanpassung.tex
 chapter 5.
 ) [45
+
+
+
 
 
 ] [46
@@ -2654,18 +2656,18 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52626 strings out of 476025
- 1215144 string characters out of 5790017
- 1942777 words of memory out of 5000000
- 71543 multiletter control sequences out of 15000+600000
+ 52629 strings out of 476025
+ 1215192 string characters out of 5790017
+ 1941849 words of memory out of 5000000
+ 71545 multiletter control sequences out of 15000+600000
  607315 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,106p,10668b,2736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/google/carlito/Crlt-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Bachelorarbeit.pdf (80 pages, 62341649 bytes).
+Output written on Bachelorarbeit.pdf (80 pages, 62345282 bytes).
 PDF statistics:
- 1446 PDF objects out of 1728 (max. 8388607)
- 1249 compressed objects within 13 object streams
- 486 named destinations out of 1000 (max. 500000)
- 620 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1453 PDF objects out of 1728 (max. 8388607)
+ 1256 compressed objects within 13 object streams
+ 487 named destinations out of 1000 (max. 500000)
+ 628 words of extra memory for PDF output out of 10000 (max. 10000000)
 

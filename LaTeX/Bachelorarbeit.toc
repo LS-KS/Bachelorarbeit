@@ -40,8 +40,9 @@
 \contentsline {section}{\numberline {4.6}Markererkennung}{27}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Bildmatrixanalyse an einem gewölbten Marker}{27}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{37}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Erkennungsrate der ESP32 Kamera}{37}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Festlegung der Markergröße und Position}{43}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.3}Korrekturalgorithmus der Binärmatrix}{37}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Erkennungsrate der ESP32 Kamera}{43}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Festlegung der Markergröße und Position}{44}{subsection.4.6.5}%
 \contentsline {chapter}{\numberline {5}Implementierung der Kameraprozesse in die Roboterprogrammierung}{45}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Implementierung des Inventurprozesses}{47}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Fehlerbehandlung}{49}{chapter.7}%

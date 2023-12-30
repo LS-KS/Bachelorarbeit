@@ -372,7 +372,38 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     definiert ist. Allein das Schärfen des Bildes brachte keinen Erfolg. Nach der Gauß-Filterung steigt die Erkennungsrate auf 8 Marker an. 
     Die Marker L9, L10 und L18 werden nicht erkannt, was das Gesamtergebnis immer noch als zu unbefriedigend erscheinen lässt.
 
-    Als Fazit der Versuche lässt sich festhalten, dass die Erkennung der Becher nicht mit einer zufriedenstellenden Sicherheit durch die verwendete Übersichtskamera durchführen lässt. 
+    Als Fazit der Versuche lässt sich festhalten, dass die Erkennung der Becher nicht mit einer zufriedenstellenden Sicherheit durch die verwendete Übersichtskamera durchführen lässt.
+    Um zumindest für die vorderen Becher eine Erkennung zu gewährleisten, wird ein ALgorithmus implementiert, der die Binärmatrix des Markers korrigiert.
+
+    \subsection{Korrekturalgorithmus der Binärmatrix}\label{ChapKorrekturalgorithmus}
+
+    Die Verschiebung der Bitmatrix ist systematisch aber schwer vorherzusagen. Die Position eines Markers in einem Bildsegment ist nicht immer gleich, was vermutlich auf eine Art Rauschen in der Erkennung der 
+    Äußeren Regalmarker zurückzuführen ist.
+
+    Die vertikale Verzerrung der Markers ist hauptsächlich auf die Zylindrische Form des Bechers und die Kameraperspektive zurückzuführen. 
+    Überführt man ein Bildsegment von einem 8-Bit Graufstufenbild in ein binäres Bild, kann dabei er Schwellenwert sehr hoch angesetzt werden. 
+    Durch die großzügig weißen Bereiche um die Marker lassen sich die Marker augenscheinlich leicht extrahieren. 
+    
+    Mein erster Anatz die Verzerrung zu korrigieren war, zunöchst die schwarzen Bereiche zu entfernen, die den Rand berühren. Diese sind unter Umständen relativ groß. 
+    Mit einer Rechteck-Erkennung aus dem OpenCV Paket \verb|cv2| würde ich dann schlichtweg das größte erkannte Objekt benutzen und zu einem Rechteck entzerren.
+    Es stellte sich aber heraus, dass die Marker stets eine gewisse Größe haben und dadurch auf die Ekennung schwarzer Randbereiche verzichten kann. 
+
+    Zudem liefert die Funktion cv2.aruco.detectMarkers() die Eckpunkte erkannter Rechtecke in Pixelkoordinaten, die während des Erkennungsalgorithmus' abgelehnt wurden als drittes Rückgabeelement. 
+    Es genügt also die Größe abgelehnter Marker mit der Größe des Bildsegments zu vergleichen. 
+
+    Die Angabe abgelehnter Marker erfolgt durch die Angabe der Pixelkoordinaten der Eckpunkte. Die Eckpunkte sind dabei in keiner festgelegten Reihenfolge, sondern willkürlich. 
+    Der Nächste notwendige Schritt ist eine Bezugsecke zu definieren und in dem Objekt zu identifizieren. Als Bezugskante habe ich die obere, linke Ecke gewählt. 
+    Diese wird ermittelt, indem die Ecken zunächst auf die beiden kleinsten x-Koordinaten eingegrenzt werden. Die interessierende Ecke ist dann diejenige mit dem kleinsten y-Wert.
+    
+    Für Alle Bildspalten die in dem Intervall aus der x-Koordinate der Bezugsecke und der maximalen x-Koordinate liegen, wird die vertikale Verzerrung der oberen Kante ermittelt.
+    Ist das Pixel (x-Koordinate, y-Koordinate der Berzugsecke) schwarz, wird die y-Koordinate solange reduziert, bis das Pixel weiß ist.
+    Umgekehrt wird die y-Koordinate solange erhöht, bis das Pixel schwarz ist, wenn das Pixel (x-Koordinate, y-Koordinate der Berzugsecke) weiß ist.
+    Das ermittelte offset wird in einer Liste gespeichert. 
+    Nachdem das Offset für das gesamte Intervall ermittelt wurde, werden die einzelnen Bildspalten entsprechend dem Offset verschoben.
+
+    Das führt zu einer horizontalen oberen Kante des Markers. Der Marker an sich ist dann immer noch verzerrt.
+    Jedoch konnte ich mit diesem Verfahren eine Erkennungsrate unter den vorderen Bechern des Regals von 100\% erreichen.
+
 
     \subsection{Erkennungsrate der ESP32 Kamera}\label{ErkennungsrateESP32}
 
@@ -401,7 +432,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     Die Größe der Regalmarker hat sich mit 30x30mm bewährt ebenso die 6x6 Bit Binärmatrix, die Erkennungsrate ist ausreichend. die Wenigen Fehlschläge können in der Software abgefangen werden und eine neue Aufnahme anfordern.
     Die Palettenmarker sind mit einer Größe von 30x30 mm ebenfalls ausreichend. 
     Die Erkennung wird teilweise durch den Greifer verhindert, wenn dieser in Grundstellung ist. 
-    Für die Palettenerkennung muss der Roboterarm daher die Grundstellung verlassen. 
+    Für eine optimale Erkennung wurde die Grundstellung so angepasst, dass die Kamera das gesamte Regal abbildet.
     Eine Vergrößerung der Marker birgt das Risiko, dass Markerelemente den Bildbereich oder den Segmentbereich verlassen. 
     Eine Kleinere Markergröße verschlechtert die Erkennungsrate mit der Übersichtskamera enorm. 
     In den obigen Bildern wurde bspw. L18 nicht einmal erkannt.
@@ -412,7 +443,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
         \item Die vorderen Becher verdecken die hinteren Becher.
     \end{itemize}
 
-    Daher erfolgt die Erkennung der Becher mittels ESP32 Kamera auf dem Greifer des Roboterarms.
+    Daher erfolgt die Erkennung der hinteren Becher ausschließlich mittels ESP32 Kamera auf dem Greifer des Roboterarms.
     Günstige Gelegenheiten ohne nennenswerte Störung des Betriebsablaufs sind gegeben, bevor der Roboter einen Becher oder Palette greift.
     In diesen Situationen blickt die Kamera mittig und rechtwinklig auf den Bechermantel, wie \ref{fig:figure27} veranschaulicht.
 
@@ -420,4 +451,6 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     Dies trifft insbesondere auf die Palettenmarker zu, da die Paletten ein dunkles Grau haben und die Unterscheidung zum Marker bei ungünstigen Lichtverhältnissen unmöglich macht.
     Das Drucken der Marker mit schwarzem Toner auf weißem Druckerpapier ist ausreichend.
 
+    Um die vorderen Becher zuverlässig zu erkennen, kam ich auf die Idee die Bechermarker auf den Markertyp \verb|4x4-50| zu ändern.
+    Zusammen mit dem entwickelten Korrekturalgorithmus \ref{ChapKorrekturalgorithmus} ist es möglich die Bechermarker so zu entzerren, dass sie auch bei Wölbung noch erkannt werden.
 
