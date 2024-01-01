@@ -40,23 +40,23 @@
 \contentsline {section}{\numberline {4.6}Markererkennung}{27}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Bildmatrixanalyse an einem gewölbten Marker}{27}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Analyse der Erkennungsrate der Becher mittels Übersichtskamera}{37}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Korrekturalgorithmus der Binärmatrix}{37}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Erkennungsrate der ESP32 Kamera}{43}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}Festlegung der Markergröße und Position}{44}{subsection.4.6.5}%
-\contentsline {chapter}{\numberline {5}Implementierung der Kameraprozesse in die Roboterprogrammierung}{45}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementierung des Inventurprozesses}{47}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fehlerbehandlung}{49}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Fehleridentifikation}{49}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Fehlerquellen im Datenmodell}{49}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Fehlerquellen im Viewmodel}{50}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Fehlerquellen in Controller-Klassen}{50}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Fehlerquellen in Service-Klassen}{50}{subsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.1.5}Fehlerquellen in QML Dateien}{51}{subsection.7.1.5}%
-\contentsline {section}{\numberline {7.2}Fehlerbehandlung und Fehlerprävention}{52}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Benutzereingaben und Einstellungen}{53}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Fehler im Datenmodell}{54}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Fehler in Kommissionsaufträgen}{55}{subsection.7.2.3}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{57}{chapter.8}%
+\contentsline {subsection}{\numberline {4.6.3}Korrekturalgorithmus der Binärmatrix}{43}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Erkennungsrate der ESP32 Kamera}{46}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Festlegung der Markergröße und Position}{46}{subsection.4.6.5}%
+\contentsline {chapter}{\numberline {5}Implementierung der Kameraprozesse in die Roboterprogrammierung}{49}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementierung des Inventurprozesses}{51}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fehlerbehandlung}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Fehleridentifikation}{53}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Fehlerquellen im Datenmodell}{53}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Fehlerquellen im Viewmodel}{54}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Fehlerquellen in Controller-Klassen}{54}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Fehlerquellen in Service-Klassen}{54}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}Fehlerquellen in QML Dateien}{55}{subsection.7.1.5}%
+\contentsline {section}{\numberline {7.2}Fehlerbehandlung und Fehlerprävention}{56}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Benutzereingaben und Einstellungen}{57}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Fehler im Datenmodell}{58}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Fehler in Kommissionsaufträgen}{59}{subsection.7.2.3}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{61}{chapter.8}%
 \contentsline {chapter}{\numberline {A}Dies ist der erste Anhang}{XIX}{appendix.A}%
 \contentsline {chapter}{Literaturverzeichnis}{XXI}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

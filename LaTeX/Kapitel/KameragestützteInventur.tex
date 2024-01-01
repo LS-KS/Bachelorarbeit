@@ -374,6 +374,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
 
     Als Fazit der Versuche lässt sich festhalten, dass die Erkennung der Becher nicht mit einer zufriedenstellenden Sicherheit durch die verwendete Übersichtskamera durchführen lässt.
     Um zumindest für die vorderen Becher eine Erkennung zu gewährleisten, wird ein ALgorithmus implementiert, der die Binärmatrix des Markers korrigiert.
+    \clearpage
 
     \subsection{Korrekturalgorithmus der Binärmatrix}\label{ChapKorrekturalgorithmus}
 
@@ -381,29 +382,52 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     Äußeren Regalmarker zurückzuführen ist.
 
     Die vertikale Verzerrung der Markers ist hauptsächlich auf die Zylindrische Form des Bechers und die Kameraperspektive zurückzuführen. 
-    Überführt man ein Bildsegment von einem 8-Bit Graufstufenbild in ein binäres Bild, kann dabei er Schwellenwert sehr hoch angesetzt werden. 
-    Durch die großzügig weißen Bereiche um die Marker lassen sich die Marker augenscheinlich leicht extrahieren. 
+    Überführt man ein Bildsegment von einem 8-Bit Graufstufenbild in ein binäres Bild, lässt sich der Marker augenscheinlich leicht extrahieren. 
     
-    Mein erster Anatz die Verzerrung zu korrigieren war, zunöchst die schwarzen Bereiche zu entfernen, die den Rand berühren. Diese sind unter Umständen relativ groß. 
-    Mit einer Rechteck-Erkennung aus dem OpenCV Paket \verb|cv2| würde ich dann schlichtweg das größte erkannte Objekt benutzen und zu einem Rechteck entzerren.
-    Es stellte sich aber heraus, dass die Marker stets eine gewisse Größe haben und dadurch auf die Ekennung schwarzer Randbereiche verzichten kann. 
+    Durch die systematische Bildsegmentierung haben die Marker stets eine gewisse Größe. 
+    Es ist ausreichend, eine Dimension des Objects (Breite oder Höhe) zu ermitteln und ins Verhältnis zur Bildbreite des Bildsegments zu setzen.
 
-    Zudem liefert die Funktion cv2.aruco.detectMarkers() die Eckpunkte erkannter Rechtecke in Pixelkoordinaten, die während des Erkennungsalgorithmus' abgelehnt wurden als drittes Rückgabeelement. 
+    Zudem liefert die Funktion \verb|cv2.aruco.detectMarkers()| die Eckpunkte erkannter \\Rechtecke in Pixelkoordinaten, die während des Erkennungsalgorithmus' abgelehnt wurden, als drittes Rückgabeelement. 
+    Weiterhin erlaubt die Funktion nur eine Erkennung von Markern die einen gewissen Abstand zum Bildrand überschreiten. 
+    Dies ist nützlich, weil mit der Umwandlung zum Binärbild oftmals große Schwarze Bereiche an den Rändern entstehen.
+    
     Es genügt also die Größe abgelehnter Marker mit der Größe des Bildsegments zu vergleichen. 
+    Aus diesen Erkenntnissen habe ich einen Algorithmus entwickelt, der auch in \ref{fig:figure28} veranschaulicht ist.
 
-    Die Angabe abgelehnter Marker erfolgt durch die Angabe der Pixelkoordinaten der Eckpunkte. Die Eckpunkte sind dabei in keiner festgelegten Reihenfolge, sondern willkürlich. 
-    Der Nächste notwendige Schritt ist eine Bezugsecke zu definieren und in dem Objekt zu identifizieren. Als Bezugskante habe ich die obere, linke Ecke gewählt. 
-    Diese wird ermittelt, indem die Ecken zunächst auf die beiden kleinsten x-Koordinaten eingegrenzt werden. Die interessierende Ecke ist dann diejenige mit dem kleinsten y-Wert.
-    
-    Für Alle Bildspalten die in dem Intervall aus der x-Koordinate der Bezugsecke und der maximalen x-Koordinate liegen, wird die vertikale Verzerrung der oberen Kante ermittelt.
-    Ist das Pixel (x-Koordinate, y-Koordinate der Berzugsecke) schwarz, wird die y-Koordinate solange reduziert, bis das Pixel weiß ist.
-    Umgekehrt wird die y-Koordinate solange erhöht, bis das Pixel schwarz ist, wenn das Pixel (x-Koordinate, y-Koordinate der Berzugsecke) weiß ist.
-    Das ermittelte offset wird in einer Liste gespeichert. 
+    Die Eckpunkte abgelehnter Objekte sind dabei in keiner festgelegten Reihenfolge, sondern willkürlich. 
+    Für die nächsten Schritte ist habe ich die jeweils obere, linke Ecke als Bezugsecke gewählt.
+    Diese wird ermittelt, indem die Ecken zunächst auf die beiden kleinsten x-Koordinaten eingegrenzt werden. 
+    Die interessierende Ecke ist dann diejenige mit dem kleinsten y-Wert.
+
+    \begin{figure}
+        \caption[Entzerralgorithmus]{Algorithmus zum Entzerren der durch die Zylinderwölbung verzerrten Binärmatrix}\label{fig:figure28}
+        \includegraphics[width = \textwidth]{Bilder/algo.drawio.png}
+        \centering
+    \end{figure}
+
+    Es wird ein Intervall aus der x-Koordinate der Bezugsecke und der maximalen x-Koordinate aller Ecken gebildet.
+    Für Alle Bildspalten in dem Intervall, wird die vertikale Verzerrung der oberen Kante ermittelt:
+    Das Referenzpixel ist dabei das Pixel in der y-Koordinate der Bezugsecke.
+    Ist das Referenzpixel schwarz (binär 0), wird die y-Koordinate solange reduziert, bis das Pixel weiß (binär 1) ist.
+    Umgekehrt wird die y-Koordinate solange erhöht, bis das Pixel schwarz ist, wenn das Referenzpixel weiß ist.
+    Die Anzahl der durchlaufenen Iterationen wird als Offset in einem Array gespeichert. 
+
+    \begin{figure}
+        \caption[Entzerralgorithmus: y-Offset]{Y-Offset über dem x-Achsen Intervall des Markers}\label{fig:figure29}
+        \includegraphics[width = \textwidth]{Bilder/calcOffset.png}
+        \centering
+    \end{figure}
     Nachdem das Offset für das gesamte Intervall ermittelt wurde, werden die einzelnen Bildspalten entsprechend dem Offset verschoben.
 
     Das führt zu einer horizontalen oberen Kante des Markers. Der Marker an sich ist dann immer noch verzerrt.
     Jedoch konnte ich mit diesem Verfahren eine Erkennungsrate unter den vorderen Bechern des Regals von 100\% erreichen.
 
+    \begin{figure}
+        \caption[Entzerralgorithmus: Ergebnis]{Ergebnis des Entzerr-Algorithmus. Der Marker wurde vom cv2.aruco Modul erkannt und eingezeichnet. Dies ist an der ID ersichtlich.}\label{fig:figure30}
+        \includegraphics[width = \textwidth]{Bilder/undistortedCup.png}
+        \centering
+    \end{figure}
+    \clearpage
 
     \subsection{Erkennungsrate der ESP32 Kamera}\label{ErkennungsrateESP32}
 
