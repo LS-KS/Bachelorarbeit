@@ -1,4 +1,4 @@
-﻿\chapter{Kameragestützten Validierungsprozessen in der Lagerverwaltung}\label{KameragestützteInventur}
+﻿\chapter{Kameragestützte Validierungsprozesse in der Lagerverwaltung}\label{KameragestützteInventur}
 
 Aufgabe der Lagerzelle ist die automatische Ein- und Auslagerung von Bechern mit oder ohne Produkt.
 Die Informationen, die dafür übergeben werden oder entstehen, müssen gespeichert werden um bei einer Produktbestellung wieder das korrekte Produkt auszugeben.
@@ -102,7 +102,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
 
     \section {Perspektivische Korrektur}
 
-    Wie in dem Bild \ref{fig:figure10} zu sehen, ist das Regal perspektivisch stark verzerrt.
+    Wie in Abb. \ref{fig:figure10} zu sehen, ist das Regal perspektivisch stark verzerrt.
     Der Verzerrung durch die Linse wird vor Allem durch die horizontale Linie deutlich, nachdem das Bild so gedreht wurde, dass der rechte Regalrand vertikal ist. 
     Für die Erkennung der Marker und der Bildsegmentierung für die Zuordnung der Marker zu den Lagerorten ist es also erforderlich entweder eine geometrische Kalibrierung der Appertur vorzunehmen oder das Bild im interessierenden Bereich zu rektifizieren. 
     Eine 4-Punkt Entzerrung ist aufgrund des geringen Aufwands und der hohen Auflösung der gewählte Weg. 
@@ -172,20 +172,20 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
 
     Für die Erkennung der optischen arUco Marker wird aus der OpenCV Bibliothek das Modul \verb|aruco| benutzt. 
     Die Erkennung erfolgt über die Funktion \verb|detectMarkers|, die als Argumente ein Graubild oder Bildausschnitt sowie ein arUco Dictionary übergeben bekommt.
-    Der vereinfachte Algorhythmus ist in \ref{arucoMarker} beschrieben. Die dabei verwendeten Parameter sind in \cite{OpenCVaruco} beschrieben.
+    Der vereinfachte Algorhythmus ist in \ref{arucoMarker} beschrieben. Die dabei verwendeten Parameter sind in \cite[OpenCV]{OpenCVaruco} beschrieben.
     
     Der Erfolg der Erkennung der Marker hängt demnach unter Anderem davon ab, dass die einzelnen Bits in der Binärmatrix ähnlich breit sind. 
     Der Algorithmus zum Erkennen der Marker benutzt für die einzelnen Schritte insgesamt 31 Parameter, die viele Aspekte der Erkennung beeinflussen.
     Die Standardeinstellungen sind für Bilder / Bildsegmente moderater Größe eine sinnvolle Wahl. 
     
     Laut \cite[OpenCV]{OpenCVaruco} ist die Erkennung robust gegenüber Rotation und Perspektivischer Verzerrung. 
-    Die Erkennung versagt allerdings, wenn wie z.B. in \ref{fig:figure20} der Marker durch eine Wölbung verzerrt wird, die in diesem Falle durch die 4-Punkt Verzerrung überlagert ist.
+    Die Erkennung versagt allerdings, wenn wie z.B. in Abb. \ref{fig:figure20} der Marker durch eine Wölbung verzerrt wird, die in diesem Falle durch die 4-Punkt Verzerrung überlagert ist.
     In dem Bild ist deutlich zu erkennen, dass die Bits im rechten Bereich deutlich breiter als im linken Bereich sind. 
     Dies ist Anlass zum nächsten Abschnitt \ref{ChapBildmatrixanalyse}.
 
     \subsection{Bildmatrixanalyse an einem gewölbten Marker}\label{ChapBildmatrixanalyse}
 
-    In \ref{fig:figure21} ist die Binärmatrix eines durch die Wölbung verzerrten Markers dargestellt. 
+    In Abb. \ref{fig:figure21} ist die Binärmatrix eines durch die Wölbung verzerrten Markers dargestellt. 
     In \ref{Bildmatrixanalyse} ist das Script abgedruckt mit dem die Abbildung erzeugt wurde.
 
     Das Bildsegment, das den Bechermarker abbildet wird grob auf die Außenmaße des Markers zugeschnitten.
@@ -242,56 +242,56 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
 
     \begin{figure}
         \caption[Bildaufnahme aus der Lagerzelle nach der Kontrastanpassung.]
-        {\small Die Aufnahme aus Bild \ref{fig:figure12} nach der automatischen Helligkeits- und Kontrastanpassung.}\label{fig:figure13}
+        {\small Die Aufnahme in Abb. \ref{fig:figure12} nach der automatischen Helligkeits- und Kontrastanpassung.}\label{fig:figure13}
         \includegraphics[width = \textwidth]{Bilder/LZ_Kontrastanpassung.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bild aus der Lagerzelle nach der Rektifizierung und Zuschnitt auf relevanten Regalbereich]
-        {\small Die Aufnahme aus Bild \ref{fig:figure12} nach der Kontrastanpassung und Rektifizierung. Im Vordergrund sind die Paletten und Becher gut zu erkennen. Die Becher in der zweiten Reihe sind jedoch deutlich verzerrt.}\label{fig:figure14}
+        {\small Die Aufnahme in Abb. \ref{fig:figure12} nach der Kontrastanpassung und Rektifizierung. Im Vordergrund sind die Paletten und Becher gut zu erkennen. Die Becher in der zweiten Reihe sind jedoch deutlich verzerrt.}\label{fig:figure14}
         \includegraphics[width = \textwidth]{Bilder/LZ_transformed.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bildzuschnitt auf einen Lagerplatz.]
-        {\small Bildzuschnitt einer Lagersektion und weitere Unterteilung in die Bereiche für Becher und Palette. Der Bildausschnitt zeigt einen Lagerslot mit Palette aber ohne Becher im vorderen Lagerslot, der aus \ref{fig:figure15} extrahiert wurde. Der Marker hat kein weißes Rechteck um sich was bedeutet, dass dieser Marker nicht erkannt wurde. Dies liegt vermutlich an der durch die Wölbung gestörten Binärmatrix}\label{fig:figure15}
+        {\small Bildzuschnitt einer Lagersektion und weitere Unterteilung in die Bereiche für Becher und Palette. Der Bildausschnitt zeigt einen Lagerslot mit Palette aber ohne Becher im vorderen Lagerslot, der aus Abb. \ref{fig:figure15} extrahiert wurde. Der Marker hat kein weißes Rechteck um sich was bedeutet, dass dieser Marker nicht erkannt wurde. Dies liegt vermutlich an der durch die Wölbung gestörten Binärmatrix}\label{fig:figure15}
         \includegraphics*[width = \textwidth/3]{Bilder/section_16.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bildzuschnitt einer Lagersektion und weitere Unterteilung in die Bereiche für Becher und Palette.]
-        {\small Der Bildausschnitt zeigt einen Lagerslot mit Palette und Becher im vorderen Lagerslot, der aus \ref{fig:figure15} extrahiert wurde. Der Marker hat kein weißes Rechteck um sich was bedeutet, dass dieser Marker nicht erkannt wurde}\label{fig:figure18}
+        {\small Der Bildausschnitt zeigt einen Lagerslot mit Palette und Becher im vorderen Lagerslot, der aus Abb. \ref{fig:figure15} extrahiert wurde. Der Marker hat kein weißes Rechteck um sich was bedeutet, dass dieser Marker nicht erkannt wurde}\label{fig:figure18}
         \includegraphics[width = \textwidth/3]{Bilder/section_5.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bild aus der Lagerzelle nach der Rektifizierung und Zuschnitt auf einen Bereich einer Palette]
-        {\small Bereich einer Palette, aus \ref{fig:figure14} extrahiert. Der dicke weiße Rahmen wird im Programmcode erzeugt wenn der Marker erfolgreich erkannt wurde. }\label{fig:figure16}
+        {\small Bereich einer Palette, aus Abb. \ref{fig:figure14} extrahiert. Der dicke weiße Rahmen wird im Programmcode erzeugt wenn der Marker erfolgreich erkannt wurde. }\label{fig:figure16}
         \includegraphics[width = \textwidth/3]{Bilder/pallet_5.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bild aus der Lagerzelle nach der Rektifizierung und Zuschnitt auf einen Bereich einer Palette]
-        {\small Bereich einer Palette, aus \ref{fig:figure14} extrahiert. Im Gegensatz zu \ref{fig:figure16} wurde der Marker nicht erkannt. }\label{fig:figure19}
+        {\small Bereich einer Palette, aus Abb. \ref{fig:figure14} extrahiert. Im Gegensatz zu Abb. \ref{fig:figure16} wurde der Marker nicht erkannt. }\label{fig:figure19}
         \includegraphics[width = \textwidth/3]{Bilder/pallet_3.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bild aus der Lagerzelle nach der Rektifizierung und Zuschnitt auf einen Bereich eines Bechers]
-        {\small Bereich eines Bechers, aus \ref{fig:figure14} extrahiert. Deutlich sichtbar ist die durch die Wölbung des Bechers gestörte Binärmatrix des Markers.}\label{fig:figure17}
+        {\small Bereich eines Bechers, aus Abb. \ref{fig:figure14} extrahiert. Deutlich sichtbar ist die durch die Wölbung des Bechers gestörte Binärmatrix des Markers.}\label{fig:figure17}
         \includegraphics[width = \textwidth/3]{Bilder/cup17.png}
         \centering
     \end{figure}
 
     \begin{figure}
         \caption[Bild aus der Lagerzelle nach der Rektifizierung und Zuschnitt auf einen Bereich eines Bechers]
-        {\small Bereich eines Bechers, aus \ref{fig:figure14} extrahiert. Auch hier ist die durch die Wölbung induzierte Verzerrung des Markers deutlich sichtbar.}\label{fig:figure20}
+        {\small Bereich eines Bechers, aus Abb. \ref{fig:figure14} extrahiert. Auch hier ist die durch die Wölbung induzierte Verzerrung des Markers deutlich sichtbar.}\label{fig:figure20}
         \includegraphics[width = \textwidth/3]{Bilder/cup2.png}
         \centering
     \end{figure}
@@ -309,9 +309,9 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
 
     \subsection{Analyse der Erkennungsrate der Becher mittels Übersichtskamera}
 
-    Die Bilder \ref{fig:figure12} bis \ref{fig:figure20} zeigen die Ergebnisse der Bildverarbeitungskette von der Aufnahme bis zur Bildsegmentierung und Erkennung.
+    Die Bilder Abb. \ref{fig:figure12} bis Abb. \ref{fig:figure20} zeigen die Ergebnisse der Bildverarbeitungskette von der Aufnahme bis zur Bildsegmentierung und Erkennung.
 
-    Die Bilder \ref{fig:figure22} bis \ref{fig:figure27} zeigen Überlegungen wie die Erkennung der Becher besser gelingen kann. 
+    Die Bilder Abb. \ref{fig:figure22} bis Abb. \ref{fig:figure27} zeigen Überlegungen wie die Erkennung der Becher besser gelingen kann. 
 
     \begin{figure}
         \caption[Erkennungsrate der Becher ohne weitere Bildverabeitung]{\small Erkennungsrate der Becher ohne Bildbearbeitung.}\label{fig:figure22}
@@ -344,23 +344,23 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     \end{figure}
 
     Es wurden Versuche unternommen um die Erkennung mit systematischen Methoden zu verbessern.
-    In \ref{fig:figure22} ist die Erkennungsrate der Becher ohne Bildbearbeitung dargestellt und dient somit als Referenz für die darauffolgenden Methoden der Bildverarbeitung.
+    In Abb. \ref{fig:figure22} ist die Erkennungsrate der Becher ohne Bildbearbeitung dargestellt und dient somit als Referenz für die darauffolgenden Methoden der Bildverarbeitung.
     Es wurden 4 Marker korrekt erkannt, was durch das grüne Viereckt und der roten ID- Notiz erkennbar ist. 
     Es wurden zudem richtigerweise in den Plätzen L7, L11, L13, L14, L15 und L16 keine Becher erkannt.
 
-    In \ref{fig:figure23} ist die Erkennungsrate nach einer Gauß 5x5 Filterung dargestellt. 
+    In Abb. \ref{fig:figure23} ist die Erkennungsrate nach einer Gauß 5x5 Filterung dargestellt. 
     Die Überlegung ist, dass durch das Reduzieren von Rauschen die Umwandlung von Graubild zu Binärbild dafür sorgt, dass die Binärmatrix gut genug dekodiert werden kann. 
     Wie in der Abbildung ersichtlich ist dies für L10 sogar der Fall - ansonsten ist jedoch keine Änderung des Ergebnisses ersichtlich.
 
-    Der Versuch die Erkennung mit einem Laplace Kantenfilter zu verbessern, ist in \ref{fig:figure24} dargestellt und ergibt sogar eine schlechtere Erkennungsrate als das Referenzbild.
+    Der Versuch die Erkennung mit einem Laplace Kantenfilter zu verbessern, ist in Abb. \ref{fig:figure24} dargestellt und ergibt sogar eine schlechtere Erkennungsrate als das Referenzbild.
     
-    In \ref{fig:figure25} ist die Erkennungsrate nach einer gewichteten Überlagerung von Gauß 5x5 und Laplace Filterung dargestellt. 
+    In Abb. \ref{fig:figure25} ist die Erkennungsrate nach einer gewichteten Überlagerung von Gauß 5x5 und Laplace Filterung dargestellt. 
     Dazu wird zunächst ein mit einem Gauß 5x5 Filter gefiltertes Bild erzeugt und mit einem Laplace-Kantenbild überlagert. 
     Für die Überlagerung wird die Funktion \verb|cv2.addWeighted()| verwendet. 
     Durch die Überlagerung ergibt sich theoretisch ein höherer Kontrast der Kanten in der Binärmatrix. 
     Die Erkennungsrate ist jedoch nicht besser als die im Referenzbild.
 
-    In \ref{fig:figure26} ist die Erkennungsrate nach einer Schärfung und anschließender Gauß 5x5 Filterung dargestellt.
+    In Abb. \ref{fig:figure26} ist die Erkennungsrate nach einer Schärfung und anschließender Gauß 5x5 Filterung dargestellt.
     Für die Schärfung wurde die Filtermatrix $W$ verwendet, die mit 
     \begin{align*}
         W = \begin{bmatrix}
@@ -392,7 +392,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     Dies ist nützlich, weil mit der Umwandlung zum Binärbild oftmals große Schwarze Bereiche an den Rändern entstehen.
     
     Es genügt also die Größe abgelehnter Marker mit der Größe des Bildsegments zu vergleichen. 
-    Aus diesen Erkenntnissen habe ich einen Algorithmus entwickelt, der auch in \ref{fig:figure28} veranschaulicht ist.
+    Aus diesen Erkenntnissen habe ich einen Algorithmus entwickelt, der auch in Abb. \ref{fig:figure28} veranschaulicht ist.
 
     Die Eckpunkte abgelehnter Objekte sind dabei in keiner festgelegten Reihenfolge, sondern willkürlich. 
     Für die nächsten Schritte ist habe ich die jeweils obere, linke Ecke als Bezugsecke gewählt.
@@ -432,7 +432,7 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     \subsection{Erkennungsrate der ESP32 Kamera}\label{ErkennungsrateESP32}
 
     Die ESP32 Kamera hat eine deutlich geringere Auflösung als die $\mu$Eye Kamera, hat aber einen sehr niedrigen Mindestabstand der Appertur.
-    Um die Eignung der Kamera zu zeigen wurden 3 Testbilder aufgenommen, die in \ref{fig:figure27} dargestellt sind.
+    Um die Eignung der Kamera zu zeigen wurden 3 Testbilder aufgenommen, die in Abb. \ref{fig:figure27} dargestellt sind.
 
     Hier zeigt sich der Vergleich zu den vorangegangenen Abschnitten, dass die Erkennung der Marker selbst mit Wölbung kein Problem ist, wenn der Bildbereich und die Auflösung in einem günstigen Verhältnis stehen.
     Ohne weitere Bildverarbeitung werden die Marker im linken und rechten Bereich erkannt. 
@@ -453,13 +453,22 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
         \item Palettenmarker
         \item Bechermarker
     \end{itemize}
-    Die Größe der Regalmarker hat sich mit 30x30mm bewährt ebenso die 6x6 Bit Binärmatrix, die Erkennungsrate ist ausreichend. die Wenigen Fehlschläge können in der Software abgefangen werden und eine neue Aufnahme anfordern.
+    Die Regalmarker sind an jeder Eckverbindung des Regals angebracht. Sie dienen dazu die Eckpunkt des Regals in der Kameraaufnahme zu bestimmen und 
+    grenzen den interessierenden Bereich für die perspektivische Entzerrung ein. Sie haben die ID $0$ und stammen aus dem arUco Dictionary \verb|DICT_6X6_250|.
+
+    Die Palettenmarker sind auf der Vorderseite der Palettenangebracht. Sie stammen ebenfalls aus dem arUco Dictionary \verb|DICT_6X6_250| und haben die ID $1$.
+
+    Die Bechermarker sind auf der zylindrischen Mantelfläche der Becher angebracht. Sie enthalten die ID's $5-49$.
+    Ursprünglich sollten die Bechermarker auch aus dem arUco Dictionary \verb|DICT_6X6_250| stammen.
+
+    Die Größe der Regalmarker hat sich mit 30x30mm bewährt ebenso die 6x6 Bit Binärmatrix, die Erkennungsrate ist ausreichend. 
+    Die Wenigen Fehlschläge können in der Software abgefangen werden und eine neue Aufnahme anfordern.
     Die Palettenmarker sind mit einer Größe von 30x30 mm ebenfalls ausreichend. 
     Die Erkennung wird teilweise durch den Greifer verhindert, wenn dieser in Grundstellung ist. 
     Für eine optimale Erkennung wurde die Grundstellung so angepasst, dass die Kamera das gesamte Regal abbildet.
     Eine Vergrößerung der Marker birgt das Risiko, dass Markerelemente den Bildbereich oder den Segmentbereich verlassen. 
-    Eine Kleinere Markergröße verschlechtert die Erkennungsrate mit der Übersichtskamera enorm. 
-    In den obigen Bildern wurde bspw. L18 nicht einmal erkannt.
+    Eine kleinere Markergröße verschlechtert die Erkennungsrate mit der Übersichtskamera enorm. 
+    In den obigen Bildern wurde bspw. L18 nicht erkannt.
     
     Die Erkennung der Becher mittels Übersichtkamera wird durch zwei Aspekte verhindert:
     \begin{itemize}
@@ -468,13 +477,16 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
     \end{itemize}
 
     Daher erfolgt die Erkennung der hinteren Becher ausschließlich mittels ESP32 Kamera auf dem Greifer des Roboterarms.
-    Günstige Gelegenheiten ohne nennenswerte Störung des Betriebsablaufs sind gegeben, bevor der Roboter einen Becher oder Palette greift.
-    In diesen Situationen blickt die Kamera mittig und rechtwinklig auf den Bechermantel, wie \ref{fig:figure27} veranschaulicht.
+    Um eingelagerte Becher auf der Rückseite zu erkennen, muss der Greifer die Palette auf den Kommissioniertisch stellen
+    Das ist u.U. im laufenden Betrieb eine große Störung des Betriebsablaufs.
+    Günstigere Gelegenheiten ohne nennenswerte Störung des Betriebsablaufs sind gegeben, wenn der Roboter einen Becher in den entsprechenden Palettenplatz stellt.
+    In diesen Situationen blickt die Kamera mittig und rechtwinklig auf den Bechermantel, wie Abb. \ref{fig:figure27} veranschaulicht.
 
     Um die Erkennnung der Marker zu gewährleisten, muss um den Rand des Markers ein \glqq Ruhebereich \grqq von wenigen Millimetern eingehalten werden.
     Dies trifft insbesondere auf die Palettenmarker zu, da die Paletten ein dunkles Grau haben und die Unterscheidung zum Marker bei ungünstigen Lichtverhältnissen unmöglich macht.
     Das Drucken der Marker mit schwarzem Toner auf weißem Druckerpapier ist ausreichend.
 
-    Um die vorderen Becher zuverlässig zu erkennen, kam ich auf die Idee die Bechermarker auf den Markertyp \verb|4x4-50| zu ändern.
-    Zusammen mit dem entwickelten Korrekturalgorithmus \ref{ChapKorrekturalgorithmus} ist es möglich die Bechermarker so zu entzerren, dass sie auch bei Wölbung noch erkannt werden.
+    Um die vorderen Becher zuverlässig mit der Übersichtskamera zu erkennen, kam ich auf die Idee die Bechermarker von \verb|6x6-250| auf den Markertyp \verb|4x4-50| zu ändern.
+    Die zugrunde liegende Überlegung ist, dass die einzelnen Elemente des Markers größer sind und somit besser aufgelöst werden. 
+    Diese Änderung, zusammen mit dem entwickelten Korrekturalgorithmus aus Kapitel \ref{ChapKorrekturalgorithmus} ist es möglich die Bechermarker so zu entzerren, dass sie auch bei Wölbung noch erkannt werden.
 

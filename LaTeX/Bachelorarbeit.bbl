@@ -7,7 +7,8 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -21,54 +22,74 @@
 \BIBdecl
 
 \bibitem{Hübler2019}
-S.~Hübler, \glqq BPS Tätigkeits- und Erfahrungsbericht: Objekterkennung und Verfolgung mittels Kamera in Produktionsanlagen am Beispiel der Modellfabrik µPlant,  2019.
+S.~Hübler, \glqq BPS Tätigkeits- und Erfahrungsbericht: Objekterkennung und
+  Verfolgung mittels Kamera in Produktionsanlagen am Beispiel der Modellfabrik
+  µPlant,  2019.
 
 \bibitem{LarsKistner2017}
-L.~Kistner, \glqq Konzeptionierung und Umsetzung einer serviceorientierten verteilten Automatisierungs-Architektur für die heterogene Modellfabrik µPlant,  2017.
+L.~Kistner, \glqq Konzeptionierung und Umsetzung einer serviceorientierten
+  verteilten Automatisierungs-Architektur für die heterogene Modellfabrik
+  µPlant,  2017.
 
 \bibitem{Semesterarbeit}
-L.~Schink, \glqq Von C$\#$ nach Python: Software-Konzeptionierung einer robotergestützten Lagerverwaltung,  2023.
+L.~Schink, \glqq Von C$\#$ nach Python: Software-Konzeptionierung einer
+  robotergestützten Lagerverwaltung,  2023.
 
 \bibitem{OpenCVaruco}
-\glqq Detection of aruco markers,  \url{https://docs.opencv.org/4.7.0/d5/dae/tutorial_aruco_detection.html}, Aufgerufen am: [26.10.2023].
+\glqq Detection of aruco markers,
+  \url{https://docs.opencv.org/4.7.0/d5/dae/tutorial_aruco_detection.html},
+  Aufgerufen am: [26.10.2023].
 
 \bibitem{qmlTypeList}
-\glqq Liste aller QML Types,  \url{https://doc.qt.io/qt-6/qtquick-qmlmodule.html}, Aufgerufen am:[15.06.2023].
+\glqq Liste aller QML Types,
+  \url{https://doc.qt.io/qt-6/qtquick-qmlmodule.html}, Aufgerufen
+  am:[15.06.2023].
 
 \bibitem{OPCFoundation}
-\glqq OPC Foundation - The Industrial Interoperability Standard,  \url{https://opcfoundation.org}.
+\glqq OPC Foundation - The Industrial Interoperability Standard,
+  \url{https://opcfoundation.org}.
 
 \bibitem{QtOPCUA}
-T.~Q. Company, \glqq Qt OPC UA,  \url{https://doc.qt.io/qt-6.5/qtopcua-index.html}, 2023.
+T.~Q. Company, \glqq Qt OPC UA,
+  \url{https://doc.qt.io/qt-6.5/qtopcua-index.html}, 2023.
 
 \bibitem{asyncua}
-\glqq OPC UA / IEC 62541 Client and Server for Python,  \url{https://github.com/FreeOpcUa/opcua-asyncio/}, Aufgerufen am: [26.10.2023].
+\glqq OPC UA / IEC 62541 Client and Server for Python,
+  \url{https://github.com/FreeOpcUa/opcua-asyncio/}, Aufgerufen am:
+  [26.10.2023].
 
 \bibitem{UaExpert}
-U.~A. GmbH, \glqq UaExpert—A Full-Featured OPC UA Client,  \url{https://www.unified-automation.com/products/development-tools/uaexpert.html?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_lWlwY96Anwb0vdy-prvkknZMKpZKDaHaJKdgziOh36YW82BkBwT_EaAv3REALw_wcB}, Aufgerufen am: [26.10.2023].
+U.~A. GmbH, \glqq UaExpert—A Full-Featured OPC UA Client,
+  \url{https://www.unified-automation.com/products/development-tools/uaexpert.html?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_lWlwY96Anwb0vdy-prvkknZMKpZKDaHaJKdgziOh36YW82BkBwT_EaAv3REALw_wcB},
+  Aufgerufen am: [26.10.2023].
 
 \bibitem{uaClientMac}
-\glqq Free OPC UA GUI Client,  \url{https://github.com/FreeOpcUa/opcua-client-gui}, 2023.
+\glqq Free OPC UA GUI Client,
+  \url{https://github.com/FreeOpcUa/opcua-client-gui}, 2023.
 
 \bibitem{RFIDGrundlagen}
-\glqq RFID Grundlagen - Das RFID Informationsportal,  https://www.rfid-grundlagen.de/, 2023.
+\glqq RFID Grundlagen - Das RFID Informationsportal,
+  https://www.rfid-grundlagen.de/, 2023.
 
 \bibitem{RFIDFeig}
-F.~E. GmbH, \glqq FEIG Identification,  \url{https://www.feig.de/produkte/identification/}.
+F.~E. GmbH, \glqq FEIG Identification,
+  \url{https://www.feig.de/produkte/identification/}.
 
 \bibitem{Python}
-P.~Foundation, \glqq Python 3.11.0,  https://www.python.org/downloads/release/python-3110/, 2023.
+P.~Foundation, \glqq Python 3.11.0,
+  https://www.python.org/downloads/release/python-3110/, 2023.
 
 \bibitem{qtWikiHistory}
-\glqq Qt History on Qt Wiki,  \url{https://wiki.qt.io/Qt_History}, Aufgerufen am: [13.06.2023].
+\glqq Qt History on Qt Wiki,  \url{https://wiki.qt.io/Qt_History}, Aufgerufen
+  am: [13.06.2023].
 
 \bibitem{sphinxRST}
-\glqq Restructured Text Syntax,  \url{https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html}, Aufgerufen am: [19.06.2023].
+\glqq Restructured Text Syntax,
+  \url{https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html},
+  Aufgerufen am: [19.06.2023].
 
 \bibitem{RWS}
-ABB, \glqq ABB Application Manual - Robot Web Services, 3HAC050973-001 Revision B,  \url{bitte noch Link einfuegen}, ?
-
-\bibitem{SOcontrast}
-\glqq Discussion: Automatic contrast and brightness adjustment,  \url{https://stackoverflow.com/questions/56905592/automatic-contrast-and-brightness-adjustment-of-a-color-photo-of-a-sheet-of-pape}, 2019 - 2023.
+ABB, \glqq ABB Application Manual - Robot Web Services, 3HAC050973-001 Revision
+  B,  \url{bitte noch Link einfuegen}, ?
 
 \end{thebibliography}

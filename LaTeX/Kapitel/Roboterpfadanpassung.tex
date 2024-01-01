@@ -1,3 +1,78 @@
 \chapter{Implementierung der Kameraprozesse in die Roboterprogrammierung}
 
-HIer beschreiben wie die relevanten Pfade des IRB140 ablaufen und wann wie die Flags für die Bildaufnahme gesetzt werden. 
+Um die Inventur in den Betriebsablauf zu integrieren und zu automatisieren muss eine Kommunikation mit der Steuerung des Industrieroboters Industrieroboters erfolgen. 
+Die Kommunikation mit der Steuerung erfolgte bisher unter Windows 7 mit Hilfe eines Software Development Kits (SDK) \glq PC-SDK\grq der Firma ABB.
+Es ermöglicht eine Einbindung in Steuerungsoftware die in Java oder C\# geschrieben ist. 
+Des Weiteren bietet die Steuerung in ihrer aktuell verwendeten Softwareversion die Verwendung von Sockets und einem HTTP-Protokoll.
+
+Außerdem muss Python-Code die Programmlogik implementieren und die Kommunikation mit der Steuerung initiieren. 
+Während der Kommunkation werden der Steuerung im Wesentlichen Strings übergeben. 
+Sie werden in dem Hauptprogramm der Robotersteuerung interpretiert und in Befehle umgewandelt.
+
+
+\section{Versuche zum Aufbaue einer Kommunikation zwischen Windows 10 und der Steuerung IRC5}
+
+Mein erster Versuch eine Kommunikation mit der Steuerung herzustellen war, die Kommunikation mit einer Art REST-Protokoll über das Python Modul \glq requests\grq{} zu realisieren.
+Dies funktionierte nicht; Die Steuerung antwortete stets mit einer Fehlermeldung \glq 400 Bad Request\grq und dem Hinweis, dass die Steuerung die Verbindung verweigert.
+Dies war Anlass mit der Software WireShark die Kommunikation der alten Lagerhausverwalungssoftware mit der Steuerung aufzuzeichnen und zu analysieren.
+Dies wurde realisiert, indem Wireshark eingehenden und ausgehenden Datenverkehr derzwischen den entsprechenden IP-Adressen aufzeichnete.
+
+Eine Anaylse ergab, dass zum Einen die Payload der Request nicht korrekt war, andererseits ist in jedem Datenpaket ein 8-byte Header mit zufälligem Inhalt.
+Vermutlich dient dieser einer Verschlüsselung der Datenübertragung. 
+Weder in der Dokumentation der Steuerung noch aus dem C\#-Code ließ sich ermitteln, wie diese Verschlüsselung umgesetzt ist.
+
+Unter der Annahme, dass die Verschlüsselung Teil des PC-SDK ist, habe ich die entsprechenden \glq .dll\grq{}-Dateien in den Projektordner dieser Arbeit kopiert.
+In dem Ordner \grq ABBControllerWrapper\grq{} befindet sich mein Versuch ein C\# Linkerprojekt zu implementieren. 
+Das PC-SDK befindet sich in dem Unterordner \grq RobotStudio SDK 5.60\grq{}.
+
+Mit Visual Studio 2022 habe ich ein neues C\#-Bibliotheksprojekt erstellt und die entsprechenden \glq .dll\grq{}-Dateien als Referenzen hinzugefügt.
+Aus dem Quellcode der Lagerverwaltung 3.0 habe ich die Klasse \glq RobotController\grq{} kopiert, zusammen mit allen referenzierten Klassen, sodass der Kompiler keinen Fehler mehr ausgibt.
+Anschließend habe ich den Code einem Refactoring unterzogen und dabei die Bibliothek wie folgt aufgebaut:
+
+Die Bibliothek besteht aus einem Namespace \glq ABBPythonLinker\grq{}.
+Innerhalb des Namespaces befinden sich die Hauptklasse \glq ABBLinker\grq{}. 
+Diese Klasse hat einen Konstrukor, der eine IP-Adresse als Parameter erwartet.
+Außerdem hat diese Klasse eine \verb|Setup()|- und eine \verb|CreateAndExecute(string source, string target)|-Methode. 
+Mit der \verb|Setup()|-Methode wird analog zur Lagerverwaltung 3.0 eine Verbindung zur Steuerung aufgebaut und mit der 
+\verb|CreateAndExecute(string source, string target)|-Methode soll analog zur Lagerverwaltung 3.0 ein RAPID Command erzeugt und übermittelt werden.
+Der Quellcode dazu befindet sich im Unterordner \glq ABBControllerWrapper/ABBControllerWrapper\grq{} in der Datei \glq ABBControllerWrapper.cs\grq{}.
+Das Projekt wird zu einer Linker-Bibliothek \verb|ABBControllerWrapper.dll| kompiliert, die sich in dem Ordner \verb|ABBControllerWrapper/ABBControllerWrapper/bin/Release/net6| befindet.
+
+In dem Ordner \glq ABBControllerWrapper \grq{} befindet sich eine Python Datei \glq testwrapper.py\grq{}.
+Hier wird zunächst das Modul \glq clr\grq{} importiert, welches mit dem Python-Paket \glq pythonnet\grq{} installiert wird.
+Es dient dazu .NET-Bibliotheken in Python zu importieren, wie die \glq ABBControllerWrapper.dll\grq{}.
+Das Modul erlaubt dabei einen möglichst nativen Zugriff auf die kompilierten Bibliotheken. In der Regel lassen sich IDE's aber nicht so konfigurieren, 
+dass sie den Code ohne Syntaxfehler darstellen.
+
+Es wird auch das Modul \glq asyncio\grq{} importiert, welches es erlauben soll die Funktionen der Linkerbibliothek als Subroutine aufzurufen. 
+
+Es wird eine Klasse \glq wrappertester\grq{} definiert, die die Methoden \verb|setup(self)| und \\ \verb|move_item(self, source: str, target: str)|hat.
+In der \verb|setup(self)|-Methode wird zunächst ein String mit dem Dateipfad der Linkerbibliothek erstellt. 
+Die Funktion \verb|clr.AddReference| lädt damit die Bibliothek.
+Damit ist der Namespace \glq ABBPythonLinker\grq{} als Referenz verfügbar. Nun wird mit Python Syntax aus dem Namespace die Klasse \glq ABBLinker\grq{} importiert.
+Mit einem try/except-Block wird versucht eine Instanz der Klasse zu erstellen und mit der Methode \verb|Setup()| eine Verbindung zur Steuerung aufzubauen.
+
+Ist das Setup erfolgreich soll mit der Methode \\
+\verb|move_item(self, source: str, target: str)| ein RAPID Command erzeugt und übermittelt werden.
+Die Methode ist in der Python Datei zwar implementiert, aber ungetestet. 
+Der Grund dafür ist, dass sich auf die implementierte Art und Weise keine Verbindung zur Steuerung aufbauen lässt.
+
+Mit Aufruf des Setups wird in der Kommandozeile die folgende Fehlermeldung ausgegeben: 
+
+\begin{verbatim}
+   ABBController: Error during setup: Der Typ 
+   "System.Threading.Tasks.Task`1" in der Assembly "System.Runtime, 
+   Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 
+   konnte nicht geladen werden.
+   bei ABBPythonLinker.ABBLinker.Setup()
+\end{verbatim}
+
+Die Fehlermeldung deutet daraufhin, dass die Linkerbibliothek zwar korrekt, aber eine darunterliegende Runtime nicht geladen wird. 
+Ein Grund dafür könnte sein, dass die Verbindung zur Steuerung in einem .NET-Task Objekt gehalten wird. Dieses lässt sich nicht als Python-Objekt übergeben.
+Leider lässt sich das Problem mit meinen Fähigkeiten nicht weiter untersuchen und ich konnte keinen Debugger konfigurieren, mit dem der .NET-Code aus der Python-Umgebung heraus überprüft werden kann.
+An dieser Stelle habe ich den Versuch aufgegeben eine Linkerbibliothek lauffähig zu implementieren.
+Von dem Versuch einer Implementierung in Java habe ich abgesehen, da dadurch die gleichen \verb|.dll|-Dateien verwendet werden.
+
+\section{Implementierung der Programmlogik}
+
+blablabla

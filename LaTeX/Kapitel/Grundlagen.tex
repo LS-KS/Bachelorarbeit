@@ -4,8 +4,21 @@ In diesem Kapitel werden die theoretischen Grundlagen für diese Arbeit aufgezei
 
 \section{arUco Marker}\label{arucoMarker}
 
-arUco Marker sind quadratische synthetische Marker, bestehend aus einem schwarzen Rand und einer binären Matrix. Die Kantenlänge der quadratischen Elemente der Binärmatrix ist proportional zu der Dicke des schwarzen Rands. Die binäre Matrix selbst dekodiert und
-als ID genutzt werden. Dabei wird die Binärmatrix jedoch nicht direkt als Binärzahl dekodiert, sondern die Marker sind ihrem Platz im Dictionary ihres Typs aufsteigend zugeordnet.
+
+
+In dieser Arbeit wird das arUco Modul des OpenCV Pakets cv2 verwendet.
+Alle Klassen und Funktionen des Moduls finden sich in \verb|cv2.aruco|. \\
+Die Marker sind in Dictionarys organisiert. Diese unterscheiden sich in der Größe der Binärmatrix und der Anzahl der Marker im Dictionary.
+Diese Dictionarys können mit der Funktion \verb|cv2.aruco.getPredefinedDictionary(X)|geladen werden. 
+Dabei steht X für den Identifier des Dictionarys, z.B. \verb|cv2.aruco.DICT_6X6_250|.
+Eine Vollständige Liste der verfügbaren Dictionarys findet sich in der OpenCV Dokumentation \cite[OpenCV]{OpenCVaruco}. 
+
+ArUco Marker sind quadratische synthetische Marker, bestehend aus einem schwarzen Rand und einer binären Matrix. 
+Die Kantenlänge der quadratischen Elemente der Binärmatrix ist proportional zu der Dicke des schwarzen Rands. 
+Die binäre Matrix selbst kann dekodiert und als ID genutzt werden. 
+Die ID eines Markers hängt dabei nicht mit dem Inhalt der Binärmatrix zusammen, sondern gibt lediglich den Index im Dictionary an.
+Ein Dictionary mit 50 Markern hat somit die IDs 0 bis 49.
+
 Der Erkennungs-Algorithmus nutzt Graustufenbilder und gilt als robust. 
 Er beruht zunächst auf der Erkennung rechteckiger Merkmale. 
 Die detektierten Bildbereiche werden anschließend in ein binäres Bild transformiert und perspektivisch entzerrt. 
@@ -16,12 +29,12 @@ Neben der ID werden dabei auch die Ecken der Marker erkannt und die Lage im Orig
 IDs und Marker-Ecken sind die wichtigsten Rückgabewerte des Algorithmus.
 Merkmale im Bild, die im Verlauf der Algorithmus als Marker abgelehnt werden, lassen sich als dritter Rückgabewert ausgeben.
 Im Quellcode der Anwendung sind die Rückgabewerte stets als \verb|ids|, \verb|corners| und \verb|rejected| bezeichnet.
+Der Algorithmus nutzt einen Parametersatz aus 31 Parametern verschiedenen Datentyps. 
+Die Parameter sind in der OpenCV Dokumentation kurz beschrieben mit der Angabe des Standardwerts, des Datentyps und oft auch mit der Angabe eines sinnvollen Wertebereichs. 
 
 Durch die Lokalisierung der Ecken im Originalbild können arUco Marker gut für Aufgaben wie Kamerakalibrierung, Objektlokalisierung, Abstandsmessung sowie Roboternavigation genutzt werden.
 \cite[OpenCV arUco]{OpenCVaruco}
 Durch die vorgefertigte Maske ist die Erkennung immer an ein Dictionary des verwendeten Markers gebunden. 
-Wichtigstes Merkmal ist dabei die Größe der Binärmatrix. In dieser Arbeit werden Marker des Typs 6x6-250 verwendet.
-Dabei steht 6x6 für die Größe der Binärmatrix in Bits und 250 steht für die Anzahl der Pixel.
 
 \begin{figure}
     \caption{Beispiel für eine erfolgreiche Erkennung von arUco Markern. Quelle: \cite[OpenCV]{OpenCVaruco}}\label{fig:aruco1}
@@ -35,29 +48,27 @@ Dabei steht 6x6 für die Größe der Binärmatrix in Bits und 250 steht für die
     \centering
 \end{figure}
 
-\subsection{Erkennungsalgorhitmus}
+\subsection{Erkennungsalgorithmus}
 Die Erkennung der Marker erfolgt in den nachfolgenden Schritten: 
 
 \begin{enumerate}
-    \item Einlesen des Bildes, z.B. \ref{fig:aruco1}
+    \item Einlesen des Bildes, z.B. Abb. \ref{fig:aruco1}
     \item Umwandeln des Bilds in ein Graustufenbild 
-    \item Umwandeln des Bilds in ein Binärbild \ref{fig:aruco2}
+    \item Umwandeln des Bilds in ein Binärbild Abb. \ref{fig:aruco2}
     \item Erkennen rechteckiger Merkmale
-    \item Rektifizierung der Merkmale \ref{fig:aruco4}
-    \item Bitextraktion der Binärmatrix (Bilder \ref{fig:aruco5} \ref{fig:aruco6})
+    \item Rektifizierung der Merkmale Abb. \ref{fig:aruco4}
+    \item Bitextraktion der Binärmatrix (Bilder Abb. \ref{fig:aruco5}, Abb. \ref{fig:aruco6})
     \item Decodierung der Binärmatrix ergibt die ID und Ecken des Markers
 \end{enumerate}
 
-Bei der Umwandlung in ein Binärbild kann der Erkennungsalgorithmus schon fehlschlagen. Die Gründe dafür werden im Kapitel \ref{KameragestützteInventur}
-behandelt.
+Bei der Umwandlung in ein Binärbild kann der Erkennungsalgorithmus schon fehlschlagen. 
+Die Gründe dafür werden im Kapitel \ref{KameragestützteInventur} behandelt.
 
 \begin{figure}
     \caption{Beispiel für eine fehlgeschlagene Umwandlung in ein Binärbild. Dieser Marker würde nicht erkannt. Quelle: \cite[OpenCV]{OpenCVaruco}}\label{fig:aruco3}
     \includegraphics[width = \textwidth/2]{Bilder/singlemarkersbrokenthresh.png}
     \centering
 \end{figure}
-
-Anschließend werden rechteckige Merkmale gesucht und diese Rektifiziert \ref{fig:aruco4}. 
 
 \begin{figure}
     \caption{Rektifizierung eines extrahierten Markers. Quelle: \cite[OpenCV]{OpenCVaruco}}\label{fig:aruco4}

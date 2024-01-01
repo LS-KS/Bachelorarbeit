@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bachelorarbeit.aux
 A level-1 auxiliary file: Kapitel/Versicherung.aux
@@ -7,7 +7,11 @@ A level-1 auxiliary file: Kapitel/Abkuerzungsverzeichnis.aux
 A level-1 auxiliary file: Kapitel/Einleitung.aux
 A level-1 auxiliary file: Kapitel/Grundlagen.aux
 A level-1 auxiliary file: Kapitel/SoftwareArchitektur.aux
-A level-1 auxiliary file: Kapitel/KameragestützteInventur.aux
+I couldn't open auxiliary file Kapitel/KameragestützteInventur.aux
+---line 67 of file Bachelorarbeit.aux
+ : \@input{Kapitel/KameragestützteInventur.aux
+ :                                             }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Kapitel/Roboterpfadanpassung.aux
 A level-1 auxiliary file: Kapitel/Inventurimplementierung.aux
 A level-1 auxiliary file: Kapitel/Fehlerbehandlung.aux
@@ -25,44 +29,45 @@ Database file #1: Literatur/Bachelorarbeit.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 17 entries,
+You've used 16 entries,
             4022 wiz_defined-function locations,
-            908 strings with 10080 characters,
-and the built_in function-call counts, 5490 in all, are:
-= -- 406
-> -- 41
+            903 strings with 9862 characters,
+and the built_in function-call counts, 5195 in all, are:
+= -- 383
+> -- 40
 < -- 0
-+ -- 25
++ -- 24
 - -- 8
-* -- 167
-:= -- 943
-add.period$ -- 34
-call.type$ -- 17
+* -- 159
+:= -- 895
+add.period$ -- 32
+call.type$ -- 16
 change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 516
-empty$ -- 607
+cite$ -- 16
+duplicate$ -- 487
+empty$ -- 572
 format.name$ -- 8
-if$ -- 1196
+if$ -- 1129
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 116
-newline$ -- 74
+int.to.str$ -- 16
+missing$ -- 110
+newline$ -- 71
 num.names$ -- 8
-pop$ -- 347
+pop$ -- 328
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 454
+skip$ -- 428
 stack$ -- 0
-substring$ -- 29
-swap$ -- 258
+substring$ -- 28
+swap$ -- 244
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 17
+type$ -- 16
 warning$ -- 0
 while$ -- 8
-width$ -- 19
-write$ -- 144
+width$ -- 18
+write$ -- 137
+(There was 1 error message)
