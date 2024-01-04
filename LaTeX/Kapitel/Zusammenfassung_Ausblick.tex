@@ -1,10 +1,78 @@
 % !TeX spellcheck = de_DE
 \chapter{Zusammenfassung und Ausblick}
 
-Aufgrund der 4-Punkt-Entzerrung sind im auszuwertenden Bild did Paletten und hinteren Becher stark verzerrt.
-Eine Entzerrung würde Steoreo-Vision voraussetzen (?).
-Da die einzelnen Bist der Aruco-Marker im Bild unidiraktional ihre Breite ändern, werden Sie von openCv nicht erkannt.
-Eine Lösung könnte sein, das die Becher mittels einem optischen Farbcode markiert werden, der über den 
+\section{Zusammenfassung zur Softwareentwicklung}
+
+Durch die Verwendung von Qt mit Python ließ sich eine komplexe Software gut entwickeln. 
+Die Ansätze aus der Softwareentwicklung nach dem Model-View-Controller Paradigma haben sich bewährt und erlauben eine sinnvolle Unterteilung 
+der Software in einzelne Module.
+Einige Services laufen asynchron zum Hauptthread, sodass die GUI nicht blockiert wird und sich die Software stets flüssig bedienen lässt. 
+Während der Entwicklung fällt auf, dass die Python Bindings nicht durchgängig gleich zuverlässig sind wie das C++ Backend. 
+Nicht immer wird beispielsweise der Type None korrekt interpretiert, was zu Fehlern führen kann. 
+
+Die GUI Entwicklung mit QML wirkt auf den ersten Blick unübersichtlich und Bedarf rudimentärer Kenntnisse des JavaScript Syntaxes. 
+Mit dem Qt Creator lassen sich derartige GUIs und GUI Segmente leicht erstellen und verwenden. 
+Leider stößt man ab und zu auf Fehler, die auch nicht auf den zweiten Blick einleuchten. 
+Da sich QML Types nicht debuggen lassen, ist eine Fehlersuche mühselig und zeitraubend.
+
+Die Arbeit zeigt auch wie sehr ein solches Projekt von Schnittstellen abhängt. 
+Als Nicht-Informatiker konnte ich den Grund für die Probleme mit der Kommunikation zwischen PC und Roboter nicht ausarbeiten und beheben. 
+Das führt dazu, dass große Teile des konzeptionierten Inventuralgorithmus nicht implementiert werden konnten. 
+
+Von der konkreten Implementierung der Inventur hängen auch einige Teile der GUI-Aktualisierung ab. 
+
+
+Das verwendete asyncua Paket für die OPC-UA Implementierung ist nicht ausreichend gut dokumentiert.
+Der implementierte OPC UA Server lässt sich nach der Initialisierung nicht mehr stoppen.
+Dies konnte ich abschließend nur lösen, indem ich den Task lösche und die entstandenen Exceptions ignoriere. 
+Durch die fehlende Inbetriebnahme der Software ist nicht getestet wie die Datenübertragung vom Operator der $\mu$Plant zu der Software funktioniert.
+Getestet wurde allerdings, dass der OPC UA Server im Netzwerk der $\mu$Plant erreichbar ist und Daten empfängt.
+
+Die Verbindung und Datenabfrage der RFID Lesegeräte sowie die Bereitstellung der Daten über den OPC UA Server funktioniert einwandfrei.
+Das Plugin für die Visualisierung der RFID Nodes stürzt gelegendlich ab und verschwindet. Der Service läuft dann aber trotzdem im Hintergrund weiter.
+
+Über weitere Plugins lassen sich manuell Verfahrbewegungen des Roboters erzeugen und anfordern, eine Produktliste anzeigen und die Anwendung zur Kameragestützten Inventur steuern.
+
+Über Dialoge lassen sich Programmeinstellungen vornehmen oder das Lagerregal / Kommissioniertisch und der monbile Roboter überschreiben.
+
+Die Software besteht aus vielen Einzelmodulen, die in die Ordner \verb|model|, \verb|viewmodel|, \verb|controller|, \verb|service| und \verb|view| unterteilt sind.
+Um eine Schnelle Übersicht zum Quellcode zu erhalten, wurde von Anfang an auf die Verwendung von docstrings geachtet.
+Diese Docstrings werden genutzt um mit dem Python Modul \verb|sphinx| eine HTML Dokumentation zu erstellen.
+Diese kann über die Lagerverwaltungssoftware in einem separaten Fenster geöffnet werden. 
+Die Quelldateien dazu finden sich im Ordner \verb|sphinx|. Die HRML Dateien und weitere Bestandteile der Dokumentation sind in den Ordner \verb|sphinx-build| zu finden.
+Aus dem Filebrowser heraus kann die Dokumentation über die Datei \verb|index.html| geöffnet werden.
+
+Als Anlage zu dieser Arbeit finden sich Quelldateien und PDF Datei als Bedienungsanleitung der Software.
+
+\section{Zusammenfassung zur Inventur mittels arUco Markern}
+
+Die Arbeit hat ein Konzept dargelegt wie eine Inventur kameragestützt automatisiert mit Hilfe von arUco Markern durchgeführt werden kann.
+Systematische Bildverzerrungen können behoben werden, wie an dem Beispiel zur Kompensation der Mantelflächenkrümmung gezeigt wurde.
+
+Aus einem großen, ausreichend hoch aufgelöstem Bild wurde mittels arUco Markern der interessierende Bildbereich automatisiert ermittelt. 
+Eine automatische Helligkeits- und KOntrastanpassung hat die Erkennungsrate der Marker verbessert.
+Der interessierte Bildbereich wurde mit einer 4-Punkt Entzerrung entzerrt.
+
+Die Segmentierung des entzerrten Bildes wurde einfache Mathematik genutzt. 
+Die Erkennungsrate der Marker in den Bildsegmenten wurde Signifikant durch einen 5x5 Gauß Filter verbessert. Dies half aber nicht 
+bei Markern, die durch die Kombination aus Kameraperspektive und Zylinderwölbung verzerrt waren.
+Die umgesetzte Lösung aus Abschnitt \ref{ChapKorrekturalgorithmus} für dieses Problem macht sich zunutze, dass der Erkennungsalgorithmus abgelehnte Objekte speichert, aus denen der Marker extrahiert und 
+entzerrt werden konnte. 
+Dies hat die Erkennungsrate der Bechermarker auf 100\% erhöht.
+
+Die hinteren Becher in dem Regal sind durch die vorderen Becher verdeckt. Es gibt keine Position in der Lagerzelle von der aus jeder Becher in der
+hinetren Reihe ausreichend sichtbar ist. 
+Aus diesem Grund wurde ein Konzept entwickelt, welches die Becher über eine direkt am Greifer montierte Kamera erkennt.
+Wahlweise soll dies im laufenden Betrieb (Validierung) oder auf Benutzeranfrage (Inventur) geschehen.  
+
+\section{Ausblick}
+
+Für die Anbindung der IRC5 Steuerung an einen Windows 10 PC muss eine Lösung gefunden werden. 
+Ist das erledigt, kann mit wenig Aufwand die das \verb|abbservice| Modul fertiggestellt werden. 
+Anschließend müssen die Funktionen für die Inventur, gesteuert durch das \verb|stocktaker| Modul, implementiert werden.
+
+Gerade die ESP32 Kamera kann dazu genutzt werden die Aromakugeln zu erkennen indem der Greifer senkrecht von oben auf in den Becher schaut.
+Die Auswertung der Farbkugeln gibt dann Rückschluss auf das Produkt.
 
 %%% Local Variables:
 %%% mode: latex

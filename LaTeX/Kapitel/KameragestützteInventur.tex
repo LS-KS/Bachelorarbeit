@@ -9,7 +9,7 @@ Die Tests sind jedoch auf das Datenmodell und seinen Controller beschränkt und 
 Eine weitere Fehlerquelle kann die Möglichkeit der manuellen Überschreibung des Lagerbestands sein oder gar ein manueller Eingriff in der Lagerzelle selbst. 
 
 Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen werden. 
-    \section {Konzepte}
+    \section {Konzepte} \label{Inventurkonzepte}
 
     Es werden zwei Konzepte verfolgt.
     Diese dienen dazu jederzeit einen sicheren Betrieb der Lagerzelle zu gewährleisten in dem Sie die Position der Becher und Paletten überprüfen.
@@ -417,8 +417,8 @@ Um diese Fehler zu erkennen, soll ein kameragestütztes Inventursystem entworfen
         \includegraphics[width = \textwidth]{Bilder/calcOffset.png}
         \centering
     \end{figure}
-    Nachdem das Offset für das gesamte Intervall ermittelt wurde, werden die einzelnen Bildspalten entsprechend dem Offset verschoben.
-
+Nachdem das Offset für das gesamte Intervall ermittelt wurde, werden die einzelnen Bildspalten entsprechend dem Offset verschoben.
+    
     Das führt zu einer horizontalen oberen Kante des Markers. Der Marker an sich ist dann immer noch verzerrt.
     Jedoch konnte ich mit diesem Verfahren eine Erkennungsrate unter den vorderen Bechern des Regals von 100\% erreichen.
 

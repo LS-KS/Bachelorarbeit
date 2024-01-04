@@ -1,6 +1,6 @@
 \chapter{Implementierung der Kameraprozesse in die Roboterprogrammierung}
 
-Um die Inventur in den Betriebsablauf zu integrieren und zu automatisieren muss eine Kommunikation mit der Steuerung des Industrieroboters Industrieroboters erfolgen. 
+Um die Inventur in den Betriebsablauf der Lagerzelle zu integrieren und zu automatisieren muss eine Kommunikation mit der Steuerung des Industrieroboters Industrieroboters erfolgen. 
 Die Kommunikation mit der Steuerung erfolgte bisher unter Windows 7 mit Hilfe eines Software Development Kits (SDK) \glq PC-SDK\grq der Firma ABB.
 Es ermöglicht eine Einbindung in Steuerungsoftware die in Java oder C\# geschrieben ist. 
 Des Weiteren bietet die Steuerung in ihrer aktuell verwendeten Softwareversion die Verwendung von Sockets und einem HTTP-Protokoll.
@@ -9,17 +9,23 @@ Außerdem muss Python-Code die Programmlogik implementieren und die Kommunikatio
 Während der Kommunkation werden der Steuerung im Wesentlichen Strings übergeben. 
 Sie werden in dem Hauptprogramm der Robotersteuerung interpretiert und in Befehle umgewandelt.
 
+Bisher wurde in der Kommunikation zwischen PC und Steuerung nur ein String verschickt, der Angaben zum Transport enthielt:
+Sowohl der Abhol- und Zielort als auch Angaben zur Fahrgechwindigkeit (schnell / langsam) in Abhängigkeit ob Wasser transportiert wird.
+Dies muss erweitert werden um die Inventur einzugliedern. Das Konzept ist in Abschnitt \ref{sec:Roboterprogrammierung} beschrieben.
+
 
 \section{Versuche zum Aufbaue einer Kommunikation zwischen Windows 10 und der Steuerung IRC5}
 
 Mein erster Versuch eine Kommunikation mit der Steuerung herzustellen war, die Kommunikation mit einer Art REST-Protokoll über das Python Modul \glq requests\grq{} zu realisieren.
+Leitfaden war dabei die Dokumentation zu der entsprechenden Version der Steuerungssoftware RobotWare 5.10.
 Dies funktionierte nicht; Die Steuerung antwortete stets mit einer Fehlermeldung \glq 400 Bad Request\grq und dem Hinweis, dass die Steuerung die Verbindung verweigert.
 Dies war Anlass mit der Software WireShark die Kommunikation der alten Lagerhausverwalungssoftware mit der Steuerung aufzuzeichnen und zu analysieren.
-Dies wurde realisiert, indem Wireshark eingehenden und ausgehenden Datenverkehr derzwischen den entsprechenden IP-Adressen aufzeichnete.
+Dies wurde realisiert, indem Wireshark eingehenden und ausgehenden Datenverkehr zwischen den entsprechenden IP-Adressen aufzeichnete.
 
 Eine Anaylse ergab, dass zum Einen die Payload der Request nicht korrekt war, andererseits ist in jedem Datenpaket ein 8-byte Header mit zufälligem Inhalt.
 Vermutlich dient dieser einer Verschlüsselung der Datenübertragung. 
 Weder in der Dokumentation der Steuerung noch aus dem C\#-Code ließ sich ermitteln, wie diese Verschlüsselung umgesetzt ist.
+\\
 
 Unter der Annahme, dass die Verschlüsselung Teil des PC-SDK ist, habe ich die entsprechenden \glq .dll\grq{}-Dateien in den Projektordner dieser Arbeit kopiert.
 In dem Ordner \grq ABBControllerWrapper\grq{} befindet sich mein Versuch ein C\# Linkerprojekt zu implementieren. 
@@ -73,6 +79,72 @@ Leider lässt sich das Problem mit meinen Fähigkeiten nicht weiter untersuchen 
 An dieser Stelle habe ich den Versuch aufgegeben eine Linkerbibliothek lauffähig zu implementieren.
 Von dem Versuch einer Implementierung in Java habe ich abgesehen, da dadurch die gleichen \verb|.dll|-Dateien verwendet werden.
 
+Nach den oben beschriebenen Versuchen habe ich meinen Betreuer gebeten eine Lösung für die Kommunikation mit der Steuerung zu finden.
+Ein letzter Versuch, die Kommunikation über Websockets zu realisieren, ist bisher noch nicht gelungen.
+
+Parallel habe ich die Firma ABB um ein Angebot für eine neue Steuerung angefragt. 
+Aufgrund des hohen Alters des Roboters und der Steuerung (Baujahr 1991) ist kein Steuerungsupdate möglich.
+
+Wenn eine Steuerung mit der RobotWare Version 7 und höher verwendet wird, kann die Kommunikation über die ABB Robot Web Services Schnittstelle erfolgen.
+Dies ist der aktuelle Standard für die Kommunikation mit ABB Robotern.
+
 \section{Implementierung der Programmlogik}
 
-blablabla
+Das Modul \verb|abbservice| enthält zwei Pythonklassen. \verb|abbservice| ist die Hauptklasse des Moduls und wird in main.py instanziiert.
+Sie erbt von der Qt Klasse \verb|QObject| und ist bei der QML-Engine als ContextProperty registriert.
+Dadurch ist sie dem GUI-Thread angeschlossen. 
+Jede Aktion, die Rechenzeit benötigt würde somit den GUI-Thread blockieren und die gesamte Anwednung würde bis zur Fertigstellung einfrieren.
+
+Aus diesem Grund enthält das Modul die Klasse \verb|socketworker|, die von der Qt Klasse \verb|QThread| erbt.
+In ihr ist die Kommunikation mit der Steuerung des Roboters implementiert, wie sie mit dem Python Modul \verb|socket| realisiert werden könnte.
+Aus den Gründen die in dem vorangegangenen Abschnitt erläutert wurden, ist die Klasse ungetestet und lediglich als Konzept für die weitere Implementierung zu verstehen.
+
+die \verb|start|-Methode der Klasse \verb|abbservice| instanziiert ein Objekt der Klasse \\ \verb|socketworker| und startet den Thread.
+Dadurch wird auch die IP und der Port übergeben, die über den \verb|PreferenceDialog| eingestellt werden können.
+
+Nicht implementiert sind Methoden, die die Näherungssensoren und die Lichtschranke der Andockstation auslesen und das GUI aktualisieren. 
+Die Funktionen gehören aber zum Kontext des \verb|abbservice| und sollten dort implementiert werden, wenn die Kommunikation mit der Steuerung funktioniert.
+
+Das Konzept sieht vor, dass der Order Manager der $\mu$Plant eine Produkt- oder Becher-Order in der Lagerzelle platziert.
+Der Server Handle des \verb|OpcuaService| liest die Order aus und emittiert die Daten an den \verb|CommissionController|. 
+Dieser prüft die Order und erzeugt die entsprechenden Verfahrbewegungen als \verb|Commission| Objekte. 
+Kompliziertere Vorgänge werden aus den nötigen Teilschritten zusammengesetzt. 
+
+Die Methode \verb|perform_commission| nutzt den \verb|invController| um die Transportbewegungen im Datenmodell zu aktualisieren.
+Sie wird aufgerufen wenn die Methode \\ \verb|change_commission_state| ausgeführt wird und die betreffende Kommission den Status DONE erhält.
+\verb|change_commission_state| muss über Qt's Signal/Slot Prinzip vom \verb|abbservice| Modul mindestens zwei mal aufgerufen werden (mit dem entsprechenden Status), wenn die Steuerung die Kommission abarbeitet.
+Eine Kommission wird mit dem Status OPEN erzeugt. Wird sie abgearbeitet, soll sie den Status PROGRESS haben und nach Abschluss den Status DONE.
+Die Werte des Status gehören zu einer Klasse \verb|CommissionState|, die in dem Modul \verb|CommissionModel| definiert ist und von der Enumklasse \verb|StrEnum| erbt.
+Damit ist jedem Status ein String zugeordnet, der auf dem GUI angezeigt wird.
+
+Für das Be- und Entladen des mobilen Roboters muss vor dem Abarbeiten der Kommissionen geprüft werden ob der mobile Roboter an der Andockstation steht.
+Dies erfolgt über die Näherungssensoren. 
+Die Näherungssensoren sind in der Steuerung IRC5 als digitale Eingänge eingerichtet und müssen über die Kommunikation zyklisch abgefragt werden. 
+Auch dies sollte ddas Modul \verb|abbservice| übernehmen.
+
+Ferner muss überwacht werden ob die Lichtschranke der Andockstation unterbrochen ist. Ist das der Fall, darf die Abarbeitung der Kommissionen in keinem Fall erfolgen!
+In diesem Fall ist ein mobiler Roboter mit einem großen Becher in die Andockstation gefahren. Hierbei handelt es sich um einen Fehlerfall.
+
+Es gibt zwei Möglichkeiten diese beiden Aspekte zu implementieren. Eine Möglichkeit ist, die Lagerverwaltung sendet \verb|abbservice| eine zusätzliche Information, dass für eine Kommission der mobile Roboter an der Andockstation stehen muss. 
+In diesem Fall überwacht die Steuerung IRC5 die Sensoren und die Lichtschranke und führt die Verfahrbewegungen erst aus wenn die Bedingungen erfüllt sind.
+Die Übertragung der Informationen zu den Näherungssensoren und der Lichtschranke hätten dann nur den Zweck zur Darstellung auf dem GUI (Benutzerinformation).
+Die andere Möglichkeit ist, dass die Steuerung IRC5 die Kommissionen erst übermittelt bekommt, wenn die Bedingungen erfüllt sind. Die Kommissionen enthalten dann keine Informationen dazu ob der mobilde Roboter angedockt sein muss. 
+
+Ein weiterer Aspekt ist die Informationsübertragung zur Verfahrgeschwindigkeit. Enthält ein Becher Wasser, muss der Roboter langsamer verfahren als mit ausschließlich leeren Becher(n).
+Diese Informationsverarbeitung muss ebenfalls im \verb|abbservice| Modul implementiert werden.
+
+\section{Roboterprogrammierung} \label{sec:Roboterprogrammierung}
+
+Die Grundstellung des Roboters wurde so angepasst, dass die Übersichtskamera das gesamte Lagerregal erfassen kann. 
+Dabei wurde auch darauf geachtet, dass der Roboter aus seiner Grundstellung heraus jede Verfahrbewegung gefahrlos ausführen kann.
+
+Ein Weiterer Aspekt ist, die Bezeichnung aller möglichen Verfahrbewegungen. Diese bestehen aus einem durch Zahlen kodierten String. 
+Während der Erstellung des Moduls \verb|CommissionModel| ist eine StrEnum Klasse \verb|Locations| entstanden, die alle möglichen Lagerorte enthält.
+Da diese die gleichen Bezeichnungen nutzt, die auch in der Lagerzelle selbst wiederzufinden sind, liegt es nahe, diese zumindest teilweise in die RAPID Programmierung zu übernehmen.
+
+Die Kommunikation mit der IRC5 Steuerung soll zyklisch abfragen ob der Roboter in Grundstellung ist. 
+Ist dies der Fall, kann mit der Übersichtkamera eine Aufnahme gemacht werden. 
+
+Die Lagerverwaltungssoftware soll in der Lage sein eine boolsche Variable zu sezten, die angibt ob die Becherpositionen mit der ESP32 Kamera geprüft werden sollen. 
+Ist diese Variable gesetzt, soll der Roboter an geeigneter Position stehen bleiben, ein digitales Signal an die Lagerverwaltungssoftware senden und eine festgelegte Zeitspanne warten. 
+Während der Wartezeit kann die ESP32 Kamera eine Aufnahme machen. Die Lagerverwaltungssoftware kann dann eine Markererkennung bspw. an den hinteren Palettenplätzen durchführen.

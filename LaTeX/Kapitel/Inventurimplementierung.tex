@@ -1,3 +1,54 @@
 \chapter{Implementierung des Inventurprozesses}
 
-Hier beschreiben wann wie und unter welchen Umständen eine Inventur gemacht wird. 
+Von den konzeptionierten Inventurverfahren aus Kapitel \ref{Inventurkonzepte} ist nur die Inventur auf Anforderung teilweise implementiert. 
+Zum Einen liegt dies an einer fehlenden Leitung, die bis zur Abgabe meiner Arbeit nicht eingetroffen ist,
+zum Anderen an der Kommunikation zwsichen PC und Robotersteuerung. 
+
+Implementiert ist die FUnktion der Übersichtskamera. 
+Über das Hauptfenster kann in der Menüleiste das Kameraplugin aufgerufen werden. Mit der Taste \glq Übersichtskamera\grq{} wird über die Übersichtskamera ein Bild aufgenommen und verarbeitet. 
+Konkret wird dabei ein Signal vom Hauptthread an die Instanz des Moduls \verb|stocktaker| gesendet. 
+Dieses ruft die Methode \verb|evaluate_storage_cam| auf. Die Ergebnisse sind verarbeitete Bildsegmente und IDs der erkannten Becher.
+Außerdem werden Paletten erkannt. 
+Die Ergebnisse der Methoden werden in das Datenmodell \verb|stockmodel| geschrieben. 
+Dieses Datenmodell erbt von der Qt Klasse \verb|QAbstractTableModel|, wodurch die Daten aus dem Modell in der GUI angezeigt werden können.
+Mit jeder Aktualiserung des Datenmodells wird das GUI automatisch aktualisiert.
+
+Das GUI besteht aus einer Tabelle in dessen Zeilen die Lagerreihen dargestellt sind.
+Dazu gibt es eine horizontale Listenansicht in dem der Kommissioniertisch gerendert wird und eine Tastenleiste im unteren Fensterbereich. 
+Für jeden Palettenplatz existiert ein Delegate, das in der Datei \verb|StocktakingDelegate.qml| beschrieben ist.
+Das Delegate ist mittig vertikal geteilt. Links wird der Status vvor der Inventur angezeigt, rechts der Status nach der Inventur.
+Stimmen die Daten zu Palette, BecherA und BecherB überein, so wird dies mit einem grünen Haken angezeigt.
+Ist die Inventur für diesen Platz abgeschlossen, wird der rote Rand des Delegates grün. 
+Ist keine Palette vorhanden, ist das für die Visualisierung genutzte Rechteck transparent. 
+Gleiches gilt für die Rechtecke der Becher, wenn eine leere oder teilweise leere Palette vorhanden ist.
+
+Jedes Delegate hat zudem eine Taste \glq Details\grq{}. Mit Klick auf die Taste wird der \\
+\verb|StocktakingDetail.qml| geöffnet.
+Hier werden die zugehörigen Bilder angezeigt.
+Oben Mittig ist der Bildausschnitt für die Palettenerkennung, darunter die Sektionen für Becher A und Becher B. 
+Ist kein Bild vorhanden, wird ein graues Platzhalterbild angezeigt.
+Über den Becherbildern ist die jeweils erkannte ID des AruCo Markers angezeigt.
+
+Bilder können im Qt Framework dynamisch nur über eine Instanz der Klasse \verb|QQuickImageProvider| an das GUI übergeben werden.
+In der QML Datei muss ein Image Type angelegt werden, dessen source property mit einer URL auf den QQuickImageProvider und das Bild verweist.
+z.B.: \\ \verb|source: "image://stocktaking/Bild.png"|.\\
+Jedes Mal, wenn sich die URL des Types ändert, wird der QQuickImageProvider das entsprechende Bild laden. 
+Dies funktioniert nicht, wenn die URL gleich bleibt.
+Der Ansatz, die URL bei Bedarf neu zu setzen, aber nicht zu ändern, wird kein neues Bild laden.
+Dies geschieht aus Performance Gründen. 
+Um Ein Bild laden zu können muss in den C++ Backend die virtuelle Funktion \verb|load()| aufgerufen werden. 
+Die Methode selbst ist protected und es gibt keine andere bekannte Möglichkeit als den source String zu ändern.
+JavaScript ist wie Python dynamisch typisiert und erlaubt es einen  boolschen Wert an einen String anzufügen. 
+Die boolsche Variable wird dann als \glq 0\grq{} oder \glq 1\grq{} in den String geschrieben.
+In vielen Beispielen findet sich die Lösung, bei jedem Aufruf die boolsche Variable zu invertieren und so den String zu ändern.
+Das Ändern der URL triggert dann das Laden des Bildes.
+
+Ich konnte jedoch beobachten, dass mit den neuen Versionen von Qt dieses Verhalten nur noch exakt drei Mal funktioniert. 
+Die Ursache dafür konnte ich nicht herausfinden.
+Die Lösung scheint aber zu sein, dass an die URL ein Integerwert angehängt wird, der bei jedem Aufruf inkrementiert wird.
+
+Mit Klick auf die Taste \glq Details\grq{} wird ein neues QML Type \verb|StocktakingDetail.qml| erstellt und geladen. 
+Sobald der Dialog fertig geladen ist, ändert eine JavaScript Funktion die URL der Image Types welches in dem Python Modul \verb|stocktaker| 
+die Methode \verb|requestImage| aufruft. Dabei wird die URL des Bilds übergeben. 
+Die URL enthält Informationen zum angeforderten Bildsegement, die mit einfachen Methoden extrahiert werden.
+Das Bild, das zurückgegeben wird, muss ein QVariant Objekt sein - naheliegender Weise ein QImage.
